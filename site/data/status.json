@@ -1,0 +1,7 @@
+{
+  "model": "RRFS estimate",
+  "cycle": "06Z Sep 29, 2026",
+  "updatedAt": "2026-09-29T09:27:00Z",
+  "forecastThroughHour": 60,
+  "note": "Experimental forecast made from RRFS data, not an official NWS bulletin. T1, wind direction, precipitation, and other fields are estimates. Humidity and VVV are especially approximate."
+}

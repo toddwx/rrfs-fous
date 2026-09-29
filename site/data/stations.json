@@ -1,0 +1,8 @@
+{
+  "stations": [
+    { "code": "ALB", "name": "Albany", "latitude": 42.7483, "longitude": -73.8017 },
+    { "code": "BTV", "name": "Burlington", "latitude": 44.4719, "longitude": -73.1533 },
+    { "code": "BOS", "name": "Boston", "latitude": 42.3643, "longitude": -71.0052 },
+    { "code": "LGA", "name": "New York LaGuardia", "latitude": 40.7769, "longitude": -73.8740 }
+  ]
+}
