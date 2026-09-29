@@ -1,0 +1,10 @@
+# Keep the full research archive out of a public web repository.
+*
+!/.gitignore
+!/site/
+!/site/**
+!/ops/
+!/ops/**
+!/.github/
+!/.github/**
+!/README_PUBLIC.md
