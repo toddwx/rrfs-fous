@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b45">
+  <title>FOUS-style Forecast</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">YOUR REGIONAL FORECAST</p>
+        <h1>FOUS-style forecast</h1>
+      </div>
+      <span class="status-pill"><span class="status-dot"></span> Experimental</span>
+    </header>
+
+    <section class="summary" aria-labelledby="summary-title">
+      <div>
+        <h2 id="summary-title">Latest forecast</h2>
+        <p id="cycle-summary">Loading the latest saved forecast…</p>
+      </div>
+      <div class="actions">
+        <button id="copy-button" type="button">Copy forecast</button>
+        <a id="download-link" class="button secondary" href="data/latest.txt" download="fous-style-forecast.txt">Download</a>
+      </div>
+    </section>
+
+    <section class="bulletin-card" aria-label="FOUS-style forecast bulletin">
+      <div class="card-heading">
+        <div>
+          <h2>Forecast bulletin</h2>
+          <p>Use the familiar codes you already know.</p>
+        </div>
+        <span id="updated-time" class="updated-time"></span>
+      </div>
+      <div class="bulletin-scroll" tabindex="0" aria-label="Scrollable fixed-width forecast text">
+        <pre id="bulletin">Loading forecast…</pre>
+      </div>
+    </section>
+
+    <details class="notes">
+      <summary>What should I know about this forecast?</summary>
+      <p>This is an experimental estimate made from RRFS forecast data. It is not an official NWS bulletin. Some fields are approximate, especially humidity and vertical motion. The familiar layout is kept so you can scan it quickly.</p>
+      <p id="field-note"></p>
+    </details>
+
+    <footer>
+      <span id="station-summary">Stations: ALB · BTV · BOS · LGA</span>
+      <span>Refreshes when the scheduled data update completes.</span>
+    </footer>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>
