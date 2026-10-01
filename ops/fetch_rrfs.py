@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import http.client
 import math
 import re
 import time
@@ -42,6 +43,12 @@ NEEDLES = {
     "prslev": (
         ":TMP:800 mb:",
         ":TMP:900 mb:",
+        ":TMP:725 mb:",
+        ":TMP:750 mb:",
+        ":TMP:775 mb:",
+        ":TMP:825 mb:",
+        ":TMP:850 mb:",
+        ":TMP:875 mb:",
         ":HGT:500 mb:",
         ":HGT:1000 mb:",
         ":TMP:950 mb:",
@@ -73,7 +80,7 @@ def get(url: str, byte_range: tuple[int, int] | None = None) -> bytes:
                 if byte_range and response.status != 206:
                     raise RuntimeError(f"Server did not honor byte range for {url} (HTTP {response.status})")
                 return data
-        except (TimeoutError, urllib.error.URLError) as exc:
+        except (TimeoutError, urllib.error.URLError, http.client.HTTPException, ConnectionError) as exc:
             last_error = exc
             if attempt == 3:
                 break

@@ -6,7 +6,7 @@ from __future__ import annotations
 import csv
 import math
 from pathlib import Path
-from runtime import CASE, COMPARISONS as OUT, DATA, DATE, CYCLE, OFFICIAL, STATIONS
+from runtime import CASE, COMPARISONS as OUT, DATA, DATE, CYCLE, LEADS, OFFICIAL, STATIONS
 
 
 def code_for(rows: list[dict], station: str, lead: int, short: str, level: str | None = None) -> dict | None:
@@ -39,6 +39,34 @@ def interp_pressure(samples: list[tuple[float, float]], target: float) -> float 
     return v0 + (v1 - v0) * ((target - p0) / (p1 - p0))
 
 
+def sigma_layer_mean(
+    rows: list[dict], station: str, lead: int, surface_hpa: float,
+    surface_temp_k: float, sigma_bottom: float, sigma_top: float,
+) -> float | None:
+    """Pressure-weighted temperature mean across a sigma layer, in kelvin."""
+    if not all(math.isfinite(value) for value in (surface_hpa, surface_temp_k)):
+        return None
+    profile = [(surface_hpa, surface_temp_k)]
+    for row in rows:
+        if row["station"] != station or int(row["lead_hour"]) != lead:
+            continue
+        if row["short_name"] != "t" or row.get("type_of_level") != "isobaricInhPa":
+            continue
+        pressure, value = float(row["level"]), float(row["value"])
+        if pressure < surface_hpa and math.isfinite(value):
+            profile.append((pressure, value))
+    bottom, top = surface_hpa * sigma_bottom, surface_hpa * sigma_top
+    low_value, high_value = interp_pressure(profile, top), interp_pressure(profile, bottom)
+    if low_value is None or high_value is None:
+        return None
+    points = [(top, low_value)]
+    points.extend((pressure, value) for pressure, value in profile if top < pressure < bottom)
+    points.append((bottom, high_value))
+    points.sort()
+    area = sum((p1 - p0) * (t0 + t1) / 2.0 for (p0, t0), (p1, t1) in zip(points, points[1:]))
+    return area / (bottom - top)
+
+
 def low_layer_mean(rows: list[dict], station: str, lead: int, component: str, surface_hpa: float) -> float | None:
     surface = code_for(rows, station, lead, "10u" if component == "u" else "10v", "10")
     if not surface or not math.isfinite(surface["value"]):
@@ -64,6 +92,15 @@ def main() -> None:
         grib = list(csv.DictReader(source))
     for row in grib:
         row["value"] = float(row["value"])
+    layer_samples = CASE / "temperature_layer_trial_extra_leads0_84" / "nearest_grid_temperature_values.csv"
+    if layer_samples.exists():
+        with layer_samples.open(newline="", encoding="utf-8") as source:
+            for item in csv.DictReader(source):
+                grib.append({
+                    "station": item["station"], "lead_hour": item["lead_hour"],
+                    "short_name": "t", "type_of_level": "isobaricInhPa",
+                    "level": item["level_mb"], "value": float(item["temperature_K"]),
+                })
     if OFFICIAL.exists():
         with OFFICIAL.open(newline="", encoding="utf-8") as source:
             official = {(r["station"], int(r["forecast_hour"])): r for r in csv.DictReader(source)}
@@ -84,7 +121,7 @@ def main() -> None:
     comparisons: list[dict] = []
     provenance: list[dict] = []
     for station in STATIONS:
-        for lead in range(0, 85, 6):
+        for lead in LEADS:
             row: dict = {"station": station, "forecast_hour": lead}
             evidence: dict[str, str] = {}
 
@@ -101,6 +138,9 @@ def main() -> None:
                                 candidate_angle = 0 if value == 36 else value % 36
                                 official_angle = 0 if truth_code == 36 else truth_code % 36
                                 diff = (candidate_angle - official_angle + 18) % 36 - 18
+                            elif official_field in {"t1_code", "t3_code", "t5_code"}:
+                                truth_temperature = truth_code - 100 if truth_code >= 50 else truth_code
+                                diff = value - truth_temperature
                             else:
                                 diff = value - truth_code
                         except ValueError:
@@ -132,10 +172,16 @@ def main() -> None:
             s1_pressure = surface_hpa * 0.98230 if surface_hpa is not None else None
             t1_s1 = interp_pressure(t_samples, s1_pressure) if s1_pressure is not None else None
             add("T1_proxy_S1_sigma_C", round(t1_s1 - 273.15) if t1_s1 is not None else None, "near-surface temperature profile", "Interpolate to the historical S1 target (0.98230 × surface pressure); candidate only, not a confirmed RRFS recipe", "t1_code")
+            t_layer = sigma_layer_mean(grib, station, lead, surface_hpa, t2["value"], 1.000, 0.965) if surface_hpa is not None and t2 else None
+            add("T1_layer_mean_C", round(t_layer - 273.15) if t_layer is not None else None, "RRFS temperature profile", "Estimated pressure-weighted average through the lowest 35 mb; standard pressure levels with a 2 m surface anchor", "t1_code")
             t3 = code_for(grib, station, lead, "t", "900")
             add("T3_proxy_900mb_C", round(t3["value"] - 273.15) if t3 else None, "900 mb temperature", "Rounded 900 mb temperature in C; direct pressure-level proxy", "t3_code")
+            t3_layer = sigma_layer_mean(grib, station, lead, surface_hpa, t2["value"], 0.922, 0.872) if surface_hpa is not None and t2 else None
+            add("T3_layer_mean_C", round(t3_layer - 273.15) if t3_layer is not None else None, "RRFS temperature profile", "Estimated pressure-weighted average across the historical T3 sigma layer; standard pressure levels with a 2 m surface anchor", "t3_code")
             t5 = code_for(grib, station, lead, "t", "800")
             add("T5_proxy_800mb_C", round(t5["value"] - 273.15) if t5 else None, "800 mb temperature", "Rounded 800 mb temperature in C; direct pressure-level proxy", "t5_code")
+            t5_layer = sigma_layer_mean(grib, station, lead, surface_hpa, t2["value"], 0.816, 0.755) if surface_hpa is not None and t2 else None
+            add("T5_layer_mean_C", round(t5_layer - 273.15) if t5_layer is not None else None, "RRFS temperature profile", "Estimated pressure-weighted average across the historical T5 sigma layer; standard pressure levels with a 2 m surface anchor", "t5_code")
 
             mslet = code_for(grib, station, lead, "mslet")
             add("PS_code", math.floor(mslet["value"] / 100.0) % 100 if mslet else None, "MSLET", "Mean sea-level pressure in hPa; retain the last two digits", "ps_code")

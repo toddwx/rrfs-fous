@@ -22,6 +22,12 @@ def two(value: str, *, cap: int | None = None) -> str:
     return f"{number:02d}"
 
 
+def temperature(value: str) -> str:
+    """Encode signed Celsius as the familiar two-digit FOUS temperature."""
+    number = int(value)
+    return f"{number % 100:02d}"
+
+
 def vvv(value: str) -> str:
     number = int(value)
     magnitude = min(abs(number), 99) if number < 0 else number
@@ -33,7 +39,7 @@ def initial(row: dict[str, str]) -> str:
     return (
         f"{row['station']}//{humidity} {vvv(row['VVV'])}{two(row['LI'])} "
         f"{two(row['PS_code'])}{two(row['DD_proxy_lowest35mb_code'])}{two(row['FF_proxy_lowest35mb_kt'])} "
-        f"{two(row['HH_code'])}{two(row['T1_proxy_S1_sigma_C'])}{two(row['T3_proxy_900mb_C'])}{two(row['T5_proxy_800mb_C'])}"
+        f"{two(row['HH_code'])}{temperature(row['T1_layer_mean_C'])}{temperature(row['T3_layer_mean_C'])}{temperature(row['T5_layer_mean_C'])}"
     )
 
 
@@ -44,7 +50,7 @@ def forecast(row: dict[str, str]) -> str:
         f"{''.join(two(row[k], cap=99) for k in ('R1', 'R2', 'R3'))} "
         f"{vvv(row['VVV'])}{two(row['LI'])} "
         f"{two(row['PS_code'])}{two(row['DD_proxy_lowest35mb_code'])}{two(row['FF_proxy_lowest35mb_kt'])} "
-        f"{two(row['HH_code'])}{two(row['T1_proxy_S1_sigma_C'])}{two(row['T3_proxy_900mb_C'])}{two(row['T5_proxy_800mb_C'])}"
+        f"{two(row['HH_code'])}{temperature(row['T1_layer_mean_C'])}{temperature(row['T3_layer_mean_C'])}{temperature(row['T5_layer_mean_C'])}"
     )
 
 
@@ -57,6 +63,7 @@ def main() -> None:
         "RRFS-BASED FOUS-STYLE ESTIMATE",
         "EXPERIMENTAL - NOT AN OFFICIAL NWS BULLETIN",
         f"RRFS {CYCLE}Z {datetime.strptime(DATE, '%Y%m%d').strftime('%b %d %y').upper()}; DISPLAY THROUGH HOUR 60",
+        "T1/T3/T5=LAYER AVERAGE ESTIMATES",
         "R1=2M RH  R2=700MB RH  R3=500MB RH; APPROXIMATE",
         "TTPTTR1R2R3 VVVLI PSDDFF HHT1T3T5   TTPTTR1R2R3 VVVLI PSDDFF HHT1T3T5",
     ]

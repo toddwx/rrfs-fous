@@ -1,7 +1,10 @@
 {
   "model": "RRFS estimate",
-  "cycle": "06Z Sep 29, 2026",
-  "updatedAt": "2026-09-29T09:27:00Z",
+  "cycle": "12Z Oct 01, 2026",
+  "cycleUtc": "20261001T12:00:00Z",
+  "updatedAt": "2026-10-01T16:13:07.991540+00:00",
   "forecastThroughHour": 60,
-  "note": "Experimental forecast made from RRFS data, not an official NWS bulletin. T1, wind direction, precipitation, and other fields are estimates. Humidity and VVV are especially approximate."
+  "rrfsAvailableThroughHour": 84,
+  "comparisonBulletinAvailable": true,
+  "note": "Experimental RRFS estimate, not an official NWS bulletin. T1, T3, and T5 use estimated averages across their FOUS layers. Other fields are approximate, especially humidity and vertical motion. A matching NAM FOUS bulletin is kept separate for comparison."
 }

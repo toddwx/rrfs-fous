@@ -1,8 +1,40 @@
 {
   "stations": [
-    { "code": "ALB", "name": "Albany", "latitude": 42.7483, "longitude": -73.8017 },
-    { "code": "BTV", "name": "Burlington", "latitude": 44.4719, "longitude": -73.1533 },
-    { "code": "BOS", "name": "Boston", "latitude": 42.3643, "longitude": -71.0052 },
-    { "code": "LGA", "name": "New York LaGuardia", "latitude": 40.7769, "longitude": -73.8740 }
+    {
+      "code": "ALB",
+      "name": "Albany",
+      "latitude": 42.7483,
+      "longitude": -73.8017
+    },
+    {
+      "code": "BTV",
+      "name": "Burlington",
+      "latitude": 44.4719,
+      "longitude": -73.1533
+    },
+    {
+      "code": "BOS",
+      "name": "Boston",
+      "latitude": 42.3643,
+      "longitude": -71.0052
+    },
+    {
+      "code": "LGA",
+      "name": "New York LaGuardia",
+      "latitude": 40.7769,
+      "longitude": -73.874
+    },
+    {
+      "code": "PHL",
+      "name": "Philadelphia",
+      "latitude": 39.87326,
+      "longitude": -75.22681
+    },
+    {
+      "code": "IPT",
+      "name": "Williamsport",
+      "latitude": 41.24295,
+      "longitude": -76.92173
+    }
   ]
 }

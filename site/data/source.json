@@ -1,7 +1,49 @@
 {
   "provider": "NOAA/NCEP RRFS parallel data",
-  "sourceUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20260929/06/",
-  "cycleUtc": "2026-09-29T06:00:00Z",
-  "forecastLeadsHours": [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84],
-  "matchingAlbanyControl": "FOUS61 KWNO 290600; separate comparison only"
+  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261001/12/",
+  "cycleUtc": "20261001T12:00:00Z",
+  "forecastLeadsHours": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    30,
+    36,
+    42,
+    48,
+    54,
+    60,
+    66,
+    72,
+    78,
+    84
+  ],
+  "selectedMessageCount": 329,
+  "selectedManifestSha256": "76ac2a38e45d6e39a60e619b588cb5826b13a58519fd0af6737c0789c38e30dd",
+  "stationCount": 6,
+  "stationValueCount": 1974,
+  "temperatureLayerLevelsMb": [
+    725,
+    750,
+    775,
+    825,
+    850,
+    875
+  ],
+  "temperatureLayerMessageCount": 90,
+  "temperatureLayerManifestSha256": "3e5f9ff87ac7cdefc80d2e982ae47ef1480087f53bc8e3e61cbe7d4465d38e66",
+  "vvvMessageCount": 53,
+  "vvvManifestSha256": "847210cd474f326d31a8d89b5a5234b16eb85ce3eee65a658e0189ef75bb55ce",
+  "matchingAlbanyControl": {
+    "available": true,
+    "sourceUrl": "https://www.atmos.albany.edu/gopher-local/albany/FOUS61",
+    "cycleHeader": "FOUS61 KWNO 0112",
+    "lastModified": "Thu, 01 Oct 2026 14:33:59 GMT",
+    "retrievedAt": "2026-10-01T15:45:42.505266+00:00",
+    "sha256": "ad9b70d4a06de8e87593551934be07bbed0c2a7a6aa9245b734e2734b99d480b"
+  },
+  "candidateCsv": "work/data/comparisons/FOUS61_20261001_12Z_RRFS_parallel_candidate.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261001_12Z_RRFS_parallel_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261001_12Z_RRFS_parallel_provenance.csv"
 }
