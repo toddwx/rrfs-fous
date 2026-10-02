@@ -278,7 +278,10 @@ def main() -> None:
                                     "field": field, "candidate_C": int(val), "official_C_comparison_only": int(obs),
                                     "candidate_minus_official_C": int(diff)})
 
+        # Keep the warning list defined even if APCP retrieval itself raises;
+        # the summary builder below uses it to explain missing intervals.
         ptt_error = None
+        ptt_codes, ptt_warnings, ptt_sources = {}, [], []
         try:
             ptt_codes, ptt_warnings, ptt_sources = fetch_ptt(leads)
             missing.extend(ptt_warnings)
