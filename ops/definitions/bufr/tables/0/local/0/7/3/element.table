@@ -1,0 +1,76 @@
+#code|abbreviation|type|name|unit|scale|reference|width|crex_unit|crex_scale|crex_width
+001198|RPID|string|RPID|CCITT IA5|0|0|64|Character|0|8
+001205|STNM|long|STNM|NUMERIC ID|0|0|20|Character|0|2
+002196|CLSS|long|CLSS|0 or 1|0|0|2|Character|0|1
+004194|FTIM|long|FTIM|SECONDS|0|0|24|Character|0|3
+005002|CLAT|long|CLAT|DEGREE  (+:NORTH)|2|-9000|15|Character|0|1
+006002|CLON|long|CLON|DEGREE  (+:EAST)|2|-18000|16|Character|0|2
+008012|LSQL|long|LSQL|0(LAND) or 1 (SEA)|0|0|2|Character|0|1
+010004|PRES|long|PRES|PA|-1|0|14|Character|0|1
+010051|PMSL|long|PMSL|PA|-1|0|14|Character|0|1
+010194|GELV|long|GELV|M|0|-400|15|Character|0|1
+010195|PRSS|long|PRSS|PA|-1|0|14|Character|0|1
+011003|UWND|long|UWND|M/S|1|-4096|13|Character|0|1
+011004|VWND|long|VWND|M/S|1|-4096|13|Character|0|1
+011193|TKEL|long|TKEL|M**2/S**2|2|-1024|13|Character|0|1
+011196|U10M|long|U10M|M/S|1|-4096|13|Character|0|1
+011197|V10M|long|V10M|M/S|1|-4096|13|Character|0|1
+011206|SRLM|long|SRLM|M|2|0|10|Character|0|1
+011208|SFEX|long|SFEX|M/S|3|0|10|Character|0|1
+011229|OMEG|long|OMEG|PA/S|1|-512|10|Character|0|1
+011231|USTM|long|USTM|M/S|1|-4096|13|Character|0|1
+011232|VSTM|long|VSTM|M/S|1|-4096|13|Character|0|1
+011233|HLCY|long|HLCY|M**2/S**2|1|-10000|15|Character|0|1
+012001|TMDB|long|TMDB|K|1|0|12|Character|0|1
+012004|T2MS|long|T2MS|K|1|0|12|Character|0|1
+012061|TMSK|long|TMSK|K|1|0|12|Character|0|1
+012196|TMIN|long|TMIN|K|1|0|12|Character|0|1
+012197|TMAX|long|TMAX|K|1|0|12|Character|0|1
+012198|STC1|long|STC1|K|1|0|12|Character|0|1
+012199|FXLH|long|FXLH|W/M**2 (+:DOWNWARD)|1|-10000|15|Character|0|1
+012200|FXLP|long|FXLP|W/M**2 (+:DOWNWARD)|1|-10000|15|Character|0|1
+012201|FXSH|long|FXSH|W/M**2 (+:DOWNWARD)|1|-10000|15|Character|0|1
+012202|FXSS|long|FXSS|W/M**2 (+:DOWNWARD)|1|-5000|14|Character|0|1
+012203|FXSN|long|FXSN|W/M**2 (+:DOWNWARD)|1|-10000|14|Character|0|1
+012204|SLTB|long|SLTB|K|1|0|12|Character|0|1
+012205|TH10|long|TH10|K|1|0|12|Character|0|1
+012221|DTCP|long|DTCP|K/S|6|-6000|14|Character|0|1
+012222|DTGP|long|DTGP|K/S|6|-6000|14|Character|0|1
+013001|SPFH|long|SPFH|KG/KG|5|0|14|Character|0|1
+013019|TP01|long|TP01|KG/M**2|2|-1|14|Character|0|1
+013197|SMOI|long|SMOI|KG/M**2|2|0|18|Character|0|2
+013198|Q2MS|long|Q2MS|KG/KG|5|0|14|Character|0|1
+013208|C01M|long|C01M|KG/M**2|2|-1|14|Character|0|1
+013210|SWEM|long|SWEM|KG/M**2|2|0|18|Character|0|2
+013212|CNPW|long|CNPW|KG/M**2|3|0|11|Character|0|1
+013216|SNFL|long|SNFL|KG/M**2|1|-1|14|Character|0|1
+013218|N01M|long|N01M|KG/M**2|2|0|14|Character|0|1
+013220|WTNS|long|WTNS|%|0|0|8|Character|0|1
+013222|R01M|long|R01M|KG/M**2|2|0|15|Character|0|1
+013224|BFGR|long|BFGR|KG/M**2|2|0|15|Character|0|1
+013226|SMC1|long|SMC1|NONE|3|0|10|Character|0|1
+013231|SNRA|long|SNRA|%|0|0|7|Character|0|1
+013232|WXTS|long|WXTS|1=SNOW|0|0|2|Character|0|1
+013233|WXTP|long|WXTP|1=ICE PELLETS|0|0|2|Character|0|1
+013234|WXTZ|long|WXTZ|1=FREEZING RAIN|0|0|2|Character|0|1
+013235|WXTR|long|WXTR|1=RAIN|0|0|2|Character|0|1
+013239|CWTR|long|CWTR|KG/KG|5|0|16|Character|0|2
+013240|Q10M|long|Q10M|KG/KG|5|0|14|Character|0|1
+013244|IMXR|long|IMXR|KG/KG|5|0|16|Character|0|2
+014194|DTSW|long|DTSW|K/S|7|-12000|15|Character|0|1
+014195|DTLW|long|DTLW|K/S|7|-12000|15|Character|0|1
+014198|SWRD|long|SWRD|W/M**2 (+:DOWNWARD)|1|0|14|Character|0|1
+014199|SWRU|long|SWRU|W/M**2 (+:DOWNWARD)|1|-15000|14|Character|0|1
+014200|LWRD|long|LWRD|W/M**2 (+:DOWNWARD)|1|0|13|Character|0|1
+014201|LWRU|long|LWRU|W/M**2 (+:DOWNWARD)|1|-8192|13|Character|0|1
+014202|LWRT|long|LWRT|W/M**2 (+:DOWNWARD)|1|-8192|13|Character|0|1
+014203|SWRT|long|SWRT|W/M**2 (+:DOWNWARD)|1|-15000|15|Character|0|1
+020001|HOVI|long|HOVI|M|-1|0|13|Character|0|1
+020015|CDBP|long|CDBP|PA|-1|0|14|Character|0|1
+020051|LCLD|long|LCLD|%|0|0|7|Character|0|1
+020052|MCLD|long|MCLD|%|0|0|7|Character|0|1
+020053|HCLD|long|HCLD|%|0|0|7|Character|0|1
+020198|CFRL|long|CFRL|%|0|0|7|Character|0|1
+020231|VEGF|long|VEGF|%|0|0|7|Character|0|1
+063000|BYTCNT|long|BYTCNT|BYTES|0|0|16|Character|0|2
+063255|BITPAD|long|BITPAD|NONE|0|0|1|Character|0|1
