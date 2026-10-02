@@ -27,10 +27,21 @@ async function loadNAMComparison() {
       rain = "PTT: NAM precipitation data unavailable for this check";
     } else if (ptt?.wetPeriods) {
       const max = ptt.largestWetDifferenceHundredthsIn == null ? "unknown" : `${(ptt.largestWetDifferenceHundredthsIn / 100).toFixed(2)} in`;
-      rain = `PTT: ${ptt.wetWithin010In}/${ptt.wetPeriods} wet periods within 0.10 in; largest difference ${max}`;
-      if (ptt.status?.startsWith("inconclusive")) rain += " (dry or trace-only case)";
+      const largest = ptt.largestWetPeriod;
+      const largestNote = largest
+        ? ` at ${largest.station} ${largest.forecastHour}h (NAM ${ (largest.candidateHundredthsIn / 100).toFixed(2) } / FOUS ${ (largest.officialHundredthsIn / 100).toFixed(2) } in)`
+        : "";
+      const early = (ptt.earlyWetPeriods || []).find((period) =>
+        Math.max(period.candidateHundredthsIn, period.officialHundredthsIn) >= 10);
+      const earlyNote = early
+        ? `; early rain ${early.station} ${early.forecastHour}h: NAM ${(early.candidateHundredthsIn / 100).toFixed(2)} / FOUS ${(early.officialHundredthsIn / 100).toFixed(2)} in`
+        : "";
+      rain = `PTT: ${ptt.wetWithin010In}/${ptt.wetPeriods} wet periods within 0.10 in; largest difference ${max}${largestNote}${earlyNote}`;
+      if (ptt.status?.startsWith("partial")) rain += " (some intervals unavailable)";
     } else if (ptt?.status?.startsWith("inconclusive")) {
-      rain = "PTT: inconclusive; this cycle is dry or has only trace rain";
+      rain = "PTT: no matched six-hour amount reached 0.10 in; more rain is needed to judge the comparison";
+    } else if (ptt?.periodsCompared && ptt.status?.startsWith("unavailable")) {
+      rain = "PTT: NAM precipitation intervals were missing for this check";
     }
     namSummary.textContent = [`${report.cycle}`, temps || "Temperature comparison unavailable", rain].join(" · ");
   } catch (error) {

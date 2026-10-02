@@ -148,7 +148,10 @@ def fetch_bufr_profiles() -> tuple[dict[tuple[str, int], list[tuple[float, float
 def index_records(index_text: str, descriptor: str) -> list[tuple[int, int | None, str]]:
     rows = []
     for line in index_text.splitlines():
-        match = re.match(r"\d+:(\d+):(.*)", line)
+        # NOMADS inventory lines begin with ``message:offset:d=DATE:...``.
+        # Drop that date token before matching a GRIB field description such
+        # as ``APCP:surface:0-3 hour acc fcst``.
+        match = re.match(r"\d+:(\d+):d=\d+:(.*)", line)
         if match:
             rows.append((int(match.group(1)), line, match.group(2)))
     selected = []
@@ -313,7 +316,29 @@ def main() -> None:
                 summaries[field] = {"periodsCompared": len(rows), "dryPeriods": len(rows) - len(wet),
                                      "wetPeriods": len(wet), "wetWithin010In": within,
                                      "largestWetDifferenceHundredthsIn": max_diff,
-                                     "status": "useful wet sample" if meaningful else "inconclusive: dry or trace-only sample"}
+                                     "status": "useful wet sample" if meaningful else "inconclusive: no matched amount reached 0.10 in"}
+                if not rows and ptt_warnings:
+                    summaries[field]["status"] = "unavailable: NAM APCP intervals are missing"
+                elif ptt_warnings:
+                    summaries[field]["status"] = "partial: some NAM APCP intervals are missing"
+                if wet:
+                    largest = max(wet, key=lambda r: abs(int(r["candidate_minus_official_hundredths_in"])))
+                    summaries[field]["largestWetPeriod"] = {
+                        "station": largest["station"], "forecastHour": largest["forecast_hour"],
+                        "candidateHundredthsIn": int(largest["candidate_hundredths_in"]),
+                        "officialHundredthsIn": int(largest["official_hundredths_in_comparison_only"]),
+                        "differenceHundredthsIn": int(largest["candidate_minus_official_hundredths_in"]),
+                    }
+                    # Include early wet periods so readers can see the actual
+                    # amounts instead of relying on an overall dry/trace label.
+                    summaries[field]["earlyWetPeriods"] = [
+                        {"station": r["station"], "forecastHour": r["forecast_hour"],
+                         "candidateHundredthsIn": int(r["candidate_hundredths_in"]),
+                         "officialHundredthsIn": int(r["official_hundredths_in_comparison_only"]),
+                         "differenceHundredthsIn": int(r["candidate_minus_official_hundredths_in"])}
+                        for r in sorted(wet, key=lambda r: (int(r["forecast_hour"]), r["station"]))
+                        if int(r["forecast_hour"]) <= 24
+                    ][:6]
             else:
                 diffs = [abs(int(r["candidate_minus_official_C"])) for r in rows]
                 summaries[field] = {"samples": len(rows), "within1C": sum(d <= 1 for d in diffs),
