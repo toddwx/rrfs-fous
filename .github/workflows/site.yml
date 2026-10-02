@@ -25,6 +25,9 @@ concurrency:
 
 jobs:
   publish:
+    # A code-only push must never publish the old forecast snapshot from the repo.
+    # Scheduled and manual data runs refresh it before deploying.
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
