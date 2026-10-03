@@ -1,7 +1,7 @@
 {
   "provider": "NOAA/NCEP RRFS parallel data",
-  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261001/12/",
-  "cycleUtc": "20261001T12:00:00Z",
+  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261002/12/",
+  "cycleUtc": "20261002T12:00:00Z",
   "forecastLeadsHours": [
     0,
     6,
@@ -19,10 +19,10 @@
     78,
     84
   ],
-  "selectedMessageCount": 329,
-  "selectedManifestSha256": "76ac2a38e45d6e39a60e619b588cb5826b13a58519fd0af6737c0789c38e30dd",
+  "selectedMessageCount": 419,
+  "selectedManifestSha256": "312c82d48e101f0721069293c2763cec7e090e2f1921649e7e0add065dd26425",
   "stationCount": 6,
-  "stationValueCount": 1974,
+  "stationValueCount": 2514,
   "temperatureLayerLevelsMb": [
     725,
     750,
@@ -32,18 +32,17 @@
     875
   ],
   "temperatureLayerMessageCount": 90,
-  "temperatureLayerManifestSha256": "3e5f9ff87ac7cdefc80d2e982ae47ef1480087f53bc8e3e61cbe7d4465d38e66",
+  "candidateCsv": "work/data/comparisons/FOUS61_20261002_12Z_RRFS_parallel_candidate.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261002_12Z_RRFS_parallel_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261002_12Z_RRFS_parallel_provenance.csv",
   "vvvMessageCount": 53,
-  "vvvManifestSha256": "847210cd474f326d31a8d89b5a5234b16eb85ce3eee65a658e0189ef75bb55ce",
+  "vvvManifestSha256": "39e5943a548ae7b700d36c47dc26cd045bc8062c037dfc06318922f49a8097fe",
   "matchingAlbanyControl": {
     "available": true,
     "sourceUrl": "https://www.atmos.albany.edu/gopher-local/albany/FOUS61",
-    "cycleHeader": "FOUS61 KWNO 0112",
-    "lastModified": "Thu, 01 Oct 2026 14:33:59 GMT",
-    "retrievedAt": "2026-10-01T15:45:42.505266+00:00",
-    "sha256": "ad9b70d4a06de8e87593551934be07bbed0c2a7a6aa9245b734e2734b99d480b"
-  },
-  "candidateCsv": "work/data/comparisons/FOUS61_20261001_12Z_RRFS_parallel_candidate.csv",
-  "comparisonCsv": "work/data/comparisons/FOUS61_20261001_12Z_RRFS_parallel_comparison.csv",
-  "provenanceCsv": "work/data/comparisons/FOUS61_20261001_12Z_RRFS_parallel_provenance.csv"
+    "cycleHeader": "FOUS61 KWNO 0212",
+    "lastModified": "Fri, 02 Oct 2026 14:32:18 GMT",
+    "retrievedAt": "2026-10-02T17:54:00.983951+00:00",
+    "sha256": "8ec5c89fc0bbd804c5a9a611949bceab4970409121b8bb02e8233584b699774f"
+  }
 }
