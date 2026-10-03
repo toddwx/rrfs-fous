@@ -47,6 +47,9 @@ jobs:
       - name: Fetch the latest long-range RRFS cycle and rebuild the bulletin
         if: github.event_name != 'push'
         run: python ops/refresh_rrfs.py
+        # RRFS files can lag the clock, especially around a new cycle. Keep
+        # the last good bulletin and still publish the independent NAM check.
+        continue-on-error: true
 
       - name: Compare NAM data with the matching official FOUS bulletin
         if: always() && github.event_name != 'push'
