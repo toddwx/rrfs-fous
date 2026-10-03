@@ -388,6 +388,17 @@ def main() -> None:
         result = {"available": False, "cycle": cycle_name, "updatedAt": datetime.now(timezone.utc).isoformat(),
                   "message": f"NAM comparison unavailable: {type(exc).__name__}: {exc}"}
         print(result["message"])
+    # A scheduled run can briefly lack matching BUFR/APCP files (or hit a
+    # transient decode error). Do not replace a useful prior NAM comparison
+    # with an empty/error message; keep the last verified comparison visible.
+    if not result.get("comparisonAvailable") and SITE_RESULT.exists():
+        try:
+            previous = json.loads(SITE_RESULT.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            previous = {}
+        if previous.get("comparisonAvailable"):
+            print(f"No new usable NAM comparison for {cycle_name}; keeping the previous verified comparison for {previous.get('cycle')}.")
+            result = previous
     SITE_RESULT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in result.items() if k not in ("rawProfileSources", "rawPttMessages")}, indent=2))
 
