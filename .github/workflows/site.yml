@@ -35,6 +35,8 @@ jobs:
     steps:
       - name: Check out the website and refresh scripts
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python for scheduled data refreshes
         uses: actions/setup-python@v6
@@ -71,7 +73,24 @@ jobs:
             echo "No published data changed."
           else
             git commit -m "Save refreshed forecast data"
-            git push
+            # A code update can reach main while a scheduled refresh is still
+            # running. Rebase the generated data commit onto the latest main
+            # before pushing, retrying if another update lands in the meantime.
+            for attempt in 1 2 3; do
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort || true
+                echo "Could not safely rebase the refreshed data onto main."
+                exit 1
+              fi
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Push raced with another update; retrying ($attempt/3)."
+              sleep 2
+            done
+            echo "Could not publish refreshed data after three attempts."
+            exit 1
           fi
 
       - name: Keep the NAM comparison files with this run

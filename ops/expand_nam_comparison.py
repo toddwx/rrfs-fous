@@ -241,6 +241,7 @@ def main():
                 summaries[field]["wetPeriodsThrough24h"]=[{"station":r["station"],"forecastHour":int(r["forecast_hour"]),"NAM":int(r["candidate"]),"officialFOUS":int(r["official_comparison_only"]),"difference":int(r["candidate_minus_official"])} for r in sorted(wet,key=lambda x:(int(x["forecast_hour"]),x["station"])) if int(r["forecast_hour"])<=24]
         elif field in ("T1","T3","T5"): summaries[field]={"samples":len(rows),"within1C":sum(abs(d)<=1 for d in diffs),"exact":sum(d==0 for d in diffs),"largestDifferenceC":max(map(abs,diffs),default=None)}
         elif field=="DD": summaries[field]={"samples":len(rows),"within20deg":sum(abs(d)<=2 for d in diffs),"exact":sum(d==0 for d in diffs),"largestCircularDifferenceDeg":max((abs(d)*10 for d in diffs),default=None)}
+        elif field=="VVV": summaries[field]={"samples":len(rows),"within10Codes":sum(abs(d)<=10 for d in diffs),"exact":sum(d==0 for d in diffs),"largestAbsoluteDifference":max(map(abs,diffs),default=None),"acceptedToleranceCodes":10}
         else: summaries[field]={"samples":len(rows),"exact":sum(d==0 for d in diffs),"largestAbsoluteDifference":max(map(abs,diffs),default=None)}
     report={"cycle":cycle,"createdAt":datetime.now(timezone.utc).isoformat(),"summaries":summaries,"missingOrUnavailable":missing,
       "candidateFile":cand_path.name,"comparisonFile":comp_path.name,"provenanceFile":prov_path.name,

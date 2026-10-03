@@ -49,10 +49,11 @@ async function loadNAMComparison() {
       const score = exploratory[field];
       if (!score?.samples) continue;
       if (field === "DD") extra.push(`DD within 20° ${score.within20deg}/${score.samples}`);
+      else if (field === "VVV" && Number.isInteger(score.within10Codes)) extra.push(`VVV within 10 codes ${score.within10Codes}/${score.samples}`);
       else extra.push(`${field} exact ${score.exact}/${score.samples}`);
     }
     const expanded = extra.length
-      ? `Other fields (rough comparisons): ${extra.join(" · ")}. Humidity and vertical-motion recipes still need work.`
+      ? `Other fields (rough comparisons): ${extra.join(" · ")}. Humidity is still a rough estimate; VVV is approximate, with up to 10 codes acceptable.`
       : "Other field comparisons are being collected.";
     namSummary.textContent = [`${report.cycle}`, temps || "Temperature comparison unavailable", rain, expanded].join(" · ");
   } catch (error) {
