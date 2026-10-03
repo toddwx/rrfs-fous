@@ -56,6 +56,11 @@ jobs:
         run: python ops/refresh_nam_comparison.py
         continue-on-error: true
 
+      - name: Expand the NAM comparison to other FOUS fields
+        if: always() && github.event_name != 'push'
+        run: python ops/expand_nam_comparison.py
+        continue-on-error: true
+
       - name: Save the latest good forecast for the next run
         if: always() && github.event_name != 'push'
         run: |

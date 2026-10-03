@@ -309,5 +309,167 @@
   ],
   "candidateFile": "FOUS61_20261002_12Z_NAM_candidate.csv",
   "comparisonFile": "FOUS61_20261002_12Z_NAM_comparison.csv",
-  "provenanceFile": "FOUS61_20261002_12Z_NAM_provenance.csv"
+  "provenanceFile": "FOUS61_20261002_12Z_NAM_provenance.csv",
+  "additionalFieldSummaries": {
+    "R1": {
+      "samples": 60,
+      "exact": 3,
+      "largestAbsoluteDifference": 20
+    },
+    "R2": {
+      "samples": 60,
+      "exact": 1,
+      "largestAbsoluteDifference": 56
+    },
+    "R3": {
+      "samples": 60,
+      "exact": 2,
+      "largestAbsoluteDifference": 53
+    },
+    "LI": {
+      "samples": 60,
+      "exact": 47,
+      "largestAbsoluteDifference": 1
+    },
+    "VVV": {
+      "samples": 60,
+      "exact": 15,
+      "largestAbsoluteDifference": 29
+    },
+    "PS": {
+      "samples": 60,
+      "exact": 58,
+      "largestAbsoluteDifference": 1
+    },
+    "HH": {
+      "samples": 60,
+      "exact": 50,
+      "largestAbsoluteDifference": 1
+    },
+    "DD": {
+      "samples": 60,
+      "within20deg": 60,
+      "exact": 15,
+      "largestCircularDifferenceDeg": 20
+    },
+    "FF": {
+      "samples": 60,
+      "exact": 23,
+      "largestAbsoluteDifference": 2
+    },
+    "T1": {
+      "samples": 60,
+      "within1C": 60,
+      "exact": 42,
+      "largestDifferenceC": 1
+    },
+    "T3": {
+      "samples": 60,
+      "within1C": 60,
+      "exact": 46,
+      "largestDifferenceC": 1
+    },
+    "T5": {
+      "samples": 60,
+      "within1C": 60,
+      "exact": 48,
+      "largestDifferenceC": 1
+    },
+    "PTT": {
+      "compared": 60,
+      "dry": 49,
+      "wet": 11,
+      "within010in": 9,
+      "largestWetDifferenceHundredthsIn": 23,
+      "largestWetPeriod": {
+        "station": "PHL",
+        "forecastHour": 18,
+        "NAM": 47,
+        "officialFOUS": 24,
+        "difference": 23
+      },
+      "wetPeriodsThrough24h": [
+        {
+          "station": "ALB",
+          "forecastHour": 6,
+          "NAM": 0,
+          "officialFOUS": 1,
+          "difference": -1
+        },
+        {
+          "station": "BTV",
+          "forecastHour": 6,
+          "NAM": 30,
+          "officialFOUS": 42,
+          "difference": -12
+        },
+        {
+          "station": "IPT",
+          "forecastHour": 6,
+          "NAM": 4,
+          "officialFOUS": 3,
+          "difference": 1
+        },
+        {
+          "station": "PHL",
+          "forecastHour": 6,
+          "NAM": 1,
+          "officialFOUS": 0,
+          "difference": 1
+        },
+        {
+          "station": "BOS",
+          "forecastHour": 12,
+          "NAM": 4,
+          "officialFOUS": 8,
+          "difference": -4
+        },
+        {
+          "station": "BTV",
+          "forecastHour": 12,
+          "NAM": 2,
+          "officialFOUS": 2,
+          "difference": 0
+        },
+        {
+          "station": "IPT",
+          "forecastHour": 12,
+          "NAM": 1,
+          "officialFOUS": 4,
+          "difference": -3
+        },
+        {
+          "station": "LGA",
+          "forecastHour": 12,
+          "NAM": 1,
+          "officialFOUS": 1,
+          "difference": 0
+        },
+        {
+          "station": "PHL",
+          "forecastHour": 12,
+          "NAM": 0,
+          "officialFOUS": 10,
+          "difference": -10
+        },
+        {
+          "station": "LGA",
+          "forecastHour": 18,
+          "NAM": 6,
+          "officialFOUS": 8,
+          "difference": -2
+        },
+        {
+          "station": "PHL",
+          "forecastHour": 18,
+          "NAM": 47,
+          "officialFOUS": 24,
+          "difference": 23
+        }
+      ]
+    }
+  },
+  "additionalFieldNote": "Experimental NAM-only proxies. RH uses single pressure levels, LI uses 4LFTX, VVV uses 700-mb pressure velocity, wind uses a pressure-weighted lowest-35-mb vector, PS uses sea-level pressure, and HH uses 500\u20131000-mb thickness. These methods are not confirmed FOUS recipes.",
+  "additionalFieldsUpdatedAt": "2026-10-03T03:35:24.000008+00:00",
+  "additionalFieldsAvailable": true
 }

@@ -43,7 +43,18 @@ async function loadNAMComparison() {
     } else if (ptt?.periodsCompared && ptt.status?.startsWith("unavailable")) {
       rain = "PTT: NAM precipitation intervals were missing for this check";
     }
-    namSummary.textContent = [`${report.cycle}`, temps || "Temperature comparison unavailable", rain].join(" · ");
+    const exploratory = report.additionalFieldSummaries || {};
+    const extra = [];
+    for (const field of ["DD", "FF", "PS", "HH", "LI", "R1", "R2", "R3", "VVV"]) {
+      const score = exploratory[field];
+      if (!score?.samples) continue;
+      if (field === "DD") extra.push(`DD within 20° ${score.within20deg}/${score.samples}`);
+      else extra.push(`${field} exact ${score.exact}/${score.samples}`);
+    }
+    const expanded = extra.length
+      ? `Other fields (rough comparisons): ${extra.join(" · ")}. Humidity and vertical-motion recipes still need work.`
+      : "Other field comparisons are being collected.";
+    namSummary.textContent = [`${report.cycle}`, temps || "Temperature comparison unavailable", rain, expanded].join(" · ");
   } catch (error) {
     namSummary.textContent = error.message;
   }
