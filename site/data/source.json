@@ -1,7 +1,7 @@
 {
   "provider": "NOAA/NCEP RRFS parallel data",
-  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261004/00/",
-  "cycleUtc": "20261004T00:00:00Z",
+  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261004/06/",
+  "cycleUtc": "20261004T06:00:00Z",
   "forecastLeadsHours": [
     0,
     6,
@@ -20,7 +20,7 @@
     84
   ],
   "selectedMessageCount": 419,
-  "selectedManifestSha256": "54c6824dfc59fb14c0aeda64ed6f63f2b6fa4f1481597e0029f60e95d8a53a27",
+  "selectedManifestSha256": "e666fa126b6a2a94e1fd19c2d83bf25366ccd5e23c20b8954218274484d15343",
   "stationCount": 6,
   "stationValueCount": 2514,
   "temperatureLayerLevelsMb": [
@@ -32,17 +32,17 @@
     875
   ],
   "temperatureLayerMessageCount": 90,
-  "candidateCsv": "work/data/comparisons/FOUS61_20261004_00Z_RRFS_parallel_candidate.csv",
-  "comparisonCsv": "work/data/comparisons/FOUS61_20261004_00Z_RRFS_parallel_comparison.csv",
-  "provenanceCsv": "work/data/comparisons/FOUS61_20261004_00Z_RRFS_parallel_provenance.csv",
+  "candidateCsv": "work/data/comparisons/FOUS61_20261004_06Z_RRFS_parallel_candidate.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261004_06Z_RRFS_parallel_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261004_06Z_RRFS_parallel_provenance.csv",
   "vvvMessageCount": 53,
-  "vvvManifestSha256": "af74253edad49001079dd2e6304aac1e98cc1af8307dfc27f896008b52a4313e",
+  "vvvManifestSha256": "dcc2bd2dc53ebaf3602cb7c47406d71518b8444965dd002156e9685a75454437",
   "matchingAlbanyControl": {
     "available": true,
     "sourceUrl": "https://www.atmos.albany.edu/gopher-local/albany/FOUS61",
-    "cycleHeader": "FOUS61 KWNO 0400",
-    "lastModified": "Sun, 04 Oct 2026 02:32:50 GMT",
-    "retrievedAt": "2026-10-04T05:26:46.977491+00:00",
-    "sha256": "de96dd93436ec570dc19d84a6baa17526cd5131708c04c0ba43a91c972268c1f"
+    "cycleHeader": "FOUS61 KWNO 0406",
+    "lastModified": "Sun, 04 Oct 2026 08:22:36 GMT",
+    "retrievedAt": "2026-10-04T13:46:07.637002+00:00",
+    "sha256": "ad24fbe67905bda31806ffe3caa2f6563930afa634392cc4e0a02bb1f68b24e3"
   }
 }
