@@ -138,6 +138,10 @@ jobs:
         # the last good bulletin and still publish the independent NAM check.
         continue-on-error: true
 
+      - name: Capture the saved official FOUS bulletin for comparison recovery
+        if: github.event_name == 'workflow_dispatch' && inputs.comparison_only == true
+        run: python ops/capture_official.py
+
       - name: Compare NAM data with the matching official FOUS bulletin
         if: always() && github.event_name != 'push'
         run: python ops/refresh_nam_comparison.py
