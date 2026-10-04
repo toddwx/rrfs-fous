@@ -6,7 +6,23 @@ on:
     - cron: '15 9 * * *'
     - cron: '15 15 * * *'
     - cron: '15 21 * * *'
+    # A delayed catch-up gives GitHub another chance if it drops a scheduled event.
+    - cron: '45 3 * * *'
+    - cron: '45 9 * * *'
+    - cron: '45 15 * * *'
+    - cron: '45 21 * * *'
   workflow_dispatch:
+    inputs:
+      forecast_date:
+        description: 'Optional UTC date, YYYYMMDD (blank uses the current cycle)'
+        required: false
+        type: string
+      forecast_cycle:
+        description: 'Optional UTC cycle for recovery'
+        required: false
+        type: choice
+        options: [auto, '00', '06', '12', '18']
+        default: auto
   push:
     branches: [main]
     paths:
@@ -19,15 +35,31 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  FOUS_DATE: ${{ inputs.forecast_date || '' }}
+  FOUS_CYCLE: ${{ inputs.forecast_cycle != 'auto' && inputs.forecast_cycle || '' }}
+
 concurrency:
   group: fous-pages
   cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      refresh: ${{ steps.gate.outputs.refresh }}
+    steps:
+      - name: Check out the current forecast status
+        uses: actions/checkout@v6
+      - name: Check whether this cycle still needs an update
+        id: gate
+        run: python ops/should_refresh.py
+
   publish:
     # A code-only push must never publish the old forecast snapshot from the repo.
     # Scheduled and manual data runs refresh it before deploying.
-    if: github.event_name != 'push'
+    needs: check
+    if: github.event_name != 'push' && needs.check.outputs.refresh == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

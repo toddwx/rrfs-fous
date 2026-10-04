@@ -10,7 +10,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "work" / "data"
 _NOW = datetime.now(timezone.utc)
 _SCHEDULE_CYCLES = {"15 3 * * *": (3, "00"), "15 9 * * *": (9, "06"),
-                    "15 15 * * *": (15, "12"), "15 21 * * *": (21, "18")}
+                    "15 15 * * *": (15, "12"), "15 21 * * *": (21, "18"),
+                    "45 3 * * *": (3, "00"), "45 9 * * *": (9, "06"),
+                    "45 15 * * *": (15, "12"), "45 21 * * *": (21, "18")}
 _SCHEDULE_EVENT = {}
 if os.environ.get("GITHUB_EVENT_PATH"):
     try:
@@ -22,8 +24,8 @@ _SCHEDULE_HOUR, _SCHEDULE_CYCLE = _SCHEDULE_CYCLES.get(_SCHEDULE_EVENT.get("sche
 _DATE_FOR_CYCLE = _NOW.date()
 if _SCHEDULE_HOUR is not None and _NOW.hour < _SCHEDULE_HOUR:
     _DATE_FOR_CYCLE -= timedelta(days=1)
-DATE = os.environ.get("FOUS_DATE", _DATE_FOR_CYCLE.strftime("%Y%m%d"))
-CYCLE = os.environ.get("FOUS_CYCLE", _SCHEDULE_CYCLE or f"{(_NOW.hour // 6) * 6:02d}").zfill(2)
+DATE = os.environ.get("FOUS_DATE") or _DATE_FOR_CYCLE.strftime("%Y%m%d")
+CYCLE = (os.environ.get("FOUS_CYCLE") or _SCHEDULE_CYCLE or f"{(_NOW.hour // 6) * 6:02d}").zfill(2)
 CASE = DATA / "model" / "cases" / f"{DATE}_{CYCLE}Z_rrfs_parallel"
 COMPARISONS = DATA / "comparisons"
 OFFICIAL = DATA / "official" / f"FOUS61_{DATE}_{CYCLE}Z_decoded.csv"
