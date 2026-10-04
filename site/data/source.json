@@ -1,7 +1,7 @@
 {
   "provider": "NOAA/NCEP RRFS parallel data",
-  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261003/12/",
-  "cycleUtc": "20261003T12:00:00Z",
+  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261003/18/",
+  "cycleUtc": "20261003T18:00:00Z",
   "forecastLeadsHours": [
     0,
     6,
@@ -20,7 +20,7 @@
     84
   ],
   "selectedMessageCount": 419,
-  "selectedManifestSha256": "e692b1f459b3df40e5f3dcbd12e31085c85b1b6e3fb0ee54a054bcd45409fc52",
+  "selectedManifestSha256": "ba3626022c5c155761cabf663f4c1b3d6d888150580c1cafc6f350aa4d6f741f",
   "stationCount": 6,
   "stationValueCount": 2514,
   "temperatureLayerLevelsMb": [
@@ -32,17 +32,13 @@
     875
   ],
   "temperatureLayerMessageCount": 90,
-  "candidateCsv": "work/data/comparisons/FOUS61_20261003_12Z_RRFS_parallel_candidate.csv",
-  "comparisonCsv": "work/data/comparisons/FOUS61_20261003_12Z_RRFS_parallel_comparison.csv",
-  "provenanceCsv": "work/data/comparisons/FOUS61_20261003_12Z_RRFS_parallel_provenance.csv",
+  "candidateCsv": "work/data/comparisons/FOUS61_20261003_18Z_RRFS_parallel_candidate.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261003_18Z_RRFS_parallel_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261003_18Z_RRFS_parallel_provenance.csv",
   "vvvMessageCount": 53,
-  "vvvManifestSha256": "d41c949d169c35c6ae28d002d4c9d6bc5422079880985f33ed3ee412e5853a67",
+  "vvvManifestSha256": "943f3c0e2c9d7f578a1a8a2daebd533e6c9e4ad74127a25ab43e79b0f259d698",
   "matchingAlbanyControl": {
-    "available": true,
-    "sourceUrl": "https://www.atmos.albany.edu/gopher-local/albany/FOUS61",
-    "cycleHeader": "FOUS61 KWNO 0312",
-    "lastModified": "Sat, 03 Oct 2026 14:31:14 GMT",
-    "retrievedAt": "2026-10-03T19:42:37.545291+00:00",
-    "sha256": "4f7be552e9e12671367fec64865ca8ac35c27483b0593eff6bacb97a1d0e63aa"
+    "available": false,
+    "reason": "Albany feed responded, but its newest bulletin does not match the RRFS cycle."
   }
 }
