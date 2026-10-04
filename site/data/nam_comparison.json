@@ -1,77 +1,77 @@
 {
   "available": true,
   "comparisonAvailable": true,
-  "cycle": "20261004_06Z",
-  "updatedAt": "2026-10-04T13:52:56.790295+00:00",
+  "cycle": "20261004_12Z",
+  "updatedAt": "2026-10-04T15:38:36.232986+00:00",
   "officialBulletinAvailable": true,
   "summaries": {
     "T1": {
-      "samples": 48,
-      "within1C": 48,
-      "exact": 37,
+      "samples": 60,
+      "within1C": 60,
+      "exact": 45,
       "largestDifferenceC": 1
     },
     "T3": {
-      "samples": 48,
-      "within1C": 48,
-      "exact": 38,
+      "samples": 60,
+      "within1C": 60,
+      "exact": 42,
       "largestDifferenceC": 1
     },
     "T5": {
-      "samples": 48,
-      "within1C": 46,
-      "exact": 33,
+      "samples": 60,
+      "within1C": 59,
+      "exact": 36,
       "largestDifferenceC": 2
     },
     "PTT": {
-      "periodsCompared": 48,
-      "dryPeriods": 34,
-      "wetPeriods": 14,
-      "wetWithin010In": 14,
-      "largestWetDifferenceHundredthsIn": 6,
-      "status": "useful wet sample",
+      "periodsCompared": 60,
+      "dryPeriods": 50,
+      "wetPeriods": 10,
+      "wetWithin010In": 10,
+      "largestWetDifferenceHundredthsIn": 2,
+      "status": "inconclusive: no matched amount reached 0.10 in",
       "largestWetPeriod": {
-        "station": "BOS",
-        "forecastHour": 18,
-        "candidateHundredthsIn": 19,
-        "officialHundredthsIn": 13,
-        "differenceHundredthsIn": 6
+        "station": "BTV",
+        "forecastHour": 24,
+        "candidateHundredthsIn": 5,
+        "officialHundredthsIn": 7,
+        "differenceHundredthsIn": -2
       },
       "earlyWetPeriods": [
         {
           "station": "IPT",
           "forecastHour": 6,
-          "candidateHundredthsIn": 2,
-          "officialHundredthsIn": 2,
-          "differenceHundredthsIn": 0
+          "candidateHundredthsIn": 6,
+          "officialHundredthsIn": 7,
+          "differenceHundredthsIn": -1
         },
         {
-          "station": "BOS",
-          "forecastHour": 12,
+          "station": "PHL",
+          "forecastHour": 6,
           "candidateHundredthsIn": 1,
-          "officialHundredthsIn": 0,
-          "differenceHundredthsIn": 1
+          "officialHundredthsIn": 2,
+          "differenceHundredthsIn": -1
         },
         {
           "station": "IPT",
           "forecastHour": 12,
-          "candidateHundredthsIn": 1,
-          "officialHundredthsIn": 3,
+          "candidateHundredthsIn": 2,
+          "officialHundredthsIn": 4,
           "differenceHundredthsIn": -2
+        },
+        {
+          "station": "LGA",
+          "forecastHour": 12,
+          "candidateHundredthsIn": 3,
+          "officialHundredthsIn": 3,
+          "differenceHundredthsIn": 0
         },
         {
           "station": "PHL",
           "forecastHour": 12,
-          "candidateHundredthsIn": 9,
-          "officialHundredthsIn": 6,
-          "differenceHundredthsIn": 3
-        },
-        {
-          "station": "BOS",
-          "forecastHour": 18,
-          "candidateHundredthsIn": 19,
-          "officialHundredthsIn": 13,
-          "differenceHundredthsIn": 6
+          "candidateHundredthsIn": 8,
+          "officialHundredthsIn": 7,
+          "differenceHundredthsIn": 1
         },
         {
           "station": "IPT",
@@ -83,312 +83,348 @@
       ]
     }
   },
-  "candidateRows": 96,
-  "comparisonRows": 192,
+  "candidateRows": 120,
+  "comparisonRows": 240,
   "missingOrUnavailable": [],
   "methodNote": "NAM-only candidates. T1/T3/T5 use pressure-weighted averages of the historical sigma layers from NAM BUFR profiles; pressure uses the lowest reported profile level. PTT sums the two non-overlapping NAM 3-hour APCP intervals and samples the nearest grid point. FOUS is read only for separate scoring.",
   "rawProfileSources": [
     {
       "station": "ALB",
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t06z/bufr.725180.2026100406",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t12z/bufr.725180.2026100412",
       "bytes": 139336,
-      "sha256": "88c3de5db177d665f58275e973f43c6a015fc42611cb8dde8b2f009a273ed8cc"
+      "sha256": "6db0742cf9e77c0b9dcf85c86be9db3b5223b7566211daae018c0493348a259e"
     },
     {
       "station": "BTV",
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t06z/bufr.726170.2026100406",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t12z/bufr.726170.2026100412",
       "bytes": 139336,
-      "sha256": "619a961fe5084945dc76496a81ecbf7f6848ad4f087dfcd38ebf80961111e5d3"
+      "sha256": "d7a0fbd089acc28f918a10f20d603a5148e6a77a5b153ff8cc58d3e9cb9154e2"
     },
     {
       "station": "BOS",
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t06z/bufr.725090.2026100406",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t12z/bufr.725090.2026100412",
       "bytes": 139336,
-      "sha256": "82e55d6170f6202aad427d6e6cfc9e6470678b9966dada74df7ef3786ac978a1"
+      "sha256": "945463d5e9444be6a4ff36420037fb0e7126f5f69b6377355737954d0f0c6449"
     },
     {
       "station": "LGA",
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t06z/bufr.725030.2026100406",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t12z/bufr.725030.2026100412",
       "bytes": 139336,
-      "sha256": "4dc1077af46c3eddf894e4413986eb498907a9dc07991ce415a525b0098ca142"
+      "sha256": "3d2e6a51eca38e3bac65e2b191b5f3b1a46050be9cf79a5eee2156cb74f25f86"
     },
     {
       "station": "PHL",
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t06z/bufr.724080.2026100406",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t12z/bufr.724080.2026100412",
       "bytes": 139336,
-      "sha256": "c7af382f11646e1fe0f7c6cb9871d59e261806826c4095aa19e25cf67dc5f38e"
+      "sha256": "351403bb7c337f89695f9ad9240bc1e0cba7015287b614ef1801337dcf68d6c5"
     },
     {
       "station": "IPT",
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t06z/bufr.725140.2026100406",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/bufr.t12z/bufr.725140.2026100412",
       "bytes": 139336,
-      "sha256": "bf61dffd80ebc2c7940cec25d8b29e68fbf53912807ccd1aff444d7233906523"
+      "sha256": "47f0a658978e4d5f96fa23cde5a0d9a800aea3d399776379381e1663070d10f0"
     }
   ],
   "rawPttMessages": [
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys03.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys03.tm00.grib2",
       "byteRange": [
-        49232623,
-        49300047
+        49198610,
+        49268770
       ],
-      "sha256": "58413e2d3b230d9faa83e1dd940a6b00c4df132bb2f3f8ead5f4b058f1613188",
-      "index": "332:49232623:d=2026100406:APCP:surface:0-3 hour acc fcst:"
+      "sha256": "a8bd4863c0d0942afc5956ac529d81476bd92c736812ad33cc4c8028430b2070",
+      "index": "332:49198610:d=2026100412:APCP:surface:0-3 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys06.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys06.tm00.grib2",
       "byteRange": [
-        50227025,
-        50304575
+        62439489,
+        62520975
       ],
-      "sha256": "d22cebb61de66e55633c012be8f35ee8b412c96d6142e471dca5be6eb685cb18",
-      "index": "332:50227025:d=2026100406:APCP:surface:3-6 hour acc fcst:"
+      "sha256": "872534ac969be61d1dd12c7a310646a961dfd62fa9dd197e8c4d1da601c158c7",
+      "index": "403:62439489:d=2026100412:APCP:surface:3-6 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys09.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys09.tm00.grib2",
       "byteRange": [
-        50973648,
-        51053773
+        63271772,
+        63353033
       ],
-      "sha256": "182ebcaf9d7f2020a1b413b738c16de46576a285276feba5dd4f0fbb3dd0953c",
-      "index": "332:50973648:d=2026100406:APCP:surface:6-9 hour acc fcst:"
+      "sha256": "adc464ff3e6b657405899f670b9d0e528cb05a32fb582a4bee9acd995183f2a0",
+      "index": "403:63271772:d=2026100412:APCP:surface:6-9 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys12.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys12.tm00.grib2",
       "byteRange": [
-        50866401,
-        50946029
+        63308493,
+        63389253
       ],
-      "sha256": "13e6ce8fe6f631d7fdd5044b842e5745541c2d908686d0aae2b7449b322d0681",
-      "index": "332:50866401:d=2026100406:APCP:surface:9-12 hour acc fcst:"
+      "sha256": "d68286d790d0b6251eb817b79ff054efacc1f604d45bb0816e700d1ba0ce8be2",
+      "index": "403:63308493:d=2026100412:APCP:surface:9-12 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys15.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys15.tm00.grib2",
       "byteRange": [
-        51012215,
-        51088362
+        50888729,
+        50965911
       ],
-      "sha256": "acf74d063c29e3e25ebcf86d1fe7d17200d5206885a448e7be0df72e96c34646",
-      "index": "332:51012215:d=2026100406:APCP:surface:12-15 hour acc fcst:"
+      "sha256": "c85f96ec692759dca28190e528835c5a0d9b3b162b04ad2fe7608d67d62f8a56",
+      "index": "332:50888729:d=2026100412:APCP:surface:12-15 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys18.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys18.tm00.grib2",
       "byteRange": [
-        51150650,
-        51224868
+        63421805,
+        63510069
       ],
-      "sha256": "d89b86290ddca182f9ef9ab7ced29ac92fafc12b19411e4337565392d48844db",
-      "index": "332:51150650:d=2026100406:APCP:surface:15-18 hour acc fcst:"
+      "sha256": "197dc32eee9b1525a2b40da0462b9bd9f4987bb22b632aaf2076c0e3a2b8f329",
+      "index": "403:63421805:d=2026100412:APCP:surface:15-18 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys21.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys21.tm00.grib2",
       "byteRange": [
-        51050068,
-        51125995
+        63778789,
+        63873824
       ],
-      "sha256": "4c81ac0f0c40cdddaebcda85495c3ce6e5bdc348e8751315898fba0338bd1e61",
-      "index": "332:51050068:d=2026100406:APCP:surface:18-21 hour acc fcst:"
+      "sha256": "4e8342ea88a73c270ee35968b660da4e4515aee435145bf5a845850d04b088bc",
+      "index": "403:63778789:d=2026100412:APCP:surface:18-21 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys24.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys24.tm00.grib2",
       "byteRange": [
-        51413588,
-        51493706
+        64391600,
+        64489762
       ],
-      "sha256": "4997654b808cf8c980554438d3027a7e6ad676463dd085744dc6a972c62251a5",
-      "index": "332:51413588:d=2026100406:APCP:surface:21-24 hour acc fcst:"
+      "sha256": "cb2b8b15c78b52291be3d9a3fa1e45c700a6c80828a19cde174bb20e91734543",
+      "index": "403:64391600:d=2026100412:APCP:surface:21-24 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys27.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys27.tm00.grib2",
       "byteRange": [
-        51913944,
-        51999646
+        51830923,
+        51918548
       ],
-      "sha256": "9dc7d843cf5969dc690198f07af76c9ded0cc57e3d7391de621f55fda5622807",
-      "index": "332:51913944:d=2026100406:APCP:surface:24-27 hour acc fcst:"
+      "sha256": "98c3fa9da4284e1c58f6dbd8e27cbd7718bff390c27b110f3b2e94884d62b0bd",
+      "index": "332:51830923:d=2026100412:APCP:surface:24-27 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys30.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys30.tm00.grib2",
       "byteRange": [
-        51488231,
-        51578004
+        64059676,
+        64148796
       ],
-      "sha256": "0522a70482c79e67e18cda3a68988375182ff82dfbc856006f9150d9d4338342",
-      "index": "332:51488231:d=2026100406:APCP:surface:27-30 hour acc fcst:"
+      "sha256": "aff0e3ceb520c3e7b2894d547941ed75d7aa0a1b455f1b3c88e4dd58f836ea98",
+      "index": "403:64059676:d=2026100412:APCP:surface:27-30 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys33.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys33.tm00.grib2",
       "byteRange": [
-        51502412,
-        51590660
+        63868810,
+        63951650
       ],
-      "sha256": "756e540a235be8a8bb2046f367c2675788f71f7441578395bdb7b1efe62fac75",
-      "index": "332:51502412:d=2026100406:APCP:surface:30-33 hour acc fcst:"
+      "sha256": "2b0d2ce2657b6d812fcc0ca2a8dca696237e227ea57234f3e709608b2a261308",
+      "index": "403:63868810:d=2026100412:APCP:surface:30-33 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys36.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys36.tm00.grib2",
       "byteRange": [
-        51694677,
-        51775346
+        63969346,
+        64053181
       ],
-      "sha256": "ddb60cbf52192aeb1c2f0578bdfa89bd40b9fa06f3d102739575d747aed52982",
-      "index": "332:51694677:d=2026100406:APCP:surface:33-36 hour acc fcst:"
+      "sha256": "40ab36db338b6a6c894b3f03e7b9c077384c1efba903a3d57429947b705ca84b",
+      "index": "403:63969346:d=2026100412:APCP:surface:33-36 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys39.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys39.tm00.grib2",
       "byteRange": [
-        51513646,
-        51587934
+        51690420,
+        51767341
       ],
-      "sha256": "87167e04bae583d63df0445ada63abadd65af5822198adcc6d0103bd8a426237",
-      "index": "332:51513646:d=2026100406:APCP:surface:36-39 hour acc fcst:"
+      "sha256": "befe38eaf0e8b0154d730dbe16ae38c5f9cf0fefff6b5398b94c7b77d61b16ec",
+      "index": "332:51690420:d=2026100412:APCP:surface:36-39 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys42.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys42.tm00.grib2",
       "byteRange": [
-        51491365,
-        51564289
+        63396322,
+        63479616
       ],
-      "sha256": "8f45838aad32290383d99558b7949ae2292a376f5590cbb373129214742eddee",
-      "index": "332:51491365:d=2026100406:APCP:surface:39-42 hour acc fcst:"
+      "sha256": "28074856cef8b8fa9c1f8fbe3d4ffd6227cb3af800fd9c9c6d404df46973a3d5",
+      "index": "403:63396322:d=2026100412:APCP:surface:39-42 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys45.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys45.tm00.grib2",
       "byteRange": [
-        51466137,
-        51541385
+        63256763,
+        63343736
       ],
-      "sha256": "c657d62a706f71cc9c8221020c567d7de19ded4c92b17f3e283accd0ca6c81fb",
-      "index": "332:51466137:d=2026100406:APCP:surface:42-45 hour acc fcst:"
+      "sha256": "a36e9631e3646c4ddc4eb379a8a723016ab5a2ac0c7900c6e9195032e1a5038a",
+      "index": "403:63256763:d=2026100412:APCP:surface:42-45 hour acc fcst:"
     },
     {
-      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t06z.awphys48.tm00.grib2",
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys48.tm00.grib2",
       "byteRange": [
-        51288666,
-        51365152
+        63490392,
+        63578287
       ],
-      "sha256": "6da76410638d9d1318d8120c087f2acc5dd79448654596c8a343490e1c9738e0",
-      "index": "332:51288666:d=2026100406:APCP:surface:45-48 hour acc fcst:"
+      "sha256": "9558954b12d7cbbb355100b1e680cfa25904142cb32cc3feb8f106a327477376",
+      "index": "403:63490392:d=2026100412:APCP:surface:45-48 hour acc fcst:"
+    },
+    {
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys51.tm00.grib2",
+      "byteRange": [
+        50302374,
+        50379229
+      ],
+      "sha256": "0d3b569eb475d59760b2dff74becf695c1a2b59d229c2d5de01d78928ef21475",
+      "index": "332:50302374:d=2026100412:APCP:surface:48-51 hour acc fcst:"
+    },
+    {
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys54.tm00.grib2",
+      "byteRange": [
+        62573943,
+        62653355
+      ],
+      "sha256": "5f72a49498d89b83b73799fb257e0bf91c1c0926fbf3ff3504613ddbcd2d230f",
+      "index": "403:62573943:d=2026100412:APCP:surface:51-54 hour acc fcst:"
+    },
+    {
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys57.tm00.grib2",
+      "byteRange": [
+        63026637,
+        63103898
+      ],
+      "sha256": "6c27055fe7d37f853e8b4a87cc98f5a76d6681119bf45e423bba98a8a87b3807",
+      "index": "403:63026637:d=2026100412:APCP:surface:54-57 hour acc fcst:"
+    },
+    {
+      "url": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.20261004/nam.t12z.awphys60.tm00.grib2",
+      "byteRange": [
+        62618196,
+        62696118
+      ],
+      "sha256": "4623ab52f81743cd1582b45f1b5462dfc5363ef8adaaecc58b1069aa3dbe6f30",
+      "index": "403:62618196:d=2026100412:APCP:surface:57-60 hour acc fcst:"
     }
   ],
-  "candidateFile": "FOUS61_20261004_06Z_NAM_candidate.csv",
-  "comparisonFile": "FOUS61_20261004_06Z_NAM_comparison.csv",
-  "provenanceFile": "FOUS61_20261004_06Z_NAM_provenance.csv",
+  "candidateFile": "FOUS61_20261004_12Z_NAM_candidate.csv",
+  "comparisonFile": "FOUS61_20261004_12Z_NAM_comparison.csv",
+  "provenanceFile": "FOUS61_20261004_12Z_NAM_provenance.csv",
   "additionalFieldSummaries": {
     "R1": {
-      "samples": 48,
-      "exact": 7,
-      "largestAbsoluteDifference": 23
+      "samples": 60,
+      "exact": 4,
+      "largestAbsoluteDifference": 22
     },
     "R2": {
-      "samples": 48,
-      "exact": 2,
-      "largestAbsoluteDifference": 35
+      "samples": 60,
+      "exact": 1,
+      "largestAbsoluteDifference": 45
     },
     "R3": {
-      "samples": 48,
-      "exact": 4,
-      "largestAbsoluteDifference": 72
+      "samples": 60,
+      "exact": 3,
+      "largestAbsoluteDifference": 82
     },
     "LI": {
-      "samples": 48,
-      "exact": 32,
+      "samples": 60,
+      "exact": 41,
       "largestAbsoluteDifference": 1
     },
     "VVV": {
-      "samples": 48,
-      "within10Codes": 44,
+      "samples": 60,
+      "within10Codes": 57,
       "exact": 6,
-      "largestAbsoluteDifference": 15,
+      "largestAbsoluteDifference": 25,
       "acceptedToleranceCodes": 10
     },
     "PS": {
-      "samples": 48,
-      "exact": 47,
+      "samples": 60,
+      "exact": 57,
       "largestAbsoluteDifference": 1
     },
     "HH": {
-      "samples": 48,
-      "exact": 43,
+      "samples": 60,
+      "exact": 54,
       "largestAbsoluteDifference": 1
     },
     "DD": {
-      "samples": 48,
-      "within20deg": 48,
-      "exact": 16,
+      "samples": 60,
+      "within20deg": 60,
+      "exact": 9,
       "largestCircularDifferenceDeg": 20
     },
     "FF": {
-      "samples": 48,
+      "samples": 60,
       "exact": 21,
-      "largestAbsoluteDifference": 2
+      "largestAbsoluteDifference": 4
     },
     "T1": {
-      "samples": 48,
-      "within1C": 48,
-      "exact": 37,
+      "samples": 60,
+      "within1C": 60,
+      "exact": 45,
       "largestDifferenceC": 1
     },
     "T3": {
-      "samples": 48,
-      "within1C": 48,
-      "exact": 38,
+      "samples": 60,
+      "within1C": 60,
+      "exact": 42,
       "largestDifferenceC": 1
     },
     "T5": {
-      "samples": 48,
-      "within1C": 46,
-      "exact": 33,
+      "samples": 60,
+      "within1C": 59,
+      "exact": 36,
       "largestDifferenceC": 2
     },
     "PTT": {
-      "compared": 48,
-      "dry": 34,
-      "wet": 14,
-      "within010in": 14,
-      "largestWetDifferenceHundredthsIn": 6,
+      "compared": 60,
+      "dry": 50,
+      "wet": 10,
+      "within010in": 10,
+      "largestWetDifferenceHundredthsIn": 2,
       "largestWetPeriod": {
-        "station": "BOS",
-        "forecastHour": 18,
-        "NAM": 19,
-        "officialFOUS": 13,
-        "difference": 6
+        "station": "BTV",
+        "forecastHour": 24,
+        "NAM": 5,
+        "officialFOUS": 7,
+        "difference": -2
       },
       "wetPeriodsThrough24h": [
         {
           "station": "IPT",
           "forecastHour": 6,
-          "NAM": 2,
-          "officialFOUS": 2,
-          "difference": 0
+          "NAM": 6,
+          "officialFOUS": 7,
+          "difference": -1
         },
         {
-          "station": "BOS",
-          "forecastHour": 12,
+          "station": "PHL",
+          "forecastHour": 6,
           "NAM": 1,
-          "officialFOUS": 0,
-          "difference": 1
+          "officialFOUS": 2,
+          "difference": -1
         },
         {
           "station": "IPT",
           "forecastHour": 12,
-          "NAM": 1,
-          "officialFOUS": 3,
+          "NAM": 2,
+          "officialFOUS": 4,
           "difference": -2
+        },
+        {
+          "station": "LGA",
+          "forecastHour": 12,
+          "NAM": 3,
+          "officialFOUS": 3,
+          "difference": 0
         },
         {
           "station": "PHL",
           "forecastHour": 12,
-          "NAM": 9,
-          "officialFOUS": 6,
-          "difference": 3
-        },
-        {
-          "station": "BOS",
-          "forecastHour": 18,
-          "NAM": 19,
-          "officialFOUS": 13,
-          "difference": 6
+          "NAM": 8,
+          "officialFOUS": 7,
+          "difference": 1
         },
         {
           "station": "IPT",
@@ -398,44 +434,30 @@
           "difference": -1
         },
         {
-          "station": "LGA",
-          "forecastHour": 18,
-          "NAM": 12,
-          "officialFOUS": 12,
-          "difference": 0
-        },
-        {
           "station": "PHL",
           "forecastHour": 18,
-          "NAM": 13,
-          "officialFOUS": 13,
-          "difference": 0
-        },
-        {
-          "station": "BOS",
-          "forecastHour": 24,
-          "NAM": 55,
-          "officialFOUS": 55,
-          "difference": 0
-        },
-        {
-          "station": "LGA",
-          "forecastHour": 24,
           "NAM": 2,
           "officialFOUS": 2,
           "difference": 0
         },
         {
+          "station": "BTV",
+          "forecastHour": 24,
+          "NAM": 5,
+          "officialFOUS": 7,
+          "difference": -2
+        },
+        {
           "station": "PHL",
           "forecastHour": 24,
-          "NAM": 6,
-          "officialFOUS": 5,
+          "NAM": 2,
+          "officialFOUS": 1,
           "difference": 1
         }
       ]
     }
   },
   "additionalFieldNote": "Experimental NAM-only proxies. RH uses single pressure levels, LI uses 4LFTX, VVV uses 700-mb pressure velocity, wind uses a pressure-weighted lowest-35-mb vector, PS uses sea-level pressure, and HH uses 500\u20131000-mb thickness. These methods are not confirmed FOUS recipes.",
-  "additionalFieldsUpdatedAt": "2026-10-04T13:54:23.506633+00:00",
+  "additionalFieldsUpdatedAt": "2026-10-04T15:40:45.224869+00:00",
   "additionalFieldsAvailable": true
 }
