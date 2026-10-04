@@ -1,4 +1,4 @@
-"""Skip a scheduled catch-up when both public products already cover its cycle."""
+"""Skip a scheduled catch-up only when the RRFS page already has its cycle."""
 from __future__ import annotations
 
 import json
@@ -8,7 +8,6 @@ from pathlib import Path
 from runtime import CYCLE, DATE, ROOT
 
 status_path = ROOT / "site" / "data" / "status.json"
-nam_path = ROOT / "site" / "data" / "nam_comparison.json"
 
 
 def read_json(path: Path) -> dict:
@@ -19,19 +18,12 @@ def read_json(path: Path) -> dict:
 
 
 expected_status_cycle = f"{DATE}T{CYCLE}:00:00Z"
-expected_nam_cycle = f"{DATE}_{CYCLE}Z"
 status = read_json(status_path)
-nam = read_json(nam_path)
-already_current = (
-    status.get("cycleUtc") == expected_status_cycle
-    and nam.get("cycle") == expected_nam_cycle
-    and nam.get("comparisonAvailable") is True
-    and nam.get("officialBulletinAvailable") is True
-)
+already_current = status.get("cycleUtc") == expected_status_cycle
 
 refresh = not already_current
-print(f"Cycle to check: {expected_nam_cycle}")
-print("Both products already match this cycle; skipping catch-up." if already_current
-      else "At least one product is behind or missing; refreshing.")
+print(f"RRFS cycle to check: {DATE}_{CYCLE}Z")
+print("RRFS page already has this cycle; skipping catch-up." if already_current
+      else "RRFS page is behind; refreshing independently of the NAM bulletin.")
 with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
     output.write(f"refresh={'true' if refresh else 'false'}\n")

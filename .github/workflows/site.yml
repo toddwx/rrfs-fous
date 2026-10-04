@@ -11,8 +11,8 @@ on:
     - cron: '45 9 * * *'
     - cron: '45 15 * * *'
     - cron: '45 21 * * *'
-    # Archive Albany's short-lived current bulletin throughout the day. This
-    # lightweight job preserves the control even when a forecast run is late.
+    # Preserve Albany's short-lived bulletin and retry any missed RRFS refresh
+    # throughout the day. The RRFS catch-up does not wait for Albany/NAM.
     - cron: '17,47 * * * *'
   workflow_dispatch:
     inputs:
@@ -111,7 +111,7 @@ jobs:
     if: >-
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'schedule' &&
-       contains(fromJSON('["15 3 * * *","15 9 * * *","15 15 * * *","15 21 * * *","45 3 * * *","45 9 * * *","45 15 * * *","45 21 * * *"]'), github.event.schedule) &&
+       contains(fromJSON('["15 3 * * *","15 9 * * *","15 15 * * *","15 21 * * *","45 3 * * *","45 9 * * *","45 15 * * *","45 21 * * *","17,47 * * * *"]'), github.event.schedule) &&
        needs.check.outputs.refresh == 'true')
     runs-on: ubuntu-latest
     environment:
@@ -135,7 +135,7 @@ jobs:
         if: github.event_name != 'push' && inputs.comparison_only != true
         run: python ops/refresh_rrfs.py
         # RRFS files can lag the clock, especially around a new cycle. Keep
-        # the last good bulletin and still publish the independent NAM check.
+        # the last good bulletin and let the next half-hour catch-up retry.
         continue-on-error: true
 
       - name: Capture the saved official FOUS bulletin for comparison recovery

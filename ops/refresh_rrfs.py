@@ -23,7 +23,12 @@ def main() -> None:
     # cycles 00Z/06Z/12Z/18Z on the same UTC date.
     os.environ["FOUS_DATE"] = DATE
     os.environ["FOUS_CYCLE"] = CYCLE
-    run("capture_official.py")  # Optional matching NAM control; never fills RRFS data.
+    official_capture_error = None
+    try:
+        run("capture_official.py")  # Optional control; it never supplies RRFS values.
+    except subprocess.CalledProcessError as exc:
+        official_capture_error = f"Albany NAM control capture failed with exit code {exc.returncode}."
+        print(f"WARNING: {official_capture_error} Continuing with RRFS-only inputs.", file=sys.stderr, flush=True)
     run("fetch_rrfs.py")
     run("fill_apcp.py")
     run("build_rhli.py")
@@ -32,7 +37,10 @@ def main() -> None:
     run("render.py")
 
     official_meta = ROOT / "work" / "data" / "official" / f"FOUS61_{DATE}_{CYCLE}Z_source.json"
-    official = json.loads(official_meta.read_text()) if official_meta.exists() else {"available": False}
+    official = json.loads(official_meta.read_text()) if official_meta.exists() else {
+        "available": False,
+        "reason": official_capture_error or "No matching Albany NAM bulletin was captured.",
+    }
     case = ROOT / "work" / "data" / "model" / "cases" / f"{DATE}_{CYCLE}Z_rrfs_parallel"
     manifest = case / "selected_message_manifest.tsv"
     vvv_manifest = case / "rrfs_vvv_message_manifest.tsv"

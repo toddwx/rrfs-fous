@@ -20,10 +20,26 @@ if os.environ.get("GITHUB_EVENT_PATH"):
             _SCHEDULE_EVENT = json.load(event_file)
     except (OSError, json.JSONDecodeError):
         _SCHEDULE_EVENT = {}
-_SCHEDULE_HOUR, _SCHEDULE_CYCLE = _SCHEDULE_CYCLES.get(_SCHEDULE_EVENT.get("schedule"), (None, None))
+_SCHEDULE = _SCHEDULE_EVENT.get("schedule")
+_SCHEDULE_HOUR, _SCHEDULE_CYCLE = _SCHEDULE_CYCLES.get(_SCHEDULE, (None, None))
 _DATE_FOR_CYCLE = _NOW.date()
 if _SCHEDULE_HOUR is not None and _NOW.hour < _SCHEDULE_HOUR:
     _DATE_FOR_CYCLE -= timedelta(days=1)
+elif _SCHEDULE == "17,47 * * * *":
+    # These frequent runs also act as forecast catch-ups if GitHub drops a
+    # main scheduled event. Map each half-hour check to the most recent
+    # long-range cycle whose normal refresh window has begun.
+    if _NOW.hour >= 21:
+        _SCHEDULE_CYCLE = "18"
+    elif _NOW.hour >= 15:
+        _SCHEDULE_CYCLE = "12"
+    elif _NOW.hour >= 9:
+        _SCHEDULE_CYCLE = "06"
+    elif _NOW.hour >= 3:
+        _SCHEDULE_CYCLE = "00"
+    else:
+        _SCHEDULE_CYCLE = "18"
+        _DATE_FOR_CYCLE -= timedelta(days=1)
 DATE = os.environ.get("FOUS_DATE") or _DATE_FOR_CYCLE.strftime("%Y%m%d")
 CYCLE = (os.environ.get("FOUS_CYCLE") or _SCHEDULE_CYCLE or f"{(_NOW.hour // 6) * 6:02d}").zfill(2)
 CASE = DATA / "model" / "cases" / f"{DATE}_{CYCLE}Z_rrfs_parallel"
