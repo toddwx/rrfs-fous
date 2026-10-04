@@ -2,7 +2,7 @@
   "available": true,
   "comparisonAvailable": true,
   "cycle": "20261004_12Z",
-  "updatedAt": "2026-10-04T15:38:36.232986+00:00",
+  "updatedAt": "2026-10-04T18:09:28.279579+00:00",
   "officialBulletinAvailable": true,
   "summaries": {
     "T1": {
@@ -458,6 +458,6 @@
     }
   },
   "additionalFieldNote": "Experimental NAM-only proxies. RH uses single pressure levels, LI uses 4LFTX, VVV uses 700-mb pressure velocity, wind uses a pressure-weighted lowest-35-mb vector, PS uses sea-level pressure, and HH uses 500\u20131000-mb thickness. These methods are not confirmed FOUS recipes.",
-  "additionalFieldsUpdatedAt": "2026-10-04T15:40:45.224869+00:00",
+  "additionalFieldsUpdatedAt": "2026-10-04T18:11:27.018904+00:00",
   "additionalFieldsAvailable": true
 }
