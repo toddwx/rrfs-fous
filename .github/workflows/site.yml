@@ -92,6 +92,7 @@ jobs:
             done
             echo "Could not publish the bulletin archive after three attempts."
             exit 1
+            fi
 
   check:
     runs-on: ubuntu-latest
