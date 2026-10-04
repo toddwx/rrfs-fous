@@ -11,6 +11,9 @@ on:
     - cron: '45 9 * * *'
     - cron: '45 15 * * *'
     - cron: '45 21 * * *'
+    # Archive Albany's short-lived current bulletin throughout the day. This
+    # lightweight job preserves the control even when a forecast run is late.
+    - cron: '17,47 * * * *'
   workflow_dispatch:
     inputs:
       forecast_date:
@@ -23,6 +26,11 @@ on:
         type: choice
         options: [auto, '00', '06', '12', '18']
         default: auto
+      comparison_only:
+        description: 'Recover a past NAM comparison without changing the displayed RRFS forecast'
+        required: false
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -43,7 +51,48 @@ concurrency:
   group: fous-pages
   cancel-in-progress: false
 
+  # The archive writer is separate from the long RRFS processing run.
+  # (Its own concurrency group is set at the job level below.)
+
 jobs:
+  archive_official:
+    if: github.event_name == 'schedule' && (github.event.schedule == '17,47 * * * *')
+    runs-on: ubuntu-latest
+    concurrency:
+      group: fous-nam-archive
+      cancel-in-progress: false
+    steps:
+      - name: Check out the forecast website
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Save the latest Albany FOUS61 bulletin
+        run: python ops/archive_official.py
+      - name: Keep the bulletin archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/nam_archive
+          if git diff --cached --quiet; then
+            echo "No new official bulletin to archive."
+          else
+            git commit -m "Archive latest official NAM FOUS61 bulletin"
+            for attempt in 1 2 3; do
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort || true
+                echo "Could not safely rebase the bulletin archive onto main."
+                exit 1
+              fi
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Archive push raced with another update; retrying ($attempt/3)."
+              sleep 2
+            done
+            echo "Could not publish the bulletin archive after three attempts."
+            exit 1
+
   check:
     runs-on: ubuntu-latest
     outputs:
@@ -59,7 +108,11 @@ jobs:
     # A code-only push must never publish the old forecast snapshot from the repo.
     # Scheduled and manual data runs refresh it before deploying.
     needs: check
-    if: github.event_name != 'push' && needs.check.outputs.refresh == 'true'
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'schedule' &&
+       contains(fromJSON('["15 3 * * *","15 9 * * *","15 15 * * *","15 21 * * *","45 3 * * *","45 9 * * *","45 15 * * *","45 21 * * *"]'), github.event.schedule) &&
+       needs.check.outputs.refresh == 'true')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -79,7 +132,7 @@ jobs:
         run: python -m pip install -r ops/requirements.txt
 
       - name: Fetch the latest long-range RRFS cycle and rebuild the bulletin
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' && inputs.comparison_only != true
         run: python ops/refresh_rrfs.py
         # RRFS files can lag the clock, especially around a new cycle. Keep
         # the last good bulletin and still publish the independent NAM check.

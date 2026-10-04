@@ -1,0 +1,9 @@
+{
+  "available": true,
+  "cycle": "20261003_18Z",
+  "sourceUrl": "https://www.atmos.albany.edu/gopher-local/albany/FOUS61",
+  "cycleHeader": "FOUS61 KWNO 031800",
+  "firstCapturedAt": "2026-10-04T02:49:18.109326+00:00",
+  "captureMethod": "Visible bulletin text captured from Albany live feed in the browser after the delayed workflow missed it.",
+  "sha256": "cee6af5d88f693a5df56992e29cf859cb1b6df4d6cc5b498ab838cd886fb1a76"
+}

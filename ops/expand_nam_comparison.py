@@ -91,6 +91,9 @@ def wind_layer(values, component, sp):
     return sum((p0-p1)*(v0+v1)/2 for (p0,v0),(p1,v1) in zip(points,points[1:]))/35
 
 def main():
+    if not OFFICIAL.exists():
+        print(f"No matching official FOUS bulletin is available for {DATE} {CYCLE}Z; preserving any prior comparison.")
+        return
     # NAM's U/V components can share a single multi-field GRIB message.
     codes_grib_multi_support_on()
     OUT.mkdir(parents=True,exist_ok=True); CASE.mkdir(parents=True,exist_ok=True)
