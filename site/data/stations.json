@@ -35,6 +35,18 @@
       "name": "Williamsport",
       "latitude": 41.24295,
       "longitude": -76.92173
+    },
+    {
+      "code": "CON",
+      "name": "Concord, NH",
+      "latitude": 43.2027,
+      "longitude": -71.5023
+    },
+    {
+      "code": "BUF",
+      "name": "Buffalo",
+      "latitude": 42.9405,
+      "longitude": -78.7322
     }
   ]
 }

@@ -1,6 +1,6 @@
 # FOUS-style Forecast
 
-A small, phone-friendly page that presents a recurring RRFS-based forecast in the familiar FOUS layout. GitHub's hosted workflow checks at 03:15, 09:15, 15:15, and 21:15 UTC, retrieves the corresponding RRFS run, and publishes the refreshed text. It also checks the same NAM cycle against the matching official FOUS bulletin when both are available, starting with the T1/T3/T5 layer temperatures and six-hour precipitation. The current six-city list is ALB, BTV, BOS, LGA, PHL, and IPT; add later station codes and coordinates in `site/data/stations.json`.
+A small, phone-friendly page that presents a recurring RRFS-based forecast in the familiar FOUS layout. GitHub's hosted workflow checks at 03:15, 09:15, 15:15, and 21:15 UTC, retrieves the corresponding RRFS run, and publishes the refreshed text. It also checks the same NAM cycle against the matching official FOUS bulletin when both are available, starting with the T1/T3/T5 layer temperatures and six-hour precipitation. The current eight-city display is ALB, BTV, BOS, LGA, PHL, IPT, CON, and BUF. NAM comparisons remain limited to the six FOUS61 stations; CON and BUF are sampled independently from RRFS and are not presented as FOUS61 observations.
 
 T1, T3, and T5 are estimated pressure-weighted temperature averages over the familiar FOUS layers, using RRFS standard pressure levels and a 2 m surface-temperature anchor. These are practical layer estimates, not exact averages from the model's native layers.
 

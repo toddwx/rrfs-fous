@@ -19,7 +19,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-from runtime import CYCLE, DATA, DATE, OFFICIAL, ROOT, STATIONS
+from runtime import CYCLE, DATA, DATE, OFFICIAL, ROOT, FOUS61_STATIONS
 
 BASE = f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.{DATE}"
 BUFR_STATION_IDS = {
@@ -104,7 +104,7 @@ def fetch_bufr_profiles() -> tuple[dict[tuple[str, int], list[tuple[float, float
     profiles: dict[tuple[str, int], list[tuple[float, float]]] = defaultdict(list)
     missing: list[str] = []
     sources: list[dict] = []
-    for station in STATIONS:
+    for station in FOUS61_STATIONS:
         station_id = BUFR_STATION_IDS.get(station)
         if not station_id:
             missing.append(f"{station}: no NAM BUFR station number configured")
@@ -209,7 +209,7 @@ def fetch_ptt(leads: list[int]) -> tuple[dict[tuple[str, int], int], list[str], 
                 lons = codes_get_array(handle, "longitudes")
                 values = codes_get_values(handle)
                 unit = str(codes_get(handle, "units"))
-                for station, (lat, lon) in STATIONS.items():
+                for station, (lat, lon) in FOUS61_STATIONS.items():
                     point = nearest_index(lats, lons, lat, lon)
                     value = float(values[point])
                     if not math.isfinite(value) or abs(value) > 1e20:

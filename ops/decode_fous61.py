@@ -3,9 +3,9 @@
 import argparse
 import csv
 import re
-from runtime import STATIONS
+from runtime import FOUS61_STATIONS
 
-TARGETS = set(STATIONS)
+TARGETS = set(FOUS61_STATIONS)
 
 def main():
     parser = argparse.ArgumentParser()

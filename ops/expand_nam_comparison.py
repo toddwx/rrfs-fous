@@ -14,7 +14,7 @@ from pathlib import Path
 from eccodes import (codes_get, codes_get_array, codes_get_values,
                     codes_grib_new_from_file, codes_grib_multi_support_on,
                     codes_release)
-from runtime import CYCLE, DATA, DATE, OFFICIAL, ROOT, STATIONS
+from runtime import CYCLE, DATA, DATE, OFFICIAL, ROOT, FOUS61_STATIONS
 
 BASE = f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/nam/prod/nam.{DATE}"
 CASE = DATA / "model" / "cases" / f"{DATE}_{CYCLE}Z_nam"
@@ -155,7 +155,7 @@ def main():
                                 if "4LFTX:" in desc and level_type!="pressureFromGroundLayer":continue
                                 if key.startswith("U") and short!=("10u" if key=="U10" else "u"):continue
                                 if key in {"V10","V1000","V975","V950","V925"} and short!=("10v" if key=="V10" else "v"):continue
-                                for station,(lat,lon) in STATIONS.items():
+                                for station,(lat,lon) in FOUS61_STATIONS.items():
                                     point=nearest(lats,lons,lat,lon); val=float(data[point])
                                     if math.isfinite(val) and abs(val)<1e20:
                                         vals[(station,lead)][key]=val

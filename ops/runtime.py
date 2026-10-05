@@ -50,6 +50,8 @@ RRFS_BASE = f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.{DAT
 with (ROOT / "site" / "data" / "stations.json").open(encoding="utf-8") as source:
     STATION_ROWS = json.load(source)["stations"]
 STATIONS = {row["code"]: (float(row["latitude"]), float(row["longitude"])) for row in STATION_ROWS}
+FOUS61_CODES = ("ALB", "BTV", "BOS", "LGA", "PHL", "IPT")
+FOUS61_STATIONS = {code: STATIONS[code] for code in FOUS61_CODES if code in STATIONS}
 LEADS = tuple(range(0, 85, 6))
 VVV_LEADS = tuple(range(0, 61, 6))
 
