@@ -1,7 +1,7 @@
 {
   "provider": "NOAA/NCEP RRFS parallel data",
-  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261005/12/",
-  "cycleUtc": "20261005T12:00:00Z",
+  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261005/18/",
+  "cycleUtc": "20261005T18:00:00Z",
   "forecastLeadsHours": [
     0,
     6,
@@ -20,7 +20,7 @@
     84
   ],
   "selectedMessageCount": 419,
-  "selectedManifestSha256": "c7408d6b239cbac9c6cd4a2f1da301e97fbe7322cda7b378a61a0d88308db1ca",
+  "selectedManifestSha256": "5025e2a44bc7bfeb2710ad5cd6be751b594c4575555b8c7d94387d4ed5fc9614",
   "stationCount": 8,
   "stationValueCount": 3352,
   "temperatureLayerLevelsMb": [
@@ -32,19 +32,17 @@
     875
   ],
   "temperatureLayerMessageCount": 90,
-  "candidateCsv": "work/data/comparisons/FOUS61_20261005_12Z_RRFS_parallel_candidate.csv",
-  "comparisonCsv": "work/data/comparisons/FOUS61_20261005_12Z_RRFS_parallel_comparison.csv",
-  "provenanceCsv": "work/data/comparisons/FOUS61_20261005_12Z_RRFS_parallel_provenance.csv",
+  "candidateCsv": "work/data/comparisons/FOUS61_20261005_18Z_RRFS_parallel_candidate.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261005_18Z_RRFS_parallel_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261005_18Z_RRFS_parallel_provenance.csv",
   "vvvMessageCount": 53,
-  "vvvManifestSha256": "c125cfc2f388a19c4352dd47f94d902d51ad67943622158f753800a56779407e",
+  "vvvManifestSha256": "0f6515f17d277bc79f4faa0027ff02cc4c13132c4f6ec837ecfb34d7a8fe5a59",
   "matchingAlbanyControl": {
     "available": true,
-    "cycle": "20261005_12Z",
     "sourceUrl": "https://www.atmos.albany.edu/gopher-local/albany/FOUS61",
-    "cycleHeader": "FOUS61 KWNO 0512",
-    "lastModified": "Mon, 05 Oct 2026 14:31:55 GMT",
-    "firstCapturedAt": "2026-10-05T14:34:54.271193+00:00",
-    "sha256": "6d4e347ceed2b7a80668d9ded69b3cc378f5700069cadb8e5b99c34014629bc7",
-    "captureMethod": "Previously archived Albany bulletin"
+    "cycleHeader": "FOUS61 KWNO 0518",
+    "lastModified": "Mon, 05 Oct 2026 20:22:49 GMT",
+    "retrievedAt": "2026-10-05T21:32:22.126344+00:00",
+    "sha256": "c1d048402c5c66e2775c4dadb9d284790c23b57687d09a7f879fd65ed19e1f01"
   }
 }
