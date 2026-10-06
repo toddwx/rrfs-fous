@@ -278,7 +278,9 @@
     "FF": {
       "samples": 48,
       "exact": 17,
-      "largestAbsoluteDifference": 2
+      "within4Knots": 48,
+      "largestAbsoluteDifferenceKnots": 2,
+      "acceptedToleranceKnots": 4
     },
     "T1": {
       "samples": 48,
@@ -314,7 +316,7 @@
       "wetPeriodsThrough24h": []
     }
   },
-  "additionalFieldNote": "Experimental NAM-only proxies. RH uses single pressure levels, LI uses 4LFTX, VVV uses 700-mb pressure velocity, wind uses a pressure-weighted lowest-35-mb vector, PS uses sea-level pressure, and HH uses 500\u20131000-mb thickness. These methods are not confirmed FOUS recipes.",
+  "additionalFieldNote": "Experimental NAM-only proxies. RH uses single pressure levels, LI uses 4LFTX, VVV uses 700-mb pressure velocity, wind uses a pressure-weighted lowest-35-mb vector, PS uses sea-level pressure, and HH uses 500\u20131000-mb thickness. These methods are not confirmed FOUS recipes. FF wind speed is considered acceptable within 4 knots.",
   "additionalFieldsUpdatedAt": "2026-10-06T09:38:02.710559+00:00",
   "additionalFieldsAvailable": true
 }

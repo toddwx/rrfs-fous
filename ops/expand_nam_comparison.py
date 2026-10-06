@@ -245,6 +245,7 @@ def main():
         elif field in ("T1","T3","T5"): summaries[field]={"samples":len(rows),"within1C":sum(abs(d)<=1 for d in diffs),"exact":sum(d==0 for d in diffs),"largestDifferenceC":max(map(abs,diffs),default=None)}
         elif field=="DD": summaries[field]={"samples":len(rows),"within20deg":sum(abs(d)<=2 for d in diffs),"exact":sum(d==0 for d in diffs),"largestCircularDifferenceDeg":max((abs(d)*10 for d in diffs),default=None)}
         elif field=="VVV": summaries[field]={"samples":len(rows),"within10Codes":sum(abs(d)<=10 for d in diffs),"exact":sum(d==0 for d in diffs),"largestAbsoluteDifference":max(map(abs,diffs),default=None),"acceptedToleranceCodes":10}
+        elif field=="FF": summaries[field]={"samples":len(rows),"within4Knots":sum(abs(d)<=4 for d in diffs),"exact":sum(d==0 for d in diffs),"largestAbsoluteDifferenceKnots":max(map(abs,diffs),default=None),"acceptedToleranceKnots":4}
         else: summaries[field]={"samples":len(rows),"exact":sum(d==0 for d in diffs),"largestAbsoluteDifference":max(map(abs,diffs),default=None)}
     report={"cycle":cycle,"createdAt":datetime.now(timezone.utc).isoformat(),"summaries":summaries,"missingOrUnavailable":missing,
       "candidateFile":cand_path.name,"comparisonFile":comp_path.name,"provenanceFile":prov_path.name,
@@ -258,7 +259,7 @@ def main():
             visible=json.loads(site_result.read_text(encoding="utf-8"))
             if visible.get("cycle")==cycle:
                 visible["additionalFieldSummaries"]=summaries
-                visible["additionalFieldNote"]="Experimental NAM-only proxies. RH uses single pressure levels, LI uses 4LFTX, VVV uses 700-mb pressure velocity, wind uses a pressure-weighted lowest-35-mb vector, PS uses sea-level pressure, and HH uses 500–1000-mb thickness. These methods are not confirmed FOUS recipes."
+                visible["additionalFieldNote"]="Experimental NAM-only proxies. RH uses single pressure levels, LI uses 4LFTX, VVV uses 700-mb pressure velocity, wind uses a pressure-weighted lowest-35-mb vector, PS uses sea-level pressure, and HH uses 500–1000-mb thickness. These methods are not confirmed FOUS recipes. FF wind speed is considered acceptable within 4 knots."
                 visible["additionalFieldsUpdatedAt"]=report["createdAt"]
                 visible["additionalFieldsAvailable"]=True
                 site_result.write_text(json.dumps(visible,indent=2)+"\n",encoding="utf-8")
