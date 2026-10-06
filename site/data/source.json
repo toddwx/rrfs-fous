@@ -1,7 +1,7 @@
 {
   "provider": "NOAA/NCEP RRFS parallel data",
-  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261005/18/",
-  "cycleUtc": "20261005T18:00:00Z",
+  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261006/00/",
+  "cycleUtc": "20261006T00:00:00Z",
   "forecastLeadsHours": [
     0,
     6,
@@ -20,7 +20,7 @@
     84
   ],
   "selectedMessageCount": 419,
-  "selectedManifestSha256": "5025e2a44bc7bfeb2710ad5cd6be751b594c4575555b8c7d94387d4ed5fc9614",
+  "selectedManifestSha256": "4d842dc25c2c08d956fd3176aabf89dc3c909e916ae37bedf41e03e726e7b806",
   "stationCount": 8,
   "stationValueCount": 3352,
   "temperatureLayerLevelsMb": [
@@ -32,17 +32,19 @@
     875
   ],
   "temperatureLayerMessageCount": 90,
-  "candidateCsv": "work/data/comparisons/FOUS61_20261005_18Z_RRFS_parallel_candidate.csv",
-  "comparisonCsv": "work/data/comparisons/FOUS61_20261005_18Z_RRFS_parallel_comparison.csv",
-  "provenanceCsv": "work/data/comparisons/FOUS61_20261005_18Z_RRFS_parallel_provenance.csv",
+  "candidateCsv": "work/data/comparisons/FOUS61_20261006_00Z_RRFS_parallel_candidate.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261006_00Z_RRFS_parallel_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261006_00Z_RRFS_parallel_provenance.csv",
   "vvvMessageCount": 53,
-  "vvvManifestSha256": "0f6515f17d277bc79f4faa0027ff02cc4c13132c4f6ec837ecfb34d7a8fe5a59",
+  "vvvManifestSha256": "f20655e467ff0812663e0bfb6802ebc005f2f47a92736b1754a85641e83b624a",
   "matchingAlbanyControl": {
     "available": true,
+    "cycle": "20261006_00Z",
     "sourceUrl": "https://www.atmos.albany.edu/gopher-local/albany/FOUS61",
-    "cycleHeader": "FOUS61 KWNO 0518",
-    "lastModified": "Mon, 05 Oct 2026 20:22:49 GMT",
-    "retrievedAt": "2026-10-05T21:32:22.126344+00:00",
-    "sha256": "c1d048402c5c66e2775c4dadb9d284790c23b57687d09a7f879fd65ed19e1f01"
+    "cycleHeader": "FOUS61 KWNO 0600",
+    "lastModified": "Tue, 06 Oct 2026 02:31:57 GMT",
+    "firstCapturedAt": "2026-10-06T02:55:46.192327+00:00",
+    "sha256": "3793d8e2e9ae3ec4b9012494dfb43768cbfe50df05a9540fe08e6da9cc320923",
+    "captureMethod": "Previously archived Albany bulletin"
   }
 }
