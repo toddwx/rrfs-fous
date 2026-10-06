@@ -4,6 +4,7 @@ const updatedTime = document.querySelector("#updated-time");
 const fieldNote = document.querySelector("#field-note");
 const copyButton = document.querySelector("#copy-button");
 const namSummary = document.querySelector("#nam-summary");
+const namHistorySummary = document.querySelector("#nam-history-summary");
 
 async function loadNAMComparison() {
   try {
@@ -50,15 +51,50 @@ async function loadNAMComparison() {
       if (!score?.samples) continue;
       if (field === "DD") extra.push(`DD within 20° ${score.within20deg}/${score.samples}`);
       else if (field === "FF" && Number.isInteger(score.within4Knots)) extra.push(`FF within 4 knots ${score.within4Knots}/${score.samples}`);
+      else if (["R1", "R2", "R3"].includes(field) && Number.isInteger(score.within10PercentagePoints)) extra.push(`${field} RH proxy within 10 points ${score.within10PercentagePoints}/${score.samples}`);
       else if (field === "VVV" && Number.isInteger(score.within10Codes)) extra.push(`VVV within 10 codes ${score.within10Codes}/${score.samples}`);
       else extra.push(`${field} exact ${score.exact}/${score.samples}`);
     }
     const expanded = extra.length
-      ? `Other fields (rough comparisons): ${extra.join(" · ")}. FF is acceptable within 4 knots; humidity is still a rough estimate; VVV is approximate, with up to 10 codes acceptable.`
+      ? `Other fields (rough comparisons): ${extra.join(" · ")}. FF is acceptable within 4 knots. R1/R2/R3 RH values are single-level estimates (2 m/700 mb/500 mb); the 10-point score does not mean they match the FOUS layer depth. VVV is approximate, with up to 10 codes acceptable.`
       : "Other field comparisons are being collected.";
     namSummary.textContent = [`${report.cycle}`, temps || "Temperature comparison unavailable", rain, expanded].join(" · ");
   } catch (error) {
     namSummary.textContent = error.message;
+  }
+}
+
+async function loadNAMHistory() {
+  try {
+    const response = await fetch("data/nam_history.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("Saved NAM comparison history is not available yet.");
+    const history = await response.json();
+    const summary = history.summary || {};
+    if (!summary.cyclesIncluded) {
+      namHistorySummary.textContent = "Waiting for the first matching NAM and official FOUS comparison to save.";
+      return;
+    }
+    const dateRange = summary.firstDateUtc && summary.lastDateUtc
+      ? `${summary.firstDateUtc} through ${summary.lastDateUtc} UTC`
+      : "date range unavailable";
+    const progress = summary.sevenDayWindowCaptured
+      ? `A full seven-day comparison record is saved (${summary.cyclesIncluded} matching cycles, ${dateRange}). It will remain as a historical reference when official NAM FOUS ends.`
+      : `Collecting the historical record: ${summary.daysRepresented} of 7 dates captured so far (${summary.cyclesIncluded} matching cycles, ${dateRange}).`;
+    const fields = summary.fieldSummaries || {};
+    const metrics = [];
+    for (const field of ["T1", "T3", "T5", "R1", "R2", "R3", "DD", "FF", "VVV"]) {
+      const score = fields[field];
+      if (score?.samples) metrics.push(`${field} ${score.label}: ${score.within}/${score.samples}`);
+    }
+    const ptt = fields.PTT;
+    if (ptt) {
+      metrics.push(ptt.samples
+        ? `PTT wet periods within 0.10 in: ${ptt.within}/${ptt.samples} (${ptt.dryPeriods} dry periods also counted)`
+        : `PTT: no wet periods in ${ptt.periodsCompared} matched periods yet; not enough rain to judge`);
+    }
+    namHistorySummary.textContent = [progress, metrics.join(" · "), history.humidityNote].filter(Boolean).join(" ");
+  } catch (error) {
+    namHistorySummary.textContent = error.message;
   }
 }
 
@@ -97,3 +133,4 @@ copyButton.addEventListener("click", async () => {
 
 loadForecast();
 loadNAMComparison();
+loadNAMHistory();

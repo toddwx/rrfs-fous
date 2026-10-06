@@ -153,12 +153,17 @@ jobs:
         run: python ops/expand_nam_comparison.py
         continue-on-error: true
 
+      - name: Save the rolling one-week NAM comparison history
+        if: always() && github.event_name != 'push'
+        run: python ops/update_nam_history.py
+        continue-on-error: true
+
       - name: Save the latest good forecast for the next run
         if: always() && github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/data/latest.txt site/data/source.json site/data/status.json site/data/stations.json site/data/nam_comparison.json
+          git add site/data/latest.txt site/data/source.json site/data/status.json site/data/stations.json site/data/nam_comparison.json site/data/nam_history.json
           if git diff --cached --quiet; then
             echo "No published data changed."
           else

@@ -1,0 +1,167 @@
+{
+  "updatedAt": "2026-10-06T10:37:17.593631+00:00",
+  "method": "Same-cycle NAM-only reconstruction compared separately with Albany official FOUS61; no official values are used to build candidates.",
+  "humidityNote": "R1 is represented by NAM 2 m RH, R2 by 700 mb RH, and R3 by 500 mb RH. These are single-level estimates compared with FOUS humidity codes and are not layer-for-layer matches.",
+  "acceptedTolerances": {
+    "T1_T3_T5": "within 1\u00b0C",
+    "PTT": "within 0.10 in for wet six-hour periods",
+    "R1_R2_R3": "within 10 percentage points; single-level estimates",
+    "DD": "within 20 degrees",
+    "FF": "within 4 knots",
+    "VVV": "within 10 codes"
+  },
+  "summary": {
+    "firstDateUtc": "2026-10-06",
+    "lastDateUtc": "2026-10-06",
+    "daysRepresented": 1,
+    "sevenDayWindowCaptured": false,
+    "cyclesIncluded": 1,
+    "fieldSummaries": {
+      "T1": {
+        "within": 48,
+        "samples": 48,
+        "label": "within 1\u00b0C"
+      },
+      "T3": {
+        "within": 48,
+        "samples": 48,
+        "label": "within 1\u00b0C"
+      },
+      "T5": {
+        "within": 48,
+        "samples": 48,
+        "label": "within 1\u00b0C"
+      },
+      "DD": {
+        "within": 48,
+        "samples": 48,
+        "label": "within 20\u00b0"
+      },
+      "FF": {
+        "within": 48,
+        "samples": 48,
+        "label": "within 4 knots"
+      },
+      "VVV": {
+        "within": 47,
+        "samples": 48,
+        "label": "within 10 codes"
+      },
+      "PS": {
+        "within": 46,
+        "samples": 48,
+        "label": "exact"
+      },
+      "HH": {
+        "within": 43,
+        "samples": 48,
+        "label": "exact"
+      },
+      "LI": {
+        "within": 34,
+        "samples": 48,
+        "label": "exact"
+      },
+      "PTT": {
+        "within": 2,
+        "samples": 2,
+        "label": "wet periods within 0.10 in",
+        "dryPeriods": 46,
+        "wetPeriods": 2,
+        "periodsCompared": 48
+      }
+    }
+  },
+  "cycles": [
+    {
+      "cycle": "20261006_06Z",
+      "date": "2026-10-06",
+      "updatedAt": "2026-10-06T09:36:11.969909+00:00",
+      "summaries": {
+        "T1": {
+          "samples": 48,
+          "within1C": 48,
+          "exact": 29,
+          "largestDifferenceC": 1
+        },
+        "T3": {
+          "samples": 48,
+          "within1C": 48,
+          "exact": 34,
+          "largestDifferenceC": 1
+        },
+        "T5": {
+          "samples": 48,
+          "within1C": 48,
+          "exact": 37,
+          "largestDifferenceC": 1
+        },
+        "PTT": {
+          "compared": 48,
+          "dry": 46,
+          "wet": 2,
+          "within010in": 2,
+          "largestWetDifferenceHundredthsIn": 1,
+          "largestWetPeriod": {
+            "station": "BTV",
+            "forecastHour": 42,
+            "NAM": 0,
+            "officialFOUS": 1,
+            "difference": -1
+          },
+          "wetPeriodsThrough24h": []
+        },
+        "R1": {
+          "samples": 48,
+          "exact": 3,
+          "largestAbsoluteDifference": 34
+        },
+        "R2": {
+          "samples": 48,
+          "exact": 0,
+          "largestAbsoluteDifference": 38
+        },
+        "R3": {
+          "samples": 48,
+          "exact": 2,
+          "largestAbsoluteDifference": 72
+        },
+        "LI": {
+          "samples": 48,
+          "exact": 34,
+          "largestAbsoluteDifference": 2
+        },
+        "VVV": {
+          "samples": 48,
+          "within10Codes": 47,
+          "exact": 11,
+          "largestAbsoluteDifference": 14,
+          "acceptedToleranceCodes": 10
+        },
+        "PS": {
+          "samples": 48,
+          "exact": 46,
+          "largestAbsoluteDifference": 1
+        },
+        "HH": {
+          "samples": 48,
+          "exact": 43,
+          "largestAbsoluteDifference": 1
+        },
+        "DD": {
+          "samples": 48,
+          "within20deg": 48,
+          "exact": 8,
+          "largestCircularDifferenceDeg": 20
+        },
+        "FF": {
+          "samples": 48,
+          "exact": 17,
+          "within4Knots": 48,
+          "largestAbsoluteDifferenceKnots": 2,
+          "acceptedToleranceKnots": 4
+        }
+      }
+    }
+  ]
+}
