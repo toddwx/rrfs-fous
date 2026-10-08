@@ -106,6 +106,9 @@ jobs:
         run: python ops/should_refresh.py
 
   publish:
+    concurrency:
+      group: fous-page-publisher
+      cancel-in-progress: false
     # A code-only push must never publish the old forecast snapshot from the repo.
     # Scheduled and manual data runs refresh it before deploying.
     needs: check
