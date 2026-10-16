@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T21:22:05.796071+00:00",
+  "updatedAt": "2026-10-16T03:17:31.934429+00:00",
   "method": "Same-cycle NAM-only reconstruction compared separately with Albany official FOUS61; no official values are used to build candidates.",
   "humidityNote": "R1 is represented by NAM 2 m RH, R2 by 700 mb RH, and R3 by 500 mb RH. These are single-level estimates compared with FOUS humidity codes and are not layer-for-layer matches.",
   "acceptedTolerances": {
@@ -11,513 +11,83 @@
     "VVV": "within 10 codes"
   },
   "summary": {
-    "firstDateUtc": "2026-10-09",
-    "lastDateUtc": "2026-10-15",
+    "firstDateUtc": "2026-10-10",
+    "lastDateUtc": "2026-10-16",
     "daysRepresented": 7,
     "sevenDayWindowCaptured": true,
-    "cyclesIncluded": 28,
+    "cyclesIncluded": 25,
     "fieldSummaries": {
       "T1": {
-        "within": 1509,
-        "samples": 1512,
+        "within": 1353,
+        "samples": 1356,
         "label": "within 1\u00b0C"
       },
       "T3": {
-        "within": 1498,
-        "samples": 1512,
+        "within": 1342,
+        "samples": 1356,
         "label": "within 1\u00b0C"
       },
       "T5": {
-        "within": 1508,
-        "samples": 1512,
+        "within": 1352,
+        "samples": 1356,
         "label": "within 1\u00b0C"
       },
       "R1": {
-        "within": 1357,
-        "samples": 1512,
+        "within": 1239,
+        "samples": 1356,
         "label": "within 10 percentage points"
       },
       "R2": {
-        "within": 782,
-        "samples": 1512,
+        "within": 698,
+        "samples": 1356,
         "label": "within 10 percentage points"
       },
       "R3": {
-        "within": 401,
-        "samples": 1512,
+        "within": 347,
+        "samples": 1356,
         "label": "within 10 percentage points"
       },
       "DD": {
-        "within": 1497,
-        "samples": 1512,
+        "within": 1341,
+        "samples": 1356,
         "label": "within 20\u00b0"
       },
       "FF": {
-        "within": 1511,
-        "samples": 1512,
+        "within": 1355,
+        "samples": 1356,
         "label": "within 4 knots"
       },
       "VVV": {
-        "within": 1279,
-        "samples": 1512,
+        "within": 1136,
+        "samples": 1356,
         "label": "within 10 codes"
       },
       "PS": {
-        "within": 1438,
-        "samples": 1512,
+        "within": 1292,
+        "samples": 1356,
         "label": "exact"
       },
       "HH": {
-        "within": 1381,
-        "samples": 1512,
+        "within": 1231,
+        "samples": 1356,
         "label": "exact"
       },
       "LI": {
-        "within": 1130,
-        "samples": 1512,
+        "within": 1012,
+        "samples": 1356,
         "label": "exact"
       },
       "PTT": {
-        "within": 504,
-        "samples": 540,
+        "within": 498,
+        "samples": 534,
         "label": "wet periods within 0.10 in",
-        "dryPeriods": 972,
-        "wetPeriods": 540,
-        "periodsCompared": 1512
+        "dryPeriods": 822,
+        "wetPeriods": 534,
+        "periodsCompared": 1356
       }
     }
   },
   "cycles": [
-    {
-      "cycle": "20261009_00Z",
-      "date": "2026-10-09",
-      "updatedAt": "2026-10-09T03:37:55.772096+00:00",
-      "summaries": {
-        "T1": {
-          "samples": 60,
-          "within1C": 60,
-          "exact": 40,
-          "largestDifferenceC": 1
-        },
-        "T3": {
-          "samples": 60,
-          "within1C": 60,
-          "exact": 43,
-          "largestDifferenceC": 1
-        },
-        "T5": {
-          "samples": 60,
-          "within1C": 60,
-          "exact": 41,
-          "largestDifferenceC": 1
-        },
-        "PTT": {
-          "compared": 60,
-          "dry": 57,
-          "wet": 3,
-          "within010in": 3,
-          "largestWetDifferenceHundredthsIn": 1,
-          "largestWetPeriod": {
-            "station": "BTV",
-            "forecastHour": 18,
-            "NAM": 1,
-            "officialFOUS": 2,
-            "difference": -1
-          },
-          "wetPeriodsThrough24h": [
-            {
-              "station": "BTV",
-              "forecastHour": 18,
-              "NAM": 1,
-              "officialFOUS": 2,
-              "difference": -1
-            },
-            {
-              "station": "BTV",
-              "forecastHour": 24,
-              "NAM": 2,
-              "officialFOUS": 2,
-              "difference": 0
-            }
-          ]
-        },
-        "R1": {
-          "samples": 60,
-          "within10PercentagePoints": 42,
-          "exact": 2,
-          "largestAbsoluteDifferencePercentagePoints": 49,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "R2": {
-          "samples": 60,
-          "within10PercentagePoints": 17,
-          "exact": 2,
-          "largestAbsoluteDifferencePercentagePoints": 49,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "R3": {
-          "samples": 60,
-          "within10PercentagePoints": 22,
-          "exact": 1,
-          "largestAbsoluteDifferencePercentagePoints": 52,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "LI": {
-          "samples": 60,
-          "exact": 49,
-          "largestAbsoluteDifference": 1
-        },
-        "VVV": {
-          "samples": 60,
-          "within10Codes": 56,
-          "exact": 8,
-          "largestAbsoluteDifference": 19,
-          "acceptedToleranceCodes": 10
-        },
-        "PS": {
-          "samples": 60,
-          "exact": 57,
-          "largestAbsoluteDifference": 1
-        },
-        "HH": {
-          "samples": 60,
-          "exact": 53,
-          "largestAbsoluteDifference": 1
-        },
-        "DD": {
-          "samples": 60,
-          "within20deg": 60,
-          "exact": 12,
-          "largestCircularDifferenceDeg": 20
-        },
-        "FF": {
-          "samples": 60,
-          "within4Knots": 60,
-          "exact": 21,
-          "largestAbsoluteDifferenceKnots": 4,
-          "acceptedToleranceKnots": 4
-        }
-      }
-    },
-    {
-      "cycle": "20261009_06Z",
-      "date": "2026-10-09",
-      "updatedAt": "2026-10-09T09:35:47.762930+00:00",
-      "summaries": {
-        "T1": {
-          "samples": 48,
-          "within1C": 48,
-          "exact": 28,
-          "largestDifferenceC": 1
-        },
-        "T3": {
-          "samples": 48,
-          "within1C": 48,
-          "exact": 40,
-          "largestDifferenceC": 1
-        },
-        "T5": {
-          "samples": 48,
-          "within1C": 48,
-          "exact": 36,
-          "largestDifferenceC": 1
-        },
-        "PTT": {
-          "compared": 48,
-          "dry": 47,
-          "wet": 1,
-          "within010in": 1,
-          "largestWetDifferenceHundredthsIn": 1,
-          "largestWetPeriod": {
-            "station": "BTV",
-            "forecastHour": 12,
-            "NAM": 0,
-            "officialFOUS": 1,
-            "difference": -1
-          },
-          "wetPeriodsThrough24h": [
-            {
-              "station": "BTV",
-              "forecastHour": 12,
-              "NAM": 0,
-              "officialFOUS": 1,
-              "difference": -1
-            }
-          ]
-        },
-        "R1": {
-          "samples": 48,
-          "within10PercentagePoints": 37,
-          "exact": 1,
-          "largestAbsoluteDifferencePercentagePoints": 34,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "R2": {
-          "samples": 48,
-          "within10PercentagePoints": 21,
-          "exact": 1,
-          "largestAbsoluteDifferencePercentagePoints": 41,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "R3": {
-          "samples": 48,
-          "within10PercentagePoints": 24,
-          "exact": 2,
-          "largestAbsoluteDifferencePercentagePoints": 41,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "LI": {
-          "samples": 48,
-          "exact": 38,
-          "largestAbsoluteDifference": 1
-        },
-        "VVV": {
-          "samples": 48,
-          "within10Codes": 46,
-          "exact": 13,
-          "largestAbsoluteDifference": 40,
-          "acceptedToleranceCodes": 10
-        },
-        "PS": {
-          "samples": 48,
-          "exact": 46,
-          "largestAbsoluteDifference": 1
-        },
-        "HH": {
-          "samples": 48,
-          "exact": 47,
-          "largestAbsoluteDifference": 1
-        },
-        "DD": {
-          "samples": 48,
-          "within20deg": 48,
-          "exact": 11,
-          "largestCircularDifferenceDeg": 20
-        },
-        "FF": {
-          "samples": 48,
-          "within4Knots": 48,
-          "exact": 17,
-          "largestAbsoluteDifferenceKnots": 3,
-          "acceptedToleranceKnots": 4
-        }
-      }
-    },
-    {
-      "cycle": "20261009_12Z",
-      "date": "2026-10-09",
-      "updatedAt": "2026-10-09T15:41:26.101681+00:00",
-      "summaries": {
-        "T1": {
-          "samples": 60,
-          "within1C": 60,
-          "exact": 48,
-          "largestDifferenceC": 1
-        },
-        "T3": {
-          "samples": 60,
-          "within1C": 60,
-          "exact": 47,
-          "largestDifferenceC": 1
-        },
-        "T5": {
-          "samples": 60,
-          "within1C": 60,
-          "exact": 48,
-          "largestDifferenceC": 1
-        },
-        "PTT": {
-          "compared": 60,
-          "dry": 46,
-          "wet": 14,
-          "within010in": 12,
-          "largestWetDifferenceHundredthsIn": 21,
-          "largestWetPeriod": {
-            "station": "PHL",
-            "forecastHour": 54,
-            "NAM": 105,
-            "officialFOUS": 84,
-            "difference": 21
-          },
-          "wetPeriodsThrough24h": [
-            {
-              "station": "BTV",
-              "forecastHour": 6,
-              "NAM": 1,
-              "officialFOUS": 2,
-              "difference": -1
-            },
-            {
-              "station": "BTV",
-              "forecastHour": 12,
-              "NAM": 1,
-              "officialFOUS": 3,
-              "difference": -2
-            }
-          ]
-        },
-        "R1": {
-          "samples": 60,
-          "within10PercentagePoints": 49,
-          "exact": 3,
-          "largestAbsoluteDifferencePercentagePoints": 37,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "R2": {
-          "samples": 60,
-          "within10PercentagePoints": 36,
-          "exact": 3,
-          "largestAbsoluteDifferencePercentagePoints": 36,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "R3": {
-          "samples": 60,
-          "within10PercentagePoints": 21,
-          "exact": 0,
-          "largestAbsoluteDifferencePercentagePoints": 83,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "LI": {
-          "samples": 60,
-          "exact": 47,
-          "largestAbsoluteDifference": 1
-        },
-        "VVV": {
-          "samples": 60,
-          "within10Codes": 50,
-          "exact": 13,
-          "largestAbsoluteDifference": 270,
-          "acceptedToleranceCodes": 10
-        },
-        "PS": {
-          "samples": 60,
-          "exact": 57,
-          "largestAbsoluteDifference": 1
-        },
-        "HH": {
-          "samples": 60,
-          "exact": 57,
-          "largestAbsoluteDifference": 1
-        },
-        "DD": {
-          "samples": 60,
-          "within20deg": 60,
-          "exact": 10,
-          "largestCircularDifferenceDeg": 20
-        },
-        "FF": {
-          "samples": 60,
-          "within4Knots": 60,
-          "exact": 22,
-          "largestAbsoluteDifferenceKnots": 3,
-          "acceptedToleranceKnots": 4
-        }
-      }
-    },
-    {
-      "cycle": "20261009_18Z",
-      "date": "2026-10-09",
-      "updatedAt": "2026-10-09T21:36:19.614653+00:00",
-      "summaries": {
-        "T1": {
-          "samples": 48,
-          "within1C": 48,
-          "exact": 36,
-          "largestDifferenceC": 1
-        },
-        "T3": {
-          "samples": 48,
-          "within1C": 48,
-          "exact": 41,
-          "largestDifferenceC": 1
-        },
-        "T5": {
-          "samples": 48,
-          "within1C": 48,
-          "exact": 39,
-          "largestDifferenceC": 1
-        },
-        "PTT": {
-          "compared": 48,
-          "dry": 40,
-          "wet": 8,
-          "within010in": 8,
-          "largestWetDifferenceHundredthsIn": 10,
-          "largestWetPeriod": {
-            "station": "PHL",
-            "forecastHour": 48,
-            "NAM": 29,
-            "officialFOUS": 39,
-            "difference": -10
-          },
-          "wetPeriodsThrough24h": [
-            {
-              "station": "BTV",
-              "forecastHour": 6,
-              "NAM": 2,
-              "officialFOUS": 3,
-              "difference": -1
-            }
-          ]
-        },
-        "R1": {
-          "samples": 48,
-          "within10PercentagePoints": 37,
-          "exact": 4,
-          "largestAbsoluteDifferencePercentagePoints": 35,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "R2": {
-          "samples": 48,
-          "within10PercentagePoints": 30,
-          "exact": 2,
-          "largestAbsoluteDifferencePercentagePoints": 29,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "R3": {
-          "samples": 48,
-          "within10PercentagePoints": 17,
-          "exact": 0,
-          "largestAbsoluteDifferencePercentagePoints": 41,
-          "acceptedTolerancePercentagePoints": 10
-        },
-        "LI": {
-          "samples": 48,
-          "exact": 31,
-          "largestAbsoluteDifference": 2
-        },
-        "VVV": {
-          "samples": 48,
-          "within10Codes": 40,
-          "exact": 7,
-          "largestAbsoluteDifference": 58,
-          "acceptedToleranceCodes": 10
-        },
-        "PS": {
-          "samples": 48,
-          "exact": 44,
-          "largestAbsoluteDifference": 1
-        },
-        "HH": {
-          "samples": 48,
-          "exact": 46,
-          "largestAbsoluteDifference": 1
-        },
-        "DD": {
-          "samples": 48,
-          "within20deg": 47,
-          "exact": 10,
-          "largestCircularDifferenceDeg": 40
-        },
-        "FF": {
-          "samples": 48,
-          "within4Knots": 48,
-          "exact": 14,
-          "largestAbsoluteDifferenceKnots": 4,
-          "acceptedToleranceKnots": 4
-        }
-      }
-    },
     {
       "cycle": "20261010_00Z",
       "date": "2026-10-10",
@@ -4142,6 +3712,222 @@
           "within4Knots": 48,
           "exact": 18,
           "largestAbsoluteDifferenceKnots": 3,
+          "acceptedToleranceKnots": 4
+        }
+      }
+    },
+    {
+      "cycle": "20261016_00Z",
+      "date": "2026-10-16",
+      "updatedAt": "2026-10-16T03:15:13.379716+00:00",
+      "summaries": {
+        "T1": {
+          "samples": 60,
+          "within1C": 60,
+          "exact": 30,
+          "largestDifferenceC": 1
+        },
+        "T3": {
+          "samples": 60,
+          "within1C": 60,
+          "exact": 32,
+          "largestDifferenceC": 1
+        },
+        "T5": {
+          "samples": 60,
+          "within1C": 60,
+          "exact": 37,
+          "largestDifferenceC": 1
+        },
+        "PTT": {
+          "compared": 60,
+          "dry": 40,
+          "wet": 20,
+          "within010in": 18,
+          "largestWetDifferenceHundredthsIn": 16,
+          "largestWetPeriod": {
+            "station": "LGA",
+            "forecastHour": 30,
+            "NAM": 47,
+            "officialFOUS": 31,
+            "difference": 16
+          },
+          "wetPeriodsThrough24h": [
+            {
+              "station": "IPT",
+              "forecastHour": 6,
+              "NAM": 8,
+              "officialFOUS": 7,
+              "difference": 1
+            },
+            {
+              "station": "ALB",
+              "forecastHour": 12,
+              "NAM": 14,
+              "officialFOUS": 18,
+              "difference": -4
+            },
+            {
+              "station": "BTV",
+              "forecastHour": 12,
+              "NAM": 26,
+              "officialFOUS": 30,
+              "difference": -4
+            },
+            {
+              "station": "IPT",
+              "forecastHour": 12,
+              "NAM": 25,
+              "officialFOUS": 30,
+              "difference": -5
+            },
+            {
+              "station": "LGA",
+              "forecastHour": 12,
+              "NAM": 7,
+              "officialFOUS": 6,
+              "difference": 1
+            },
+            {
+              "station": "PHL",
+              "forecastHour": 12,
+              "NAM": 1,
+              "officialFOUS": 2,
+              "difference": -1
+            },
+            {
+              "station": "ALB",
+              "forecastHour": 18,
+              "NAM": 48,
+              "officialFOUS": 57,
+              "difference": -9
+            },
+            {
+              "station": "BOS",
+              "forecastHour": 18,
+              "NAM": 59,
+              "officialFOUS": 71,
+              "difference": -12
+            },
+            {
+              "station": "BTV",
+              "forecastHour": 18,
+              "NAM": 2,
+              "officialFOUS": 4,
+              "difference": -2
+            },
+            {
+              "station": "IPT",
+              "forecastHour": 18,
+              "NAM": 1,
+              "officialFOUS": 2,
+              "difference": -1
+            },
+            {
+              "station": "LGA",
+              "forecastHour": 18,
+              "NAM": 7,
+              "officialFOUS": 6,
+              "difference": 1
+            },
+            {
+              "station": "PHL",
+              "forecastHour": 18,
+              "NAM": 2,
+              "officialFOUS": 2,
+              "difference": 0
+            },
+            {
+              "station": "ALB",
+              "forecastHour": 24,
+              "NAM": 23,
+              "officialFOUS": 16,
+              "difference": 7
+            },
+            {
+              "station": "BTV",
+              "forecastHour": 24,
+              "NAM": 1,
+              "officialFOUS": 7,
+              "difference": -6
+            },
+            {
+              "station": "IPT",
+              "forecastHour": 24,
+              "NAM": 7,
+              "officialFOUS": 7,
+              "difference": 0
+            },
+            {
+              "station": "LGA",
+              "forecastHour": 24,
+              "NAM": 2,
+              "officialFOUS": 5,
+              "difference": -3
+            },
+            {
+              "station": "PHL",
+              "forecastHour": 24,
+              "NAM": 0,
+              "officialFOUS": 1,
+              "difference": -1
+            }
+          ]
+        },
+        "R1": {
+          "samples": 60,
+          "within10PercentagePoints": 47,
+          "exact": 6,
+          "largestAbsoluteDifferencePercentagePoints": 21,
+          "acceptedTolerancePercentagePoints": 10
+        },
+        "R2": {
+          "samples": 60,
+          "within10PercentagePoints": 20,
+          "exact": 1,
+          "largestAbsoluteDifferencePercentagePoints": 40,
+          "acceptedTolerancePercentagePoints": 10
+        },
+        "R3": {
+          "samples": 60,
+          "within10PercentagePoints": 30,
+          "exact": 4,
+          "largestAbsoluteDifferencePercentagePoints": 74,
+          "acceptedTolerancePercentagePoints": 10
+        },
+        "LI": {
+          "samples": 60,
+          "exact": 47,
+          "largestAbsoluteDifference": 2
+        },
+        "VVV": {
+          "samples": 60,
+          "within10Codes": 49,
+          "exact": 3,
+          "largestAbsoluteDifference": 58,
+          "acceptedToleranceCodes": 10
+        },
+        "PS": {
+          "samples": 60,
+          "exact": 58,
+          "largestAbsoluteDifference": 1
+        },
+        "HH": {
+          "samples": 60,
+          "exact": 53,
+          "largestAbsoluteDifference": 1
+        },
+        "DD": {
+          "samples": 60,
+          "within20deg": 59,
+          "exact": 12,
+          "largestCircularDifferenceDeg": 30
+        },
+        "FF": {
+          "samples": 60,
+          "within4Knots": 60,
+          "exact": 22,
+          "largestAbsoluteDifferenceKnots": 4,
           "acceptedToleranceKnots": 4
         }
       }
