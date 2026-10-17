@@ -2,7 +2,7 @@
   "available": true,
   "comparisonAvailable": true,
   "cycle": "20261017_12Z",
-  "updatedAt": "2026-10-17T15:07:10.226462+00:00",
+  "updatedAt": "2026-10-17T15:47:36.216028+00:00",
   "officialBulletinAvailable": true,
   "summaries": {
     "T1": {
@@ -343,6 +343,6 @@
     }
   },
   "additionalFieldNote": "Experimental NAM-only proxies. RH uses single levels: R1 at 2 m, R2 at 700 mb, and R3 at 500 mb; these do not represent the FOUS humidity layer depth. LI uses 4LFTX, VVV uses 700-mb pressure velocity, wind uses a pressure-weighted lowest-35-mb vector, PS uses sea-level pressure, and HH uses 500\u20131000-mb thickness. These methods are not confirmed FOUS recipes. FF wind speed is considered acceptable within 4 knots.",
-  "additionalFieldsUpdatedAt": "2026-10-17T15:08:58.195545+00:00",
+  "additionalFieldsUpdatedAt": "2026-10-17T15:49:44.552841+00:00",
   "additionalFieldsAvailable": true
 }
