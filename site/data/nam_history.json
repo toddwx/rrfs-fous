@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T03:50:50.030134+00:00",
+  "updatedAt": "2026-10-18T09:13:31.116269+00:00",
   "method": "Same-cycle NAM-only reconstruction compared separately with Albany official FOUS61; no official values are used to build candidates.",
   "humidityNote": "R1 is represented by NAM 2 m RH, R2 by 700 mb RH, and R3 by 500 mb RH. These are single-level estimates compared with FOUS humidity codes and are not layer-for-layer matches.",
   "acceptedTolerances": {
@@ -15,75 +15,75 @@
     "lastDateUtc": "2026-10-18",
     "daysRepresented": 7,
     "sevenDayWindowCaptured": true,
-    "cyclesIncluded": 25,
+    "cyclesIncluded": 26,
     "fieldSummaries": {
       "T1": {
-        "within": 1351,
-        "samples": 1356,
+        "within": 1399,
+        "samples": 1404,
         "label": "within 1\u00b0C"
       },
       "T3": {
-        "within": 1343,
-        "samples": 1356,
+        "within": 1391,
+        "samples": 1404,
         "label": "within 1\u00b0C"
       },
       "T5": {
-        "within": 1337,
-        "samples": 1356,
+        "within": 1385,
+        "samples": 1404,
         "label": "within 1\u00b0C"
       },
       "R1": {
-        "within": 1126,
-        "samples": 1356,
+        "within": 1146,
+        "samples": 1404,
         "label": "within 10 percentage points"
       },
       "R2": {
-        "within": 689,
-        "samples": 1356,
+        "within": 731,
+        "samples": 1404,
         "label": "within 10 percentage points"
       },
       "R3": {
-        "within": 524,
-        "samples": 1356,
+        "within": 552,
+        "samples": 1404,
         "label": "within 10 percentage points"
       },
       "DD": {
-        "within": 1341,
-        "samples": 1356,
+        "within": 1387,
+        "samples": 1404,
         "label": "within 20\u00b0"
       },
       "FF": {
-        "within": 1356,
-        "samples": 1356,
+        "within": 1404,
+        "samples": 1404,
         "label": "within 4 knots"
       },
       "VVV": {
-        "within": 1193,
-        "samples": 1356,
+        "within": 1241,
+        "samples": 1404,
         "label": "within 10 codes"
       },
       "PS": {
-        "within": 1280,
-        "samples": 1356,
+        "within": 1325,
+        "samples": 1404,
         "label": "exact"
       },
       "HH": {
-        "within": 1227,
-        "samples": 1356,
+        "within": 1273,
+        "samples": 1404,
         "label": "exact"
       },
       "LI": {
-        "within": 1042,
-        "samples": 1356,
+        "within": 1081,
+        "samples": 1404,
         "label": "exact"
       },
       "PTT": {
         "within": 369,
         "samples": 387,
         "label": "wet periods within 0.10 in",
-        "dryPeriods": 969,
+        "dryPeriods": 1017,
         "wetPeriods": 387,
-        "periodsCompared": 1356
+        "periodsCompared": 1404
       }
     }
   },
@@ -3798,6 +3798,94 @@
           "within4Knots": 60,
           "exact": 19,
           "largestAbsoluteDifferenceKnots": 3,
+          "acceptedToleranceKnots": 4
+        }
+      }
+    },
+    {
+      "cycle": "20261018_06Z",
+      "date": "2026-10-18",
+      "updatedAt": "2026-10-18T09:12:18.836160+00:00",
+      "summaries": {
+        "T1": {
+          "samples": 48,
+          "within1C": 48,
+          "exact": 27,
+          "largestDifferenceC": 1
+        },
+        "T3": {
+          "samples": 48,
+          "within1C": 48,
+          "exact": 37,
+          "largestDifferenceC": 1
+        },
+        "T5": {
+          "samples": 48,
+          "within1C": 48,
+          "exact": 41,
+          "largestDifferenceC": 1
+        },
+        "PTT": {
+          "compared": 48,
+          "dry": 48,
+          "wet": 0,
+          "within010in": 0,
+          "largestWetDifferenceHundredthsIn": null
+        },
+        "R1": {
+          "samples": 48,
+          "within10PercentagePoints": 20,
+          "exact": 1,
+          "largestAbsoluteDifferencePercentagePoints": 31,
+          "acceptedTolerancePercentagePoints": 10
+        },
+        "R2": {
+          "samples": 48,
+          "within10PercentagePoints": 42,
+          "exact": 5,
+          "largestAbsoluteDifferencePercentagePoints": 28,
+          "acceptedTolerancePercentagePoints": 10
+        },
+        "R3": {
+          "samples": 48,
+          "within10PercentagePoints": 28,
+          "exact": 2,
+          "largestAbsoluteDifferencePercentagePoints": 33,
+          "acceptedTolerancePercentagePoints": 10
+        },
+        "LI": {
+          "samples": 48,
+          "exact": 39,
+          "largestAbsoluteDifference": 1
+        },
+        "VVV": {
+          "samples": 48,
+          "within10Codes": 48,
+          "exact": 24,
+          "largestAbsoluteDifference": 6,
+          "acceptedToleranceCodes": 10
+        },
+        "PS": {
+          "samples": 48,
+          "exact": 45,
+          "largestAbsoluteDifference": 1
+        },
+        "HH": {
+          "samples": 48,
+          "exact": 46,
+          "largestAbsoluteDifference": 1
+        },
+        "DD": {
+          "samples": 48,
+          "within20deg": 46,
+          "exact": 11,
+          "largestCircularDifferenceDeg": 40
+        },
+        "FF": {
+          "samples": 48,
+          "within4Knots": 48,
+          "exact": 19,
+          "largestAbsoluteDifferenceKnots": 4,
           "acceptedToleranceKnots": 4
         }
       }
