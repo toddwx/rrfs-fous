@@ -1,8 +1,8 @@
 {
   "model": "RRFS estimate",
-  "cycle": "00Z Oct 19, 2026",
-  "cycleUtc": "20261019T00:00:00Z",
-  "updatedAt": "2026-10-19T03:54:18.256444+00:00",
+  "cycle": "06Z Oct 19, 2026",
+  "cycleUtc": "20261019T06:00:00Z",
+  "updatedAt": "2026-10-19T09:51:37.865444+00:00",
   "forecastThroughHour": 60,
   "rrfsAvailableThroughHour": 84,
   "comparisonBulletinAvailable": true,
