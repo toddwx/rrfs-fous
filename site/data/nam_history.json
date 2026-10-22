@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T21:23:17.727368+00:00",
+  "updatedAt": "2026-10-22T03:20:46.845420+00:00",
   "method": "Same-cycle NAM-only reconstruction compared separately with Albany official FOUS61; no official values are used to build candidates.",
   "humidityNote": "R1 is represented by NAM 2 m RH, R2 by 700 mb RH, and R3 by 500 mb RH. These are single-level estimates compared with FOUS humidity codes and are not layer-for-layer matches.",
   "acceptedTolerances": {
