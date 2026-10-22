@@ -9,21 +9,21 @@ const namHistorySummary = document.querySelector("#nam-history-summary");
 async function loadNAMComparison() {
   try {
     const response = await fetch("data/nam_comparison.json", { cache: "no-store" });
-    if (!response.ok) throw new Error("Comparison status is not available yet.");
+    if (!response.ok) throw new Error("Saved historical comparison is not available yet.");
     const report = await response.json();
     if (!report.available) {
-      namSummary.textContent = report.message || `No NAM candidate was available for ${report.cycle || "the latest check"}.`;
+      namSummary.textContent = report.message || `No NAM candidate was saved for ${report.cycle || "this historical record"}.`;
       return;
     }
     if (!report.comparisonAvailable) {
-      namSummary.textContent = `NAM data for ${report.cycle} were collected, but a matching official FOUS bulletin was not available for comparison.`;
+      namSummary.textContent = `The saved NAM candidate for ${report.cycle} had no matching reference bulletin.`;
       return;
     }
     const scores = report.summaries || {};
     const temps = ["T1", "T3", "T5"].filter((field) => scores[field]?.samples)
       .map((field) => `${field}: within 1°C in ${scores[field].within1C}/${scores[field].samples}`).join(" · ");
     const ptt = scores.PTT;
-    let rain = "PTT: no matched periods yet";
+    let rain = "PTT: no saved matched periods";
     if (ptt?.status?.startsWith("unavailable")) {
       rain = "PTT: NAM precipitation data unavailable for this check";
     } else if (ptt?.wetPeriods) {
@@ -40,7 +40,7 @@ async function loadNAMComparison() {
       rain = `PTT: ${ptt.wetWithin010In}/${ptt.wetPeriods} wet periods within 0.10 in; largest difference ${max}${largestNote}${earlyNote}`;
       if (ptt.status?.startsWith("partial")) rain += " (some intervals unavailable)";
     } else if (ptt?.status?.startsWith("inconclusive")) {
-      rain = "PTT: no matched six-hour amount reached 0.10 in; more rain is needed to judge the comparison";
+      rain = "PTT: no matched six-hour amount reached 0.10 in, so the old comparison was inconclusive";
     } else if (ptt?.periodsCompared && ptt.status?.startsWith("unavailable")) {
       rain = "PTT: NAM precipitation intervals were missing for this check";
     }
@@ -57,7 +57,7 @@ async function loadNAMComparison() {
     }
     const expanded = extra.length
       ? `Other fields (rough comparisons): ${extra.join(" · ")}. FF is acceptable within 4 knots. R1/R2/R3 RH values are single-level estimates (2 m/700 mb/500 mb); the 10-point score does not mean they match the FOUS layer depth. VVV is approximate, with up to 10 codes acceptable.`
-      : "Other field comparisons are being collected.";
+      : "Other field comparisons were part of this historical review.";
     namSummary.textContent = [`${report.cycle}`, temps || "Temperature comparison unavailable", rain, expanded].join(" · ");
   } catch (error) {
     namSummary.textContent = error.message;
@@ -67,19 +67,19 @@ async function loadNAMComparison() {
 async function loadNAMHistory() {
   try {
     const response = await fetch("data/nam_history.json", { cache: "no-store" });
-    if (!response.ok) throw new Error("Saved NAM comparison history is not available yet.");
+    if (!response.ok) throw new Error("Saved historical comparison record is not available yet.");
     const history = await response.json();
     const summary = history.summary || {};
     if (!summary.cyclesIncluded) {
-      namHistorySummary.textContent = "Waiting for the first matching NAM and official FOUS comparison to save.";
+      namHistorySummary.textContent = "No saved comparison history is available.";
       return;
     }
     const dateRange = summary.firstDateUtc && summary.lastDateUtc
       ? `${summary.firstDateUtc} through ${summary.lastDateUtc} UTC`
       : "date range unavailable";
     const progress = summary.sevenDayWindowCaptured
-      ? `A full seven-day comparison record is saved (${summary.cyclesIncluded} matching cycles, ${dateRange}). It will remain as a historical reference when official NAM FOUS ends.`
-      : `Collecting the historical record: ${summary.daysRepresented} of 7 dates captured so far (${summary.cyclesIncluded} matching cycles, ${dateRange}).`;
+      ? `The saved seven-day comparison record covers ${summary.cyclesIncluded} matching cycles (${dateRange}). It is historical and will not be updated.`
+      : `The saved historical record covers ${summary.daysRepresented} of 7 dates (${summary.cyclesIncluded} matching cycles, ${dateRange}). It will not be updated further.`;
     const fields = summary.fieldSummaries || {};
     const metrics = [];
     for (const field of ["T1", "T3", "T5", "R1", "R2", "R3", "DD", "FF", "VVV"]) {
@@ -90,7 +90,7 @@ async function loadNAMHistory() {
     if (ptt) {
       metrics.push(ptt.samples
         ? `PTT wet periods within 0.10 in: ${ptt.within}/${ptt.samples} (${ptt.dryPeriods} dry periods also counted)`
-        : `PTT: no wet periods in ${ptt.periodsCompared} matched periods yet; not enough rain to judge`);
+        : `PTT: no wet periods in ${ptt.periodsCompared} matched periods; the saved sample was too dry to judge`);
     }
     namHistorySummary.textContent = [progress, metrics.join(" · "), history.humidityNote].filter(Boolean).join(" ");
   } catch (error) {
