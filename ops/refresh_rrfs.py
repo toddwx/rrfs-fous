@@ -23,12 +23,6 @@ def main() -> None:
     # cycles 00Z/06Z/12Z/18Z on the same UTC date.
     os.environ["FOUS_DATE"] = DATE
     os.environ["FOUS_CYCLE"] = CYCLE
-    official_capture_error = None
-    try:
-        run("capture_official.py")  # Optional control; it never supplies RRFS values.
-    except subprocess.CalledProcessError as exc:
-        official_capture_error = f"Albany NAM control capture failed with exit code {exc.returncode}."
-        print(f"WARNING: {official_capture_error} Continuing with RRFS-only inputs.", file=sys.stderr, flush=True)
     run("fetch_rrfs.py")
     run("fill_apcp.py")
     run("build_rhli.py")
@@ -36,11 +30,6 @@ def main() -> None:
     run("build_candidates.py")
     run("render.py")
 
-    official_meta = ROOT / "work" / "data" / "official" / f"FOUS61_{DATE}_{CYCLE}Z_source.json"
-    official = json.loads(official_meta.read_text()) if official_meta.exists() else {
-        "available": False,
-        "reason": official_capture_error or "No matching Albany NAM bulletin was captured.",
-    }
     case = ROOT / "work" / "data" / "model" / "cases" / f"{DATE}_{CYCLE}Z_rrfs_parallel"
     manifest = case / "selected_message_manifest.tsv"
     vvv_manifest = case / "rrfs_vvv_message_manifest.tsv"
@@ -65,7 +54,6 @@ def main() -> None:
         "provenanceCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_provenance.csv",
         "vvvMessageCount": sum(1 for _ in vvv_manifest.open()),
         "vvvManifestSha256": hashlib.sha256(vvv_manifest.read_bytes()).hexdigest(),
-        "matchingAlbanyControl": official,
     }
     (ROOT / "site" / "data" / "source.json").write_text(json.dumps(source, indent=2) + "\n", encoding="utf-8")
     status = {
@@ -75,8 +63,7 @@ def main() -> None:
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "forecastThroughHour": 60,
         "rrfsAvailableThroughHour": 84,
-        "comparisonBulletinAvailable": bool(official.get("available")),
-        "note": "Experimental RRFS estimate, not an official NWS bulletin. T1, T3, and T5 use estimated averages across their FOUS layers. Other fields are approximate, especially humidity and vertical motion. A matching NAM FOUS bulletin is kept separate for comparison.",
+        "note": "Experimental RRFS estimate, not an official NWS bulletin. T1, T3, and T5 use estimated averages across their FOUS layers. Other fields are approximate, especially humidity and vertical motion.",
     }
     (ROOT / "site" / "data" / "status.json").write_text(json.dumps(status, indent=2) + "\n", encoding="utf-8")
     (ROOT / "site" / "data" / "stations.json").write_text(json.dumps({"stations": STATION_ROWS}, indent=2) + "\n", encoding="utf-8")
