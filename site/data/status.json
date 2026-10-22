@@ -5,6 +5,5 @@
   "updatedAt": "2026-10-22T09:48:53.515617+00:00",
   "forecastThroughHour": 60,
   "rrfsAvailableThroughHour": 84,
-  "comparisonBulletinAvailable": false,
-  "note": "Experimental RRFS estimate, not an official NWS bulletin. T1, T3, and T5 use estimated averages across their FOUS layers. Other fields are approximate, especially humidity and vertical motion. A matching NAM FOUS bulletin is kept separate for comparison."
+  "note": "Experimental RRFS estimate, not an official NWS bulletin. T1, T3, and T5 use estimated averages across their FOUS layers. Other fields are approximate, especially humidity and vertical motion."
 }
