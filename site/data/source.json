@@ -1,7 +1,7 @@
 {
   "provider": "NOAA/NCEP RRFS parallel data",
-  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261021/18/",
-  "cycleUtc": "20261021T18:00:00Z",
+  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261022/00/",
+  "cycleUtc": "20261022T00:00:00Z",
   "forecastLeadsHours": [
     0,
     6,
@@ -20,7 +20,7 @@
     84
   ],
   "selectedMessageCount": 419,
-  "selectedManifestSha256": "0368f4b5d4a4215455caca3a214d596f28cd81f0b45f009759fd708c4387c0d9",
+  "selectedManifestSha256": "0385d716104692cce446bcca0408194d21f56417ce9ff8d37619ccd95ead8eec",
   "stationCount": 8,
   "stationValueCount": 3352,
   "temperatureLayerLevelsMb": [
@@ -32,19 +32,13 @@
     875
   ],
   "temperatureLayerMessageCount": 90,
-  "candidateCsv": "work/data/comparisons/FOUS61_20261021_18Z_RRFS_parallel_candidate.csv",
-  "comparisonCsv": "work/data/comparisons/FOUS61_20261021_18Z_RRFS_parallel_comparison.csv",
-  "provenanceCsv": "work/data/comparisons/FOUS61_20261021_18Z_RRFS_parallel_provenance.csv",
+  "candidateCsv": "work/data/comparisons/FOUS61_20261022_00Z_RRFS_parallel_candidate.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261022_00Z_RRFS_parallel_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261022_00Z_RRFS_parallel_provenance.csv",
   "vvvMessageCount": 53,
-  "vvvManifestSha256": "1f7998b8369de6dea95b8aa10a7fad1410057d91d3b888ccb24c383e7eebc2e0",
+  "vvvManifestSha256": "43f6f0eeaa534a0657fa1ab33ce2228f895631368dfa6c9f5e904fb5b4ecef6a",
   "matchingAlbanyControl": {
-    "available": true,
-    "cycle": "20261021_18Z",
-    "sourceUrl": "https://www.atmos.albany.edu/gopher-local/albany/FOUS61",
-    "cycleHeader": "FOUS61 KWNO 2118",
-    "lastModified": "Wed, 21 Oct 2026 20:23:41 GMT",
-    "firstCapturedAt": "2026-10-21T20:44:00.645959+00:00",
-    "sha256": "4b37fc9b14124dac7e204625e5162494e144ce009a5e3bbd0631070c4fee8779",
-    "captureMethod": "Previously archived Albany bulletin"
+    "available": false,
+    "reason": "Albany FOUS check failed: URLError: <urlopen error timed out>"
   }
 }
