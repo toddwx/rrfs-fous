@@ -1,7 +1,7 @@
 {
   "provider": "NOAA/NCEP RRFS parallel data",
-  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261022/00/",
-  "cycleUtc": "20261022T00:00:00Z",
+  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.20261022/06/",
+  "cycleUtc": "20261022T06:00:00Z",
   "forecastLeadsHours": [
     0,
     6,
@@ -20,7 +20,7 @@
     84
   ],
   "selectedMessageCount": 419,
-  "selectedManifestSha256": "0385d716104692cce446bcca0408194d21f56417ce9ff8d37619ccd95ead8eec",
+  "selectedManifestSha256": "8c0a712cbe36b74d56d26e93dbea625422aae9b3a8ceebaf15ee0b1694a6faf9",
   "stationCount": 8,
   "stationValueCount": 3352,
   "temperatureLayerLevelsMb": [
@@ -32,11 +32,11 @@
     875
   ],
   "temperatureLayerMessageCount": 90,
-  "candidateCsv": "work/data/comparisons/FOUS61_20261022_00Z_RRFS_parallel_candidate.csv",
-  "comparisonCsv": "work/data/comparisons/FOUS61_20261022_00Z_RRFS_parallel_comparison.csv",
-  "provenanceCsv": "work/data/comparisons/FOUS61_20261022_00Z_RRFS_parallel_provenance.csv",
+  "candidateCsv": "work/data/comparisons/FOUS61_20261022_06Z_RRFS_parallel_candidate.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261022_06Z_RRFS_parallel_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261022_06Z_RRFS_parallel_provenance.csv",
   "vvvMessageCount": 53,
-  "vvvManifestSha256": "43f6f0eeaa534a0657fa1ab33ce2228f895631368dfa6c9f5e904fb5b4ecef6a",
+  "vvvManifestSha256": "e03453f581839cbd32dfe1862ed919a31770eb194bd5d7827e8a5bda5c13cd88",
   "matchingAlbanyControl": {
     "available": false,
     "reason": "Albany FOUS check failed: URLError: <urlopen error timed out>"
