@@ -45,6 +45,8 @@ concurrency:
   group: fous-pages
   cancel-in-progress: false
 
+jobs:
+  check:
     runs-on: ubuntu-latest
     outputs:
       refresh: ${{ steps.gate.outputs.refresh }}
