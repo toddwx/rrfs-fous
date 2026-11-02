@@ -1,8 +1,8 @@
 {
   "model": "RRFS estimate",
-  "cycle": "00Z Nov 02, 2026",
-  "cycleUtc": "20261102T00:00:00Z",
-  "updatedAt": "2026-11-02T11:23:10.528737+00:00",
+  "cycle": "06Z Nov 02, 2026",
+  "cycleUtc": "20261102T06:00:00Z",
+  "updatedAt": "2026-11-02T19:38:01.810542+00:00",
   "forecastThroughHour": 60,
   "rrfsAvailableThroughHour": 84,
   "note": "Experimental RRFS estimate, not an official NWS bulletin. T1, T3, and T5 use estimated averages across their FOUS layers. Other fields are approximate, especially humidity and vertical motion."
