@@ -61,7 +61,7 @@ jobs:
     concurrency:
       group: fous-page-publisher
       cancel-in-progress: false
-    # Pushes publish page changes; scheduled and manual runs refresh RRFS data first.
+    # Pushes publish page changes. Tagged [refresh-rrfs] pushes also run a one-time data refresh.
     needs: check
     if: >-
       github.event_name == 'push' ||
