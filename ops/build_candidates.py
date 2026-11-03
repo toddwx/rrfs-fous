@@ -250,7 +250,7 @@ def main() -> None:
             row["candidate_status"] = "partial experimental estimate; proxies are labeled"
             candidates.append(row)
 
-    candidate_path = OUT / f"FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_candidate.csv"
+    candidate_path = OUT / f"FOUS61_{DATE}_{CYCLE}Z_RRFS_operational_candidate.csv"
     comparison_path = OUT / f"FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_comparison.csv"
     provenance_path = OUT / f"FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_provenance.csv"
     candidate_path.parent.mkdir(parents=True, exist_ok=True)

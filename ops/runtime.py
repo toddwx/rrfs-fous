@@ -26,10 +26,10 @@ else:
     _DATE_FOR_CYCLE -= timedelta(days=1)
 DATE = os.environ.get("FOUS_DATE") or _DATE_FOR_CYCLE.strftime("%Y%m%d")
 CYCLE = (os.environ.get("FOUS_CYCLE") or _CYCLE_FROM_CLOCK).zfill(2)
-CASE = DATA / "model" / "cases" / f"{DATE}_{CYCLE}Z_rrfs_parallel"
+CASE = DATA / "model" / "cases" / f"{DATE}_{CYCLE}Z_rrfs_operational"
 COMPARISONS = DATA / "comparisons"
 OFFICIAL = DATA / "official" / f"FOUS61_{DATE}_{CYCLE}Z_decoded.csv"
-RRFS_BASE = f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.{DATE}/{CYCLE}"
+RRFS_BASE = f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/prod/rrfs.{DATE}/{CYCLE}"
 
 with (ROOT / "site" / "data" / "stations.json").open(encoding="utf-8") as source:
     STATION_ROWS = json.load(source)["stations"]

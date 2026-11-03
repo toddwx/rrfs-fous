@@ -30,15 +30,15 @@ def main() -> None:
     run("build_candidates.py")
     run("render.py")
 
-    case = ROOT / "work" / "data" / "model" / "cases" / f"{DATE}_{CYCLE}Z_rrfs_parallel"
+    case = ROOT / "work" / "data" / "model" / "cases" / f"{DATE}_{CYCLE}Z_rrfs_operational"
     manifest = case / "selected_message_manifest.tsv"
     vvv_manifest = case / "rrfs_vvv_message_manifest.tsv"
     layer_levels = (725, 750, 775, 825, 850, 875)
     with manifest.open(encoding="utf-8") as source_manifest:
         manifest_lines = source_manifest.read().splitlines()
     source = {
-        "provider": "NOAA/NCEP RRFS parallel data",
-        "baseUrl": f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/para/rrfs.{DATE}/{CYCLE}/",
+        "provider": "NOAA/NCEP RRFS operational data",
+        "baseUrl": f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/prod/rrfs.{DATE}/{CYCLE}/",
         "cycleUtc": f"{DATE}T{CYCLE}:00:00Z",
         "forecastLeadsHours": list(range(0, 85, 6)),
         "selectedMessageCount": len(manifest_lines),
@@ -49,7 +49,7 @@ def main() -> None:
         "temperatureLayerMessageCount": sum(
             1 for line in manifest_lines if any(f":TMP:{level} mb:" in line for level in layer_levels)
         ),
-        "candidateCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_candidate.csv",
+        "candidateCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_operational_candidate.csv",
         "comparisonCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_comparison.csv",
         "provenanceCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_provenance.csv",
         "vvvMessageCount": sum(1 for _ in vvv_manifest.open()),

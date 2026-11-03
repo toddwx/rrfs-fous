@@ -9,7 +9,7 @@ from datetime import datetime
 from runtime import COMPARISONS, DATA, DATE, CYCLE, STATION_ROWS, STATIONS
 
 
-SOURCE = COMPARISONS / f"FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_candidate.csv"
+SOURCE = COMPARISONS / f"FOUS61_{DATE}_{CYCLE}Z_RRFS_operational_candidate.csv"
 OUT = Path(__file__).resolve().parents[1] / "site" / "data" / "latest.txt"
 STATION_CODES = tuple(STATIONS)
 STATION_PAIRS = tuple(tuple(STATION_CODES[i:i+2]) for i in range(0, len(STATION_CODES), 2))
