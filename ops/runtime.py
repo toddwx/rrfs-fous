@@ -9,39 +9,23 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "work" / "data"
 _NOW = datetime.now(timezone.utc)
-_SCHEDULE_CYCLES = {"15 3 * * *": (3, "00"), "15 9 * * *": (9, "06"),
-                    "15 15 * * *": (15, "12"), "15 21 * * *": (21, "18"),
-                    "45 3 * * *": (3, "00"), "45 9 * * *": (9, "06"),
-                    "45 15 * * *": (15, "12"), "45 21 * * *": (21, "18")}
-_SCHEDULE_EVENT = {}
-if os.environ.get("GITHUB_EVENT_PATH"):
-    try:
-        with Path(os.environ["GITHUB_EVENT_PATH"]).open(encoding="utf-8") as event_file:
-            _SCHEDULE_EVENT = json.load(event_file)
-    except (OSError, json.JSONDecodeError):
-        _SCHEDULE_EVENT = {}
-_SCHEDULE = _SCHEDULE_EVENT.get("schedule")
-_SCHEDULE_HOUR, _SCHEDULE_CYCLE = _SCHEDULE_CYCLES.get(_SCHEDULE, (None, None))
+# Use the newest RRFS cycle whose scheduled refresh window has opened.
+# GitHub can start a scheduled job late, so the event's original cron time
+# must not select an older cycle than the one now available.
 _DATE_FOR_CYCLE = _NOW.date()
-if _SCHEDULE_HOUR is not None and _NOW.hour < _SCHEDULE_HOUR:
+if _NOW.hour >= 21:
+    _CYCLE_FROM_CLOCK = "18"
+elif _NOW.hour >= 15:
+    _CYCLE_FROM_CLOCK = "12"
+elif _NOW.hour >= 9:
+    _CYCLE_FROM_CLOCK = "06"
+elif _NOW.hour >= 3:
+    _CYCLE_FROM_CLOCK = "00"
+else:
+    _CYCLE_FROM_CLOCK = "18"
     _DATE_FOR_CYCLE -= timedelta(days=1)
-elif _SCHEDULE == "17,47 * * * *":
-    # These frequent runs also act as forecast catch-ups if GitHub drops a
-    # main scheduled event. Map each half-hour check to the most recent
-    # long-range cycle whose normal refresh window has begun.
-    if _NOW.hour >= 21:
-        _SCHEDULE_CYCLE = "18"
-    elif _NOW.hour >= 15:
-        _SCHEDULE_CYCLE = "12"
-    elif _NOW.hour >= 9:
-        _SCHEDULE_CYCLE = "06"
-    elif _NOW.hour >= 3:
-        _SCHEDULE_CYCLE = "00"
-    else:
-        _SCHEDULE_CYCLE = "18"
-        _DATE_FOR_CYCLE -= timedelta(days=1)
 DATE = os.environ.get("FOUS_DATE") or _DATE_FOR_CYCLE.strftime("%Y%m%d")
-CYCLE = (os.environ.get("FOUS_CYCLE") or _SCHEDULE_CYCLE or f"{(_NOW.hour // 6) * 6:02d}").zfill(2)
+CYCLE = (os.environ.get("FOUS_CYCLE") or _CYCLE_FROM_CLOCK).zfill(2)
 CASE = DATA / "model" / "cases" / f"{DATE}_{CYCLE}Z_rrfs_parallel"
 COMPARISONS = DATA / "comparisons"
 OFFICIAL = DATA / "official" / f"FOUS61_{DATE}_{CYCLE}Z_decoded.csv"
