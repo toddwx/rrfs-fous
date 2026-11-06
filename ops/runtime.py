@@ -43,3 +43,5 @@ VVV_LEADS = tuple(range(0, 61, 6))
 def cycle_label() -> str:
     dt = datetime.strptime(f"{DATE}{CYCLE}", "%Y%m%d%H").replace(tzinfo=timezone.utc)
     return dt.strftime("%HZ %b %d, %Y")
+
+# Tagged recovery pushes can trigger a one-time refresh when scheduled runs are missed.
