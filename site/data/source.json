@@ -33,8 +33,8 @@
   ],
   "temperatureLayerMessageCount": 90,
   "candidateCsv": "work/data/comparisons/FOUS61_20261106_00Z_RRFS_operational_candidate.csv",
-  "comparisonCsv": "work/data/comparisons/FOUS61_20261106_00Z_RRFS_parallel_comparison.csv",
-  "provenanceCsv": "work/data/comparisons/FOUS61_20261106_00Z_RRFS_parallel_provenance.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261106_00Z_RRFS_operational_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261106_00Z_RRFS_operational_provenance.csv",
   "vvvMessageCount": 53,
   "vvvManifestSha256": "2aa1477f6844c99747465bd68be0382c32eff241ca97ce6413055f1ad5d9fd03"
 }

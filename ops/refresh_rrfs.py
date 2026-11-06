@@ -50,8 +50,8 @@ def main() -> None:
             1 for line in manifest_lines if any(f":TMP:{level} mb:" in line for level in layer_levels)
         ),
         "candidateCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_operational_candidate.csv",
-        "comparisonCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_comparison.csv",
-        "provenanceCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_parallel_provenance.csv",
+        "comparisonCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_operational_comparison.csv",
+        "provenanceCsv": f"work/data/comparisons/FOUS61_{DATE}_{CYCLE}Z_RRFS_operational_provenance.csv",
         "vvvMessageCount": sum(1 for _ in vvv_manifest.open()),
         "vvvManifestSha256": hashlib.sha256(vvv_manifest.read_bytes()).hexdigest(),
     }
