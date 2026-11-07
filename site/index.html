@@ -41,6 +41,23 @@
       </div>
     </section>
 
+    <section class="bulletin-card" aria-label="WOOF-NAM four-city comparison pilot">
+      <div class="card-heading">
+        <div>
+          <h2>WOOF-NAM pilot · four cities</h2>
+          <p id="woofnam-summary">Loading the separate WOOF-NAM comparison…</p>
+        </div>
+        <div class="actions">
+          <button id="woofnam-copy-button" type="button">Copy WOOF-NAM</button>
+          <a class="button secondary" href="data/woofnam/latest.txt" download="woof-nam-fous-style-pilot.txt">Download</a>
+        </div>
+      </div>
+      <p class="model-note">WOOF-NAM is a community-run NAM-style model, not the retired NWS NAM. It uses NAM grid and physics but starts from GFS analysis, so it can produce different forecasts. VVV is extra approximate because the published file lacks 700-mb specific humidity; that part is estimated from temperature and humidity.</p>
+      <div class="bulletin-scroll" tabindex="0" aria-label="Scrollable fixed-width WOOF-NAM pilot text">
+        <pre id="woofnam-bulletin">Loading WOOF-NAM pilot…</pre>
+      </div>
+    </section>
+
         <details class="notes">
       <summary>What should I know about this forecast?</summary>
       <p>This is an experimental estimate made from RRFS forecast data. It is not an official NWS bulletin. Some fields are approximate, especially humidity and vertical motion. The familiar layout is kept so you can scan it quickly.</p>

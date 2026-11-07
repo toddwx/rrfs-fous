@@ -50,6 +50,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       refresh: ${{ steps.gate.outputs.refresh }}
+      woofnam_refresh: ${{ steps.gate.outputs.woofnam_refresh }}
     steps:
       - name: Check out the current forecast status
         uses: actions/checkout@v6
@@ -68,7 +69,7 @@ jobs:
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'schedule' &&
        contains(fromJSON('["15 3 * * *","15 9 * * *","15 15 * * *","15 21 * * *","45 3 * * *","45 9 * * *","45 15 * * *","45 21 * * *","17,47 * * * *"]'), github.event.schedule) &&
-       needs.check.outputs.refresh == 'true')
+       (needs.check.outputs.refresh == 'true' || needs.check.outputs.woofnam_refresh == 'true'))
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -90,10 +91,23 @@ jobs:
         run: python -m pip install -r ops/requirements.txt
 
       - name: Fetch the latest long-range RRFS cycle and rebuild the bulletin
-        if: ${{ github.event_name != 'push' || contains(github.event.head_commit.message, '[refresh-rrfs]') }}
+        if: >-
+          github.event_name == 'workflow_dispatch' ||
+          (github.event_name == 'schedule' && needs.check.outputs.refresh == 'true') ||
+          (github.event_name == 'push' && contains(github.event.head_commit.message, '[refresh-rrfs]'))
         run: python ops/refresh_rrfs.py
         # RRFS files can lag the clock, especially around a new cycle. Keep
         # the last good bulletin and let the next half-hour catch-up retry.
+        continue-on-error: true
+
+      - name: Refresh the separate WOOF-NAM four-city pilot
+        if: >-
+          github.event_name == 'workflow_dispatch' ||
+          (github.event_name == 'schedule' && needs.check.outputs.woofnam_refresh == 'true') ||
+          (github.event_name == 'push' && contains(github.event.head_commit.message, '[refresh-rrfs]'))
+        run: python ops/build_woofnam.py
+        # WOOF-NAM may finish after RRFS. A later scheduled check retries this
+        # independently, without rerunning or delaying the RRFS forecast.
         continue-on-error: true
 
       - name: Save the latest good forecast for the next run
@@ -101,7 +115,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/data/latest.txt site/data/source.json site/data/status.json site/data/stations.json
+          git add site/data/latest.txt site/data/source.json site/data/status.json site/data/stations.json site/data/woofnam
           if git diff --cached --quiet; then
             echo "No published data changed."
           else

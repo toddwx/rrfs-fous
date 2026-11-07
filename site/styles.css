@@ -38,6 +38,7 @@ button:hover, .button:hover { background: var(--blue); }
 .bulletin-card { overflow: hidden; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); box-shadow: 0 5px 18px #102b450b; }
 .card-heading { padding: 18px 20px; }
 .card-heading p { font-size: .9rem; }
+.model-note { max-width: 88ch; padding: 0 20px 14px; font-size: .88rem; }
 .updated-time { color: var(--muted); font-size: .8rem; text-align: right; }
 .bulletin-scroll { overflow: auto; border-top: 1px solid var(--line); background: #fbfcfd; padding: 18px; -webkit-overflow-scrolling: touch; }
 pre { width: max-content; min-width: 100%; margin: 0; color: #14283a; font-family: Menlo, Monaco, "Courier New", monospace; font-size: 14px; line-height: 1.65; white-space: pre; }
@@ -52,6 +53,7 @@ footer { align-items: flex-start; padding: 18px 4px 0; color: var(--muted); font
   .status-pill { font-size: .72rem; }
   .summary { align-items: flex-start; flex-direction: column; padding: 15px; }
   .card-heading { align-items: flex-start; flex-direction: column; padding: 15px; }
+  .model-note { padding: 0 15px 12px; }
   .updated-time { text-align: left; }
   .bulletin-scroll { padding: 13px 10px; }
   pre { font-size: 12px; }
