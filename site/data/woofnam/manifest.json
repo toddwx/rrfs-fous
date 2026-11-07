@@ -1,0 +1,4132 @@
+[
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      46242939,
+      46510192
+    ],
+    "sha256": "b7b1a4295300112059f601cf37f55e5c09d23e6f0dc5a3f6537bb7fbee1ee95b",
+    "indexRecord": "335:46242939:d=2026110712:PRES:surface:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      45753474,
+      45981884
+    ],
+    "sha256": "0d7b7c82083964312c932e368b25449119f8a3b206f2d65728e05d5124833ce3",
+    "indexRecord": "331:45753474:d=2026110712:MSLET:mean sea level:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      50324623,
+      50543661
+    ],
+    "sha256": "691512b4a5aa8e993c9cbff0736f7d7e442ce6ca0e1a70fa039dac889c63b691",
+    "indexRecord": "359:50324623:d=2026110712:TMP:2 m above ground:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      50941631,
+      51137718
+    ],
+    "sha256": "13dc7af92b1305863cb5c42736027cc2f5c62a9832d673fb4de7b63f66673cd7",
+    "indexRecord": "362:50941631:d=2026110712:RH:2 m above ground:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      51137719,
+      51338435
+    ],
+    "sha256": "ba4dcefc1f10e864b373b0aed7e3b30c2397f51dd09ef60f20fdade57c054d7e",
+    "indexRecord": "363:51137719:d=2026110712:UGRD:10 m above ground:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      51338436,
+      51555575
+    ],
+    "sha256": "cc3e99edd0d5737bd35268030b744ef9f0b4a8fc05e9d4fa6dd1c4e31a37a3f2",
+    "indexRecord": "364:51338436:d=2026110712:VGRD:10 m above ground:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      60664631,
+      60794090
+    ],
+    "sha256": "650204d39b27efe38f3b18937b4b97ac3837cb265511ce1855af4b2159cc97a4",
+    "indexRecord": "424:60664631:d=2026110712:4LFTX:180-0 mb above ground:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      29839219,
+      29949319
+    ],
+    "sha256": "a02241418ba87b53cb87a20eb550b42b46cb61ecbe5aa93b8c3d823dd9537af4",
+    "indexRecord": "226:29839219:d=2026110712:RH:700 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      20554800,
+      20661331
+    ],
+    "sha256": "7e65024fff9b9028a016f8fec578d3ef51a0e15f36b1592e1380d2d9bbd38467",
+    "indexRecord": "161:20554800:d=2026110712:RH:500 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      20256833,
+      20463518
+    ],
+    "sha256": "41fe820244a9d593c32e1f71e05b386298964c117c911b0833ec4fdfd106e614",
+    "indexRecord": "159:20256833:d=2026110712:HGT:500 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      45981885,
+      46242500
+    ],
+    "sha256": "bdeb5e5d0c1f6c3df0f9a7e402e2d7d215116575092b41bea1f3078177f43302",
+    "indexRecord": "332:45981885:d=2026110712:HGT:1000 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      30218421,
+      30285632
+    ],
+    "sha256": "27a3adf10d2116caa233aabc07136e9411787a597caa618d834dec34562ab53e",
+    "indexRecord": "228:30218421:d=2026110712:DZDT:700 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      29740906,
+      29839218
+    ],
+    "sha256": "aea07017c8ba279f3e2a899448b3ba7d0b9c1cb4373b3d2b5d9a058381cf345d",
+    "indexRecord": "225:29740906:d=2026110712:TMP:700 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      44578303,
+      44698081
+    ],
+    "sha256": "c0c429807f2a280af34fa62a54bfd12c00f647492f1f55c62f3ab3e1aaa0ff25",
+    "indexRecord": "323:44578303:d=2026110712:TMP:1000 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      43574544,
+      43693748
+    ],
+    "sha256": "648a2d17026faef32985226d629a7e67bea8ade841f90a21cba1127eb6b1c41d",
+    "indexRecord": "316:43574544:d=2026110712:TMP:975 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      42160530,
+      42277222
+    ],
+    "sha256": "762e63f7ba75560bb2f80d87d9efa87abf027180e9611c25073762faeec4fd4a",
+    "indexRecord": "307:42160530:d=2026110712:TMP:950 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      40896926,
+      41011794
+    ],
+    "sha256": "53d4846282c5a53b87343aad3f0e45143ab4c6767b7460a2e39188230606eb07",
+    "indexRecord": "299:40896926:d=2026110712:TMP:925 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      39648488,
+      39761676
+    ],
+    "sha256": "d790d45a2a2012da922fe682f253e029b66670985c3aff1be08bf344dd56ffe1",
+    "indexRecord": "291:39648488:d=2026110712:TMP:900 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      38416694,
+      38524892
+    ],
+    "sha256": "d4c33a0f58e06093f2b9aa37011fa9b4469536a64a2fad2906bee762c9e7da1a",
+    "indexRecord": "283:38416694:d=2026110712:TMP:875 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      36995359,
+      37106057
+    ],
+    "sha256": "5a44f32c419b6fe8eb8372fafe17b599e4ec88d8c39e94b72cfea4715351a314",
+    "indexRecord": "274:36995359:d=2026110712:TMP:850 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      35784193,
+      35888287
+    ],
+    "sha256": "a6f50500eadd9e3b9ebd144780b4076cd60d60c07bd44af9f9f83096e35b0fcf",
+    "indexRecord": "266:35784193:d=2026110712:TMP:825 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      34573940,
+      34678248
+    ],
+    "sha256": "ecb87a53317a83bf0cafa4f7e3a03e4ad289b731e2ee4e07d133aff5a10d8694",
+    "indexRecord": "258:34573940:d=2026110712:TMP:800 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      33380897,
+      33480413
+    ],
+    "sha256": "140e984d81e7d57edb72cd075dec0849969428e872c06a602f112c956b627705",
+    "indexRecord": "250:33380897:d=2026110712:TMP:775 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      32218232,
+      32318800
+    ],
+    "sha256": "8549073e3d2322d8d1e4bed2cef9e02f8d2421c9ce27569ecc475be89ef6ac02",
+    "indexRecord": "242:32218232:d=2026110712:TMP:750 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      31071196,
+      31167668
+    ],
+    "sha256": "6a936da2aad041451e1adbcbba2df63f057ee1effc602ca04f30c396fdc4d9e6",
+    "indexRecord": "234:31071196:d=2026110712:TMP:725 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      45046829,
+      45244514
+    ],
+    "sha256": "f70c774652d980712a8648dc5d2b59cc86234c4bcba22c7b7a041cda4ba8f6b2",
+    "indexRecord": "327:45046829:d=2026110712:UGRD:1000 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      45244515,
+      45465176
+    ],
+    "sha256": "fcd30c818e4779b22a3e3084c96dbb92ed4b3a1574214b5cac9d9103a6b97f58",
+    "indexRecord": "328:45244515:d=2026110712:VGRD:1000 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      44070087,
+      44271746
+    ],
+    "sha256": "22a4fe90304bf118cfb847bb0fd0c7feb8f5a18cbaf13044a4a6e79b3079b6bc",
+    "indexRecord": "320:44070087:d=2026110712:UGRD:975 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      44271747,
+      44493614
+    ],
+    "sha256": "2555dd085c9c4dc7914a1bf6f907cc83cc3b9f464c90b9c51bbf1e648dda13da",
+    "indexRecord": "321:44271747:d=2026110712:VGRD:975 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      42679358,
+      42880954
+    ],
+    "sha256": "9035d349b8413ee41a0170e6a2d1fa308081aaea3edf60df3f6affd0286a8b51",
+    "indexRecord": "311:42679358:d=2026110712:UGRD:950 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      42880955,
+      43099780
+    ],
+    "sha256": "94fcbd688b3d1eb9241e3af00eef6aae9003c7f5d60d2e597b9394fce5fe976c",
+    "indexRecord": "312:42880955:d=2026110712:VGRD:950 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      41431407,
+      41629991
+    ],
+    "sha256": "975d4ae42154fc627da2a4c8512347e971f05e443583715e79cdf687cc1894df",
+    "indexRecord": "303:41431407:d=2026110712:UGRD:925 mb:anl:"
+  },
+  {
+    "forecastHour": 0,
+    "file": "woof-nam.t12z.awphys00.tm00.grib2",
+    "byteRange": [
+      41629992,
+      41844727
+    ],
+    "sha256": "69c27d13da9ebbcf5051e94e3d969b56e084bc505861fa765146ff3b8a84f412",
+    "indexRecord": "304:41629992:d=2026110712:VGRD:925 mb:anl:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      45492895,
+      45756812
+    ],
+    "sha256": "36603ce2d61a37de879e4a2d93939951941e908d47e9ebff4e90c1b9f47b2a2a",
+    "indexRecord": "335:45492895:d=2026110712:PRES:surface:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      44809373,
+      45036397
+    ],
+    "sha256": "7dafceb4412c2f9cd9d564f1045bf0b74421b1aab73ac19bc1c19d5b6cba49c4",
+    "indexRecord": "331:44809373:d=2026110712:MSLET:mean sea level:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      49092488,
+      49313269
+    ],
+    "sha256": "9a1e57c468baa921da9fffdeb8144ee35975ffb2aabbe66270c3409f5751fe9b",
+    "indexRecord": "359:49092488:d=2026110712:TMP:2 m above ground:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      49749549,
+      49959876
+    ],
+    "sha256": "5f608826ea95bbd8ce5db9cdd5d9563f9baf46f465b4cf7378be53194fb83ad7",
+    "indexRecord": "362:49749549:d=2026110712:RH:2 m above ground:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      50737953,
+      50950426
+    ],
+    "sha256": "f9071af7d2a1fa5ee1d5438f937e12b52ec4f7a2fa7f08b2b5482063c2bd6f31",
+    "indexRecord": "367:50737953:d=2026110712:UGRD:10 m above ground:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      50950427,
+      51165208
+    ],
+    "sha256": "5c2e3316a92355addbd7c3169e5147d4135dd30e5f3aabaa930725e416e011fc",
+    "indexRecord": "368:50950427:d=2026110712:VGRD:10 m above ground:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      61138552,
+      61278525
+    ],
+    "sha256": "8144fd1fdf1b843cc1d5ebc1a7ae475f46ab6078988436c5d95c79e3050ec5c3",
+    "indexRecord": "430:61138552:d=2026110712:4LFTX:180-0 mb above ground:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      28174878,
+      28292904
+    ],
+    "sha256": "aabaed318ee94a8e2d2e599f63f92daabce0c5441971bb55e42ccb933e4a23a3",
+    "indexRecord": "226:28174878:d=2026110712:RH:700 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      19242850,
+      19351684
+    ],
+    "sha256": "acbb7d2b1ad4b3b8f3cbdb734d1d52c9d1364678223e5bea625f74dac1d5f67a",
+    "indexRecord": "161:19242850:d=2026110712:RH:500 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      18958427,
+      19147709
+    ],
+    "sha256": "3d9514d1f33802144407e724b14e82879ef91e3896a040155f476a15c23499a1",
+    "indexRecord": "159:18958427:d=2026110712:HGT:500 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      45036398,
+      45290739
+    ],
+    "sha256": "5dd29ece020cbe9aec4b70e8f9cea26f03b30bf5c882dbbbbf98ceb8438afcfa",
+    "indexRecord": "332:45036398:d=2026110712:HGT:1000 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      28544760,
+      28605619
+    ],
+    "sha256": "43a6d4c700426e5d8dd2424fd43d77dd8357e61bb50b122792e88e61cc6d2fa4",
+    "indexRecord": "228:28544760:d=2026110712:DZDT:700 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      28069013,
+      28174877
+    ],
+    "sha256": "5d2996a9e4ac38a34ba5dc0ce2025647ca9f354dd5c591a2372ef317a40559f2",
+    "indexRecord": "225:28069013:d=2026110712:TMP:700 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      43547101,
+      43674265
+    ],
+    "sha256": "4bba9022f528fa19566fad6606ed47471e800f7fb9a794890f07b251d3fe0a27",
+    "indexRecord": "323:43547101:d=2026110712:TMP:1000 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      42445165,
+      42573475
+    ],
+    "sha256": "55b07c5e5970f910270b9e22741542a31e14fe7524c2e5c1bcdcb356c7b1c71e",
+    "indexRecord": "316:42445165:d=2026110712:TMP:975 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      40913855,
+      41042011
+    ],
+    "sha256": "2d2bd1076ee4673f107d2b3be9ce46c2206281bab4b0978138ab582e40502cf2",
+    "indexRecord": "307:40913855:d=2026110712:TMP:950 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      39536754,
+      39662337
+    ],
+    "sha256": "78c3ad55bf6495c24566977b1444a0b5206482422da9b9d79b2f8f8d9bd9dc67",
+    "indexRecord": "299:39536754:d=2026110712:TMP:925 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      38205308,
+      38326891
+    ],
+    "sha256": "5cf8193d14f666c9a19ac1423b6217e3fd68958c90e92734eda9931dc112d256",
+    "indexRecord": "291:38205308:d=2026110712:TMP:900 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      36901367,
+      37020135
+    ],
+    "sha256": "87e8dbfb8f0318cb4b8cce9ad36b820583877d6235a926c4c5a518081c7474af",
+    "indexRecord": "283:36901367:d=2026110712:TMP:875 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      35422623,
+      35541220
+    ],
+    "sha256": "2a6b2d50b57f7b3f1ad8b9a0671ce2eb63c8a828693e4ef3627803022bc8ba84",
+    "indexRecord": "274:35422623:d=2026110712:TMP:850 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      34162270,
+      34280423
+    ],
+    "sha256": "7643175e25673207d0d0b9f21082f75f9d055f3046cd208c1dedae390cb421d1",
+    "indexRecord": "266:34162270:d=2026110712:TMP:825 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      32922937,
+      33038829
+    ],
+    "sha256": "392d4a49d399d4b38febdff25bfc10ef8c20ca4b1cd6553e8fd27a705dfa2dd2",
+    "indexRecord": "258:32922937:d=2026110712:TMP:800 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      31701277,
+      31814844
+    ],
+    "sha256": "06ec566cede4ba70b88d6f8da00256de9f310c6ff4e1d28f643a43c8157d75d1",
+    "indexRecord": "250:31701277:d=2026110712:TMP:775 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      30533090,
+      30644082
+    ],
+    "sha256": "1d9a8f4b1ebcc92340b82c9607ee012a2e3c0f9063815c84a1a0ecfb54c1754f",
+    "indexRecord": "242:30533090:d=2026110712:TMP:750 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      29382061,
+      29490444
+    ],
+    "sha256": "a637cc05409dc9adf889857803322274e9d518841071fb2506076d7efb48145f",
+    "indexRecord": "234:29382061:d=2026110712:TMP:725 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      44078520,
+      44279640
+    ],
+    "sha256": "845708454407a94adaae114098275b06b0700b293f1a6f707f898f777713416e",
+    "indexRecord": "327:44078520:d=2026110712:UGRD:1000 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      44279641,
+      44494928
+    ],
+    "sha256": "9c22f72e04cf0bce3ef40d38bde09dc41adabcefc92347c13eabc084f198807a",
+    "indexRecord": "328:44279641:d=2026110712:VGRD:1000 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      43001037,
+      43206542
+    ],
+    "sha256": "138813300b9a44fd4fbd25f921c542a583f1bc933864191483a1b1e8acd5fad5",
+    "indexRecord": "320:43001037:d=2026110712:UGRD:975 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      43206543,
+      43424915
+    ],
+    "sha256": "a02c9806cdb1eb36aca7f604c2a32130afe1b0042c5191e1f2521f605ba42562",
+    "indexRecord": "321:43206543:d=2026110712:VGRD:975 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      41487741,
+      41696739
+    ],
+    "sha256": "5225b45becdcb5f03afac19df525d9a26e249d0b73811326b179b63745021011",
+    "indexRecord": "311:41487741:d=2026110712:UGRD:950 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      41696740,
+      41917607
+    ],
+    "sha256": "cb2e740d2edffad3d12b10f9c7f1c661dc771924c031f46ac6b5cfb080232122",
+    "indexRecord": "312:41696740:d=2026110712:VGRD:950 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      40117339,
+      40330943
+    ],
+    "sha256": "d87d6732d52878a9f1be8ad08df6aee9233722ae6661c666e387b8c1822f00f4",
+    "indexRecord": "303:40117339:d=2026110712:UGRD:925 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      40330944,
+      40553375
+    ],
+    "sha256": "858f357db840f59b12869582b60350fcdfc4a20fd12971915822cd7deb810011",
+    "indexRecord": "304:40330944:d=2026110712:VGRD:925 mb:6 hour fcst:"
+  },
+  {
+    "forecastHour": 6,
+    "file": "woof-nam.t12z.awphys06.tm00.grib2",
+    "byteRange": [
+      51459491,
+      51520914
+    ],
+    "sha256": "cb143b97623f65b08e01135caf8241f5b008a205d82bc6579d21edfda07edfa6",
+    "indexRecord": "371:51459491:d=2026110712:APCP:surface:0-6 hour acc fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      46492717,
+      46758220
+    ],
+    "sha256": "84c7451121904eb586f460c23e56ed47b283bcbb8c7948ae6117eaff89b3d5e9",
+    "indexRecord": "335:46492717:d=2026110712:PRES:surface:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      45786009,
+      46010781
+    ],
+    "sha256": "1b0360a94047fd32ca2cb61e491988dd8a344db7353837aec6158584ebe35d0d",
+    "indexRecord": "331:45786009:d=2026110712:MSLET:mean sea level:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      50091182,
+      50323566
+    ],
+    "sha256": "9d423795b6b4affd930f22d726cb6ed11a734ca06ceee8cbb36d5f258434b793",
+    "indexRecord": "359:50091182:d=2026110712:TMP:2 m above ground:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      50776098,
+      50998126
+    ],
+    "sha256": "513149d8f3915d3567cef88a2ae381c0d0d683a9034efba046a3fbbc90a53dde",
+    "indexRecord": "362:50776098:d=2026110712:RH:2 m above ground:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      51812258,
+      52029671
+    ],
+    "sha256": "9e902e0d74f89d6df745c9bbad04438b98f120cb93a9ad531aae0113888efbef",
+    "indexRecord": "367:51812258:d=2026110712:UGRD:10 m above ground:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      52029672,
+      52248311
+    ],
+    "sha256": "39a357d6e89e20e8bc23a6ccd62c9f7497287c8cc91dd98f5e8c442cbc127dc6",
+    "indexRecord": "368:52029672:d=2026110712:VGRD:10 m above ground:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      62474362,
+      62620339
+    ],
+    "sha256": "a70c9bda1a91f01c6fed00c752b01b6e19e88dad41b24667ca45d5b3d9ad7b9d",
+    "indexRecord": "430:62474362:d=2026110712:4LFTX:180-0 mb above ground:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      28800752,
+      28924601
+    ],
+    "sha256": "bb9bee00f5f71e97588926b54a94e7236ab730920f2143c2f27956472c120b6b",
+    "indexRecord": "226:28800752:d=2026110712:RH:700 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      19587152,
+      19701346
+    ],
+    "sha256": "7d8ebf0886f573cd99c34608cca5357b3e31ec0fbe9c2ffbfb016e6dbf4229a5",
+    "indexRecord": "161:19587152:d=2026110712:RH:500 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      19295506,
+      19489527
+    ],
+    "sha256": "795dc75486cca2e2159bbd0a59761d1fe07d12608a613015d1189e927426942f",
+    "indexRecord": "159:19295506:d=2026110712:HGT:500 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      46010782,
+      46263768
+    ],
+    "sha256": "f0ca8b35e1be933d287050aa02130e7374b48456f2c5c0785867e8f7f420cab9",
+    "indexRecord": "332:46010782:d=2026110712:HGT:1000 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      29186180,
+      29250738
+    ],
+    "sha256": "634325ccc01b06eb05929d8e57fbb13a17964cabe353f6e539f5e35bd60e0cd1",
+    "indexRecord": "228:29186180:d=2026110712:DZDT:700 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      28691212,
+      28800751
+    ],
+    "sha256": "0a261b20c95ed0934b331d113beac4072d4d93ebd05050c65ccf3862fd3735eb",
+    "indexRecord": "225:28691212:d=2026110712:TMP:700 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      44511823,
+      44637157
+    ],
+    "sha256": "1ec59fa55feee272b90631087bb7b39ffd2fc1f7a7618a199dda027bd55ff171",
+    "indexRecord": "323:44511823:d=2026110712:TMP:1000 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      43391762,
+      43519718
+    ],
+    "sha256": "c643148c28c8aef0ad32464bae9026463f03863bdaf12374cfee3471647dda7f",
+    "indexRecord": "316:43391762:d=2026110712:TMP:975 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      41840905,
+      41968902
+    ],
+    "sha256": "9d7f66f42ffa84f9ba10bc88287245da2c4fb3d97961d6e72938f4863939697a",
+    "indexRecord": "307:41840905:d=2026110712:TMP:950 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      40455961,
+      40581277
+    ],
+    "sha256": "e9b4226f9a44c66c38827ac14111b3ff8b960f66165b9f59827e17c4c71c2534",
+    "indexRecord": "299:40455961:d=2026110712:TMP:925 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      39094668,
+      39217315
+    ],
+    "sha256": "3353503a689c6decafd7dd1c87374aad4954db8227c0e980ff8e012655592200",
+    "indexRecord": "291:39094668:d=2026110712:TMP:900 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      37759219,
+      37879805
+    ],
+    "sha256": "c7a1c19f55fc9e10db1999f9043d226502a2ad813b61ebd577ad03532b9080e6",
+    "indexRecord": "283:37759219:d=2026110712:TMP:875 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      36244392,
+      36364760
+    ],
+    "sha256": "7ae86fef3dcd5dc936e10fc46deeb2f202aaa0d6d3e2035c29f9d8b79edf7830",
+    "indexRecord": "274:36244392:d=2026110712:TMP:850 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      34953400,
+      35071430
+    ],
+    "sha256": "22e9162e5bdd9f03234fa7c5b686214673e645d3ca70fd6f92d1390133163245",
+    "indexRecord": "266:34953400:d=2026110712:TMP:825 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      33681784,
+      33799757
+    ],
+    "sha256": "016f0f83498d67c8c36046e3e0efe31451b74e4755a729f76fd6b25964392911",
+    "indexRecord": "258:33681784:d=2026110712:TMP:800 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      32428141,
+      32543661
+    ],
+    "sha256": "9a4a0a7a59ca7721724a56fdf3b650f5e1d2555e840ee0a22852c82b796045a0",
+    "indexRecord": "250:32428141:d=2026110712:TMP:775 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      31227606,
+      31341217
+    ],
+    "sha256": "a399bb5c7b9522c107f32bd4dde21cd8748e8730718cccdd36a2ab38ead62edb",
+    "indexRecord": "242:31227606:d=2026110712:TMP:750 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      30042978,
+      30155029
+    ],
+    "sha256": "26836b5bd074624508031c4e1c1f082a3482cfe17b6ba04333bf30de30171672",
+    "indexRecord": "234:30042978:d=2026110712:TMP:725 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      45044131,
+      45252538
+    ],
+    "sha256": "18c636bb2fe51a16c31292454404d3c4e515b29d2a2850b0e531eb45df0edd5c",
+    "indexRecord": "327:45044131:d=2026110712:UGRD:1000 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      45252539,
+      45471915
+    ],
+    "sha256": "deed7342e145957dba59f4837424949c0c369c02acfd4a07a4ee9b0b5b64a314",
+    "indexRecord": "328:45252539:d=2026110712:VGRD:1000 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      43955327,
+      44168346
+    ],
+    "sha256": "d6b96c57ac37be6eefb74a414111e612766309419411d759f437397b442eed71",
+    "indexRecord": "320:43955327:d=2026110712:UGRD:975 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      44168347,
+      44395379
+    ],
+    "sha256": "a8f6ba23b8ad1c7406f780b17fd379d022b166a3cafb4cdac839f463d7aa4435",
+    "indexRecord": "321:44168347:d=2026110712:VGRD:975 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      42425633,
+      42641541
+    ],
+    "sha256": "06054d22f7eac9e112f7b4a90e659ec1bc0c198abd7c33142cff812731247002",
+    "indexRecord": "311:42425633:d=2026110712:UGRD:950 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      42641542,
+      42871762
+    ],
+    "sha256": "ef6282060b08356d04fe3c2f14a41eb46486fbf794e40945acef24d1233a035d",
+    "indexRecord": "312:42641542:d=2026110712:VGRD:950 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      41045078,
+      41261126
+    ],
+    "sha256": "383f0712f1009212047e836edd4e87d56facc760efe642007052bf49bf3944ec",
+    "indexRecord": "303:41045078:d=2026110712:UGRD:925 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      41261127,
+      41491547
+    ],
+    "sha256": "cb40620176e6fafcf91eabb2035f0a79ae1abb7b532fe5be2ef40cf537c9a7df",
+    "indexRecord": "304:41261127:d=2026110712:VGRD:925 mb:12 hour fcst:"
+  },
+  {
+    "forecastHour": 12,
+    "file": "woof-nam.t12z.awphys12.tm00.grib2",
+    "byteRange": [
+      52546564,
+      52635998
+    ],
+    "sha256": "38271bd56d7f799e80722efaab75ca89b9d1029368a084800766b28da3241ca2",
+    "indexRecord": "371:52546564:d=2026110712:APCP:surface:0-12 hour acc fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      47079304,
+      47349311
+    ],
+    "sha256": "3463cbdbb9f88a309ec17a32a3fc22f15d06f3575b2c36c241989f2fcf147fe7",
+    "indexRecord": "335:47079304:d=2026110712:PRES:surface:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      46344406,
+      46577432
+    ],
+    "sha256": "9742209fd2198d4d728af6e3849b5c9c93f73510c4749d0230bdd413bc4c4a4a",
+    "indexRecord": "331:46344406:d=2026110712:MSLET:mean sea level:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      50687679,
+      50928672
+    ],
+    "sha256": "5f1eaf7b69c06b26b5928b801080e8acd19bdf65358c0f12234be2167247b6ea",
+    "indexRecord": "359:50687679:d=2026110712:TMP:2 m above ground:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      51386235,
+      51612392
+    ],
+    "sha256": "6a0c20e51815c7d4593b9e992b50e0a9fd9bad8fbe8df263f1cf7fe5ddb08bc0",
+    "indexRecord": "362:51386235:d=2026110712:RH:2 m above ground:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      52456772,
+      52678952
+    ],
+    "sha256": "4cadd44032e1cb7913c52e73ce003a43b70c0f276ad5a5388bee8eb975747229",
+    "indexRecord": "367:52456772:d=2026110712:UGRD:10 m above ground:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      52678953,
+      52902891
+    ],
+    "sha256": "b2ee2ce9cfe7dcc72f46c937035d7d8599dd28a34d9b8d08020d631bf08f6865",
+    "indexRecord": "368:52678953:d=2026110712:VGRD:10 m above ground:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      63239734,
+      63390433
+    ],
+    "sha256": "b2021186000277e14f3231c08cb4638de6494846de86dd121256a6f9e17afea4",
+    "indexRecord": "430:63239734:d=2026110712:4LFTX:180-0 mb above ground:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      29055243,
+      29180553
+    ],
+    "sha256": "b62554491f25aadf71ed65f0e2b7859d814b088e15a18169d894b80a9284017d",
+    "indexRecord": "226:29055243:d=2026110712:RH:700 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      19718889,
+      19837229
+    ],
+    "sha256": "f63fc9e374c117315d0addd41541e0c355f7065dde3a9c83424460ec38ab28bc",
+    "indexRecord": "161:19718889:d=2026110712:RH:500 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      19419749,
+      19618024
+    ],
+    "sha256": "e6608053492d2dedc2dced0379134f162746b649e635c566377dea49227922d5",
+    "indexRecord": "159:19419749:d=2026110712:HGT:500 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      46577433,
+      46835107
+    ],
+    "sha256": "1d7a4a29eb0c849940c9206a75a68d2f0810b459bb21c47a06d461f243e37545",
+    "indexRecord": "332:46577433:d=2026110712:HGT:1000 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      29445652,
+      29507661
+    ],
+    "sha256": "cacac34903420272e1dd2081c5d7663accf6c40b847d784a5cff1c7fe860f070",
+    "indexRecord": "228:29445652:d=2026110712:DZDT:700 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      28945920,
+      29055242
+    ],
+    "sha256": "810ff2239439a7e916e41feadbd144e2ce4451438a3ade33b1302a9f59b0290e",
+    "indexRecord": "225:28945920:d=2026110712:TMP:700 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      45029818,
+      45163770
+    ],
+    "sha256": "531dc5e22326baa3e6393c4de19ab9010c3b5f0b3edae620959c2c099b3cc5b3",
+    "indexRecord": "323:45029818:d=2026110712:TMP:1000 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      43879291,
+      44013133
+    ],
+    "sha256": "63b5f46e6868e0cd6a6bad66cd254f1756a9bcc3ee6a5cc95a2337d9009f8079",
+    "indexRecord": "316:43879291:d=2026110712:TMP:975 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      42280059,
+      42416710
+    ],
+    "sha256": "3470057e8daa6d9bf5e979c106c4dc792270cf3d3271c63c2c0eee5f8535efad",
+    "indexRecord": "307:42280059:d=2026110712:TMP:950 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      40854249,
+      40986308
+    ],
+    "sha256": "b81e028f891554993760f5fd66eb223fd366b10fd16f02a54e0128dd6df3bded",
+    "indexRecord": "299:40854249:d=2026110712:TMP:925 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      39461626,
+      39590189
+    ],
+    "sha256": "2e8b7c5f08ea4de835a7ae1857d5db4a27dde4d504768292c8888f10f9c0b98a",
+    "indexRecord": "291:39461626:d=2026110712:TMP:900 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      38100019,
+      38227564
+    ],
+    "sha256": "d75531205aa1e7eb88e84c07e41eefcd844d42bf07b3a5469bae218ff8a69367",
+    "indexRecord": "283:38100019:d=2026110712:TMP:875 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      36557120,
+      36682044
+    ],
+    "sha256": "fb1749048ee0d81fe0f9a8085bc6a4de75a1cd1e17fe81c34f00d904a98436e5",
+    "indexRecord": "274:36557120:d=2026110712:TMP:850 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      35245814,
+      35369829
+    ],
+    "sha256": "2bd42ef5e54eda72f8a932a88edec597747d8ad5dcc2da3d7b8508e3b8030f66",
+    "indexRecord": "266:35245814:d=2026110712:TMP:825 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      33963468,
+      34082044
+    ],
+    "sha256": "fd0cc31890b7a223b7b699b90b72eb2c8698f103db927d8ae2cef3de5402adb1",
+    "indexRecord": "258:33963468:d=2026110712:TMP:800 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      32703602,
+      32818728
+    ],
+    "sha256": "f209dc17c14d18a8017f52cc7c62154de208928ab256be0518a29985166e06f1",
+    "indexRecord": "250:32703602:d=2026110712:TMP:775 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      31497464,
+      31609954
+    ],
+    "sha256": "5dd5c8988eebe89d24c68d1dbe3785a3d2c0c3ffbdf0a510a14bec36cd1a53a4",
+    "indexRecord": "242:31497464:d=2026110712:TMP:750 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      30308165,
+      30418495
+    ],
+    "sha256": "88ba30899bc6cef1b63aeda88b8e1b2acb397f404fe8b9870acb62a071cf9e07",
+    "indexRecord": "234:30308165:d=2026110712:TMP:725 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      45581196,
+      45795330
+    ],
+    "sha256": "80725cf84f61b22fa84b6ff3e9dfaeab6096c1130b63cea08a640c30402cbbf4",
+    "indexRecord": "327:45581196:d=2026110712:UGRD:1000 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      45795331,
+      46019625
+    ],
+    "sha256": "d8ba377ed701df73c302bdf08aae3c50be72831ec86665e308c3232e51cfaf49",
+    "indexRecord": "328:45795331:d=2026110712:VGRD:1000 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      44462377,
+      44681564
+    ],
+    "sha256": "2bdc50fe0ee55ba7c66e4a22e89c2ccf19708bd4b43bbe6d50ae9c1bf524c81c",
+    "indexRecord": "320:44462377:d=2026110712:UGRD:975 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      44681565,
+      44911099
+    ],
+    "sha256": "0ed3db73de027b7b35c9f6b7e4b6e10fc2ba210d27e53a99ad8ba62f8a71d05a",
+    "indexRecord": "321:44681565:d=2026110712:VGRD:975 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      42890984,
+      43112846
+    ],
+    "sha256": "0363f4d9f654c5bb8e3a5014127d6a41ce2aac1fed29f355b0abff153adb4eeb",
+    "indexRecord": "311:42890984:d=2026110712:UGRD:950 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      43112847,
+      43347118
+    ],
+    "sha256": "bf87acbfa3318027b3756209b8554964f93e47e647bd62c98c3be5848e8ebdd8",
+    "indexRecord": "312:43112847:d=2026110712:VGRD:950 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      41466084,
+      41687159
+    ],
+    "sha256": "6a4798b06d8110fa304c0a5a1dbe3a221a0c6cd71c86213ef0f4e8473e265436",
+    "indexRecord": "303:41466084:d=2026110712:UGRD:925 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      41687160,
+      41921283
+    ],
+    "sha256": "7bed67b505a493bd92da027504185249031247ab40b241a7c25a7c2d3b252a7d",
+    "indexRecord": "304:41687160:d=2026110712:VGRD:925 mb:18 hour fcst:"
+  },
+  {
+    "forecastHour": 18,
+    "file": "woof-nam.t12z.awphys18.tm00.grib2",
+    "byteRange": [
+      53204542,
+      53295465
+    ],
+    "sha256": "3d95e2607caf807ac37a8624463f8daa4c7255a187123d134cfe62697b6e429e",
+    "indexRecord": "371:53204542:d=2026110712:APCP:surface:12-18 hour acc fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      48146561,
+      48419914
+    ],
+    "sha256": "96aec5788d850ef21faf274223cb17059936e92233fdb67e8bb8e3c61de8efc5",
+    "indexRecord": "335:48146561:d=2026110712:PRES:surface:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      47375672,
+      47615202
+    ],
+    "sha256": "139270f1a4f83951babf67febb1cafb30d16c8cf24e55bd5720b3f4abfa5e251",
+    "indexRecord": "331:47375672:d=2026110712:MSLET:mean sea level:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      51778734,
+      52027361
+    ],
+    "sha256": "13ac18f249fb73faae06df7347d846b9e4c26a219d959fba60df5b127aa4e428",
+    "indexRecord": "359:51778734:d=2026110712:TMP:2 m above ground:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      52498034,
+      52725475
+    ],
+    "sha256": "fc606b65f73eb03cd2a1637f97257aba57dbb09eff79fde1ef771304470395a2",
+    "indexRecord": "362:52498034:d=2026110712:RH:2 m above ground:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      53588249,
+      53815126
+    ],
+    "sha256": "d16f8eff39df439c03fba60c1126b741b6207dd0e9959c833863181534437178",
+    "indexRecord": "367:53588249:d=2026110712:UGRD:10 m above ground:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      53815127,
+      54044429
+    ],
+    "sha256": "0e4672cc08b75ecc2f6b5726751700a12d2a22558b4b5b8e12a0bdaab2cc2c6a",
+    "indexRecord": "368:53815127:d=2026110712:VGRD:10 m above ground:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      64607897,
+      64761982
+    ],
+    "sha256": "d1c3c6ab214ff83c0c040ba1f96e18df4aa7e0a11e6e6279f6ff45480e9f4b94",
+    "indexRecord": "430:64607897:d=2026110712:4LFTX:180-0 mb above ground:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      29679285,
+      29807447
+    ],
+    "sha256": "31a72ea93f0ecd6d61e93e3a68fdc4c79e6f67c3a75057f47a9aa49e6b9939f6",
+    "indexRecord": "226:29679285:d=2026110712:RH:700 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      20078854,
+      20203082
+    ],
+    "sha256": "c2788d87dfbd271e9fffa4c1f5e88fea231d93831345a09c997c9f8726f296ae",
+    "indexRecord": "161:20078854:d=2026110712:RH:500 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      19772829,
+      19976887
+    ],
+    "sha256": "e26a25076e1bd18f7f7ddea8c541c4cc95249a44a035e58f71759d6fc476a2ec",
+    "indexRecord": "159:19772829:d=2026110712:HGT:500 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      47615203,
+      47880950
+    ],
+    "sha256": "ad21f2fb33cc91bb4b534194d484ae3239b813d74cd43b6b6a51f1ef25457fa9",
+    "indexRecord": "332:47615203:d=2026110712:HGT:1000 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      30077417,
+      30140474
+    ],
+    "sha256": "8f604d020f79a24296039f038fd3f777983646299ef4d80333c52293f367986b",
+    "indexRecord": "228:30077417:d=2026110712:DZDT:700 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      29567886,
+      29679284
+    ],
+    "sha256": "1ac045f2eed4db19183e85e007da12660b8d6614b38d31c234d19f5feccaff11",
+    "indexRecord": "225:29567886:d=2026110712:TMP:700 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      46029345,
+      46169790
+    ],
+    "sha256": "e71ea21f9b5292da5b0f26843262696eb9d4959cb85f21a4d6a4dba3c2807783",
+    "indexRecord": "323:46029345:d=2026110712:TMP:1000 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      44848639,
+      44991073
+    ],
+    "sha256": "c29af5ee131a707e0a111f0c847d7f7a70d6672cd35750fc5ede1243f67d1a5b",
+    "indexRecord": "316:44848639:d=2026110712:TMP:975 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      43223216,
+      43364373
+    ],
+    "sha256": "0c166256da5a384e29266bc2fecb57de23916dbdc0c6ebe015b5738418a5a6a6",
+    "indexRecord": "307:43223216:d=2026110712:TMP:950 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      41768050,
+      41903989
+    ],
+    "sha256": "7b926aa67c95c86283074ffe22a87f7615bfd8f8b91f4c6d578dfaf000987048",
+    "indexRecord": "299:41768050:d=2026110712:TMP:925 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      40341159,
+      40474714
+    ],
+    "sha256": "a5d50b949b09ce321267c911ce60a96a8acae6abe153f8bea3a7bac28d80ad8f",
+    "indexRecord": "291:40341159:d=2026110712:TMP:900 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      38944714,
+      39076539
+    ],
+    "sha256": "e0fc93fec070139ed76e23d44bdcf594b1625d094ce080949a4b6da9ed5fceab",
+    "indexRecord": "283:38944714:d=2026110712:TMP:875 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      37361816,
+      37493555
+    ],
+    "sha256": "ae376d875af2351073d936a7997135a905f9341cf1b128a4eeabf6f55831c870",
+    "indexRecord": "274:37361816:d=2026110712:TMP:850 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      36022412,
+      36149512
+    ],
+    "sha256": "b902b8f8f6074f2b0f76b39e13dfca76824d8cd7eea776dc5076df2763e2f2b9",
+    "indexRecord": "266:36022412:d=2026110712:TMP:825 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      34709727,
+      34832884
+    ],
+    "sha256": "f36342262f71639b085da0f5be724b360024fd588204cb988ebfd0a92080101e",
+    "indexRecord": "258:34709727:d=2026110712:TMP:800 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      33418944,
+      33535819
+    ],
+    "sha256": "788eaeaa221744a1de652127e41d93e88989166f96eb727d1d87493d0b97e4dc",
+    "indexRecord": "250:33418944:d=2026110712:TMP:775 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      32184859,
+      32298922
+    ],
+    "sha256": "3bcc550d39eae07138267d496d017a4315304bf8efe03ec9652eed83791e9aad",
+    "indexRecord": "242:32184859:d=2026110712:TMP:750 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      30965305,
+      31077437
+    ],
+    "sha256": "8395277508ce04dbd55af77a45463ab6aabad163936959fd79c9a0a75fbff561",
+    "indexRecord": "234:30965305:d=2026110712:TMP:725 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      46596773,
+      46815650
+    ],
+    "sha256": "fb2b27ec9d15862d0161cb2087e8a637bdf886769e663cf68fc9c5a2ebe07af3",
+    "indexRecord": "327:46596773:d=2026110712:UGRD:1000 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      46815651,
+      47045317
+    ],
+    "sha256": "97eb20a03f10bfe56dee3df33c97f98461b6e1c5335b80237a774ae6484940be",
+    "indexRecord": "328:46815651:d=2026110712:VGRD:1000 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      45450351,
+      45673897
+    ],
+    "sha256": "ee18cdeb67dfd5c18cae11fd3616230e02dcd139e51efd267d6554383fa6d206",
+    "indexRecord": "320:45450351:d=2026110712:UGRD:975 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      45673898,
+      45908558
+    ],
+    "sha256": "f0838cedeebe31d61b6248e93f6b77c8a30f9d8cee07d8a82d9b82ca66fc17a0",
+    "indexRecord": "321:45673898:d=2026110712:VGRD:975 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      43844074,
+      44068452
+    ],
+    "sha256": "5c3b331c13b565ace665db347d1936d9187d757ba6442d9290765c43b26b949e",
+    "indexRecord": "311:43844074:d=2026110712:UGRD:950 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      44068453,
+      44307168
+    ],
+    "sha256": "2e160a74e71ddfaf126d497d680dd7236c4a67da119bfee4c48d78cdf10f6929",
+    "indexRecord": "312:44068453:d=2026110712:VGRD:950 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      42392341,
+      42614787
+    ],
+    "sha256": "2499faea41b7036949560ece44f21a6f6dd4f6c73f0d4057afb566b93e80f619",
+    "indexRecord": "303:42392341:d=2026110712:UGRD:925 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      42614788,
+      42853140
+    ],
+    "sha256": "be74afb6360256af070ee3cf2edfe45f8be012c2d91671382a8307f7b7b7c8d9",
+    "indexRecord": "304:42614788:d=2026110712:VGRD:925 mb:24 hour fcst:"
+  },
+  {
+    "forecastHour": 24,
+    "file": "woof-nam.t12z.awphys24.tm00.grib2",
+    "byteRange": [
+      54352480,
+      54473596
+    ],
+    "sha256": "95c52b709347f79b6be35dc513e29ecb3c2bb9b44fa2ead59579025a489f7da7",
+    "indexRecord": "371:54352480:d=2026110712:APCP:surface:12-24 hour acc fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      47913459,
+      48187104
+    ],
+    "sha256": "292278d95dc5101e6df30c4ced79abebaf61e373acab41e09212d83e92da65f8",
+    "indexRecord": "335:47913459:d=2026110712:PRES:surface:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      47124076,
+      47366461
+    ],
+    "sha256": "b74e2693abc1c72ab1dedbba2d74c71df74f66b5a0e449c8a6420fa53f4904bf",
+    "indexRecord": "331:47124076:d=2026110712:MSLET:mean sea level:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      51564730,
+      51805625
+    ],
+    "sha256": "b135b7d11aa97e4db86a9977df6e8a66c7aca09e43fd8518e48901198fe59c43",
+    "indexRecord": "359:51564730:d=2026110712:TMP:2 m above ground:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      52277135,
+      52504673
+    ],
+    "sha256": "adf5695ab61fe01e09d3df4b4c54c08cb5c8413a6a6d7ad3f067a5085bfefb72",
+    "indexRecord": "362:52277135:d=2026110712:RH:2 m above ground:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      53351379,
+      53577804
+    ],
+    "sha256": "48f2aa95c26cfba77124222f5eda3c54f3de7a49a21d1585c2485909b1cb2211",
+    "indexRecord": "367:53351379:d=2026110712:UGRD:10 m above ground:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      53577805,
+      53799198
+    ],
+    "sha256": "3171200c8f5eac5f2eb9e3bfc7d3e2f84e93439bd968afada23220b87fd052f4",
+    "indexRecord": "368:53577805:d=2026110712:VGRD:10 m above ground:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      64284934,
+      64436730
+    ],
+    "sha256": "cc043128c9fabb785e255b5c44dc5e06ecb2312970b44bcdcc83e15dcb9cd512",
+    "indexRecord": "430:64284934:d=2026110712:4LFTX:180-0 mb above ground:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      29483748,
+      29612801
+    ],
+    "sha256": "bbf2d697627e6bed0d3c43d82f946de5cf2e9e2408a67f62d2d43fb6e12cc2c5",
+    "indexRecord": "226:29483748:d=2026110712:RH:700 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      19926855,
+      20049940
+    ],
+    "sha256": "f224fcb0ca1e705c1daa628e64e95d75438152f3e7d3dede91421c3416080f35",
+    "indexRecord": "161:19926855:d=2026110712:RH:500 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      19621891,
+      19825494
+    ],
+    "sha256": "8074dc0f9c43590d1511aaeb48033554817e60f9a0c242f4b3334cb26054f0b2",
+    "indexRecord": "159:19621891:d=2026110712:HGT:500 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      47366462,
+      47633954
+    ],
+    "sha256": "c61a19408c11e02367bda9db249bd36da8dd435671cfd237fb85170d8e6d2f1d",
+    "indexRecord": "332:47366462:d=2026110712:HGT:1000 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      29880760,
+      29942957
+    ],
+    "sha256": "0d2373b77f9d4ce4f33422c4291af15430a417747e21d2e68338c18f8c4073cc",
+    "indexRecord": "228:29880760:d=2026110712:DZDT:700 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      29372264,
+      29483747
+    ],
+    "sha256": "96877c720519f9bc828623142051c0f8b7bb426a22369443c10ac19c4cda0741",
+    "indexRecord": "225:29372264:d=2026110712:TMP:700 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      45806334,
+      45940474
+    ],
+    "sha256": "b69505b55ba325a8f55f169ae0ccf58dd36bc31c850857dba1079e736067314e",
+    "indexRecord": "323:45806334:d=2026110712:TMP:1000 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      44651295,
+      44787379
+    ],
+    "sha256": "9cdaaf275b1014ebd7a546f59fd13f676072098ebf067de22dee1dad59f4ae32",
+    "indexRecord": "316:44651295:d=2026110712:TMP:975 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      43051613,
+      43184785
+    ],
+    "sha256": "f5ca941b77fc2c789301470fe802989d42d135b8bf042391ff60933a145e56d5",
+    "indexRecord": "307:43051613:d=2026110712:TMP:950 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      41601454,
+      41731912
+    ],
+    "sha256": "264e53b239631d780744c28ac2adfeb441c87f8670379cf7dda8144627c685fa",
+    "indexRecord": "299:41601454:d=2026110712:TMP:925 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      40170230,
+      40300168
+    ],
+    "sha256": "c08ebbe7faa7d9e5831fe3f0e1a3a1af2f41290349653b36980bad2ca0060cc5",
+    "indexRecord": "291:40170230:d=2026110712:TMP:900 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      38767913,
+      38896407
+    ],
+    "sha256": "37df0a4e3b20b88c8aa86a54e6c347b12f7dfc1daab84d4c64bd66f9b966f527",
+    "indexRecord": "283:38767913:d=2026110712:TMP:875 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      37180920,
+      37308360
+    ],
+    "sha256": "8130ddcf92d02de9fff4cf6246e206d9278ea765cb95cc85adbecb33694c776b",
+    "indexRecord": "274:37180920:d=2026110712:TMP:850 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      35842796,
+      35966116
+    ],
+    "sha256": "d1f26625d199d1226ddc2b542157d6d609861b0d5e199099d5dbd10238fc3599",
+    "indexRecord": "266:35842796:d=2026110712:TMP:825 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      34531370,
+      34650831
+    ],
+    "sha256": "cb193174c4fb0c92e2748a100938056dc4d97a021545cb2d3279aa46aae454a3",
+    "indexRecord": "258:34531370:d=2026110712:TMP:800 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      33241011,
+      33357111
+    ],
+    "sha256": "68370a4cb4ca1ce13296e8b6300819c53a1874f96e1cc6226724d94fb600d192",
+    "indexRecord": "250:33241011:d=2026110712:TMP:775 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      32002768,
+      32116644
+    ],
+    "sha256": "d95e9ae383f486035ce6f5ad264a643c1b2d5742427fdc6a377eb34a70988a21",
+    "indexRecord": "242:32002768:d=2026110712:TMP:750 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      30779054,
+      30891490
+    ],
+    "sha256": "c7c8bc73a6f92cee13625b44f70bdaaa70a3d4412ee98c3debbbc3a5b81cf365",
+    "indexRecord": "234:30779054:d=2026110712:TMP:725 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      46360938,
+      46572771
+    ],
+    "sha256": "bd67199a14104093777de01576468d7bd533f97d48d70592ea8382509c2e0634",
+    "indexRecord": "327:46360938:d=2026110712:UGRD:1000 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      46572772,
+      46792455
+    ],
+    "sha256": "9f2e36d7747386d34d097c041242442f3b1e0289ab52cfaf9e9d99ea7ff48bd4",
+    "indexRecord": "328:46572772:d=2026110712:VGRD:1000 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      45236709,
+      45451937
+    ],
+    "sha256": "ef5f36c14e3de2a1d253cfede79a8800d4c93d232b173b4574389d9606b7fcdd",
+    "indexRecord": "320:45236709:d=2026110712:UGRD:975 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      45451938,
+      45676045
+    ],
+    "sha256": "1b63ebbe38bf86e40026d44f106cc535de79e9362cb8c0a65148ee34eca31c5d",
+    "indexRecord": "321:45451938:d=2026110712:VGRD:975 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      43658366,
+      43874896
+    ],
+    "sha256": "724a32c4412b3656a294be96cb806a75664747e69c1c8a1219403367daff7a79",
+    "indexRecord": "311:43658366:d=2026110712:UGRD:950 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      43874897,
+      44105319
+    ],
+    "sha256": "0988d7937fce669e5eed59a8a26389bacab788db36ed2dff143b5ef84001d0ba",
+    "indexRecord": "312:43874897:d=2026110712:VGRD:950 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      42214133,
+      42433670
+    ],
+    "sha256": "3d3c59093acd127443746c1c7bff1d5fd8299ee6999783f2afb462b2df99ac97",
+    "indexRecord": "303:42214133:d=2026110712:UGRD:925 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      42433671,
+      42668654
+    ],
+    "sha256": "d5b4d65a85274f519edfab9b835e3ce3d6c56554c6bc13f0818b89604d10583f",
+    "indexRecord": "304:42433671:d=2026110712:VGRD:925 mb:30 hour fcst:"
+  },
+  {
+    "forecastHour": 30,
+    "file": "woof-nam.t12z.awphys30.tm00.grib2",
+    "byteRange": [
+      54104669,
+      54213374
+    ],
+    "sha256": "ca0f7c6b63751f35fcf86aa19e5298f9169d52f2826f1155f609a0ff38be49f4",
+    "indexRecord": "371:54104669:d=2026110712:APCP:surface:24-30 hour acc fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      48490976,
+      48763357
+    ],
+    "sha256": "52a508796cadd352041f6f7d192e3b536b81c8591a389755cb4e95573bab9426",
+    "indexRecord": "335:48490976:d=2026110712:PRES:surface:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      47710804,
+      47947822
+    ],
+    "sha256": "70e9f7b9ab953e998dadfba00caae5f35f515960f4bda335f05e29c595f04ee8",
+    "indexRecord": "331:47710804:d=2026110712:MSLET:mean sea level:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      52130513,
+      52371985
+    ],
+    "sha256": "ed69cd689e8edb6ae3d909ffb71c8210ce86c1ed17ef5145a78e7dc26ea00a0a",
+    "indexRecord": "359:52130513:d=2026110712:TMP:2 m above ground:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      52837850,
+      53065188
+    ],
+    "sha256": "9628ed261ab034b5b3ac79ceb5036fc06c9f95d07b22f80e2a2295a6c018cefa",
+    "indexRecord": "362:52837850:d=2026110712:RH:2 m above ground:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      53906403,
+      54134610
+    ],
+    "sha256": "81fb9319ba577de949f768ac3fb96a154cd6c6ad5096caac4089cecbd4bc1b5f",
+    "indexRecord": "367:53906403:d=2026110712:UGRD:10 m above ground:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      54134611,
+      54359976
+    ],
+    "sha256": "1f235ccd94d0d6bf74fc9f3a865890dd45b7875c2700bc9deff14649e5ff6ad7",
+    "indexRecord": "368:54134611:d=2026110712:VGRD:10 m above ground:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      64938555,
+      65090948
+    ],
+    "sha256": "e15111873b83ea97668b759050ae942c96076186c98cdc7799e865681a333ba7",
+    "indexRecord": "430:64938555:d=2026110712:4LFTX:180-0 mb above ground:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      30057500,
+      30188973
+    ],
+    "sha256": "6d6a050a79f3ae7210c35652f8dc4d60d0318cd5d80a6f28350cc579b7e8d2bb",
+    "indexRecord": "226:30057500:d=2026110712:RH:700 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      20298554,
+      20424486
+    ],
+    "sha256": "2dfa8440143eb83338775625179001c1d1dca52678224d091bbf554b6a6d2beb",
+    "indexRecord": "161:20298554:d=2026110712:RH:500 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      19989790,
+      20196385
+    ],
+    "sha256": "661488a2c147eade75ade8fce3ea4a6b27a6ee0dabb39917157ecef36342a19a",
+    "indexRecord": "159:19989790:d=2026110712:HGT:500 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      47947823,
+      48210874
+    ],
+    "sha256": "f03f9eda17e3a3d47b2b2c0966e7b6521f8ac95093f65e493e881275bdc2bea1",
+    "indexRecord": "332:47947823:d=2026110712:HGT:1000 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      30463776,
+      30527843
+    ],
+    "sha256": "3cd04b1e966a7928991f478b3601d4a52b44d58dfa4d02efb3906a64b0f3a547",
+    "indexRecord": "228:30463776:d=2026110712:DZDT:700 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      29944393,
+      30057499
+    ],
+    "sha256": "f8aa65dec8ef851a29c7ac0c1cabfa09cca77abc77b7a9b869d4e875c8c29528",
+    "indexRecord": "225:29944393:d=2026110712:TMP:700 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      46399684,
+      46531018
+    ],
+    "sha256": "05b58647fef0952aa5a029f32f58097163dee0b2c0db0f6e9ebe2970d038ccdc",
+    "indexRecord": "323:46399684:d=2026110712:TMP:1000 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      45248745,
+      45381004
+    ],
+    "sha256": "13f42d5be4634db9fa41eca5bb4950a20081c2e64e0adf24f523b6579e1a4497",
+    "indexRecord": "316:45248745:d=2026110712:TMP:975 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      43670302,
+      43801288
+    ],
+    "sha256": "4ca5394488ba781eb37f0aacf60ecfc3b22aef6399ce9bf5a1a6b6b136c1a277",
+    "indexRecord": "307:43670302:d=2026110712:TMP:950 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      42229327,
+      42359713
+    ],
+    "sha256": "16c0d2230292f1aec437813668d0288c2954d2da720150d3a498508f4a600a43",
+    "indexRecord": "299:42229327:d=2026110712:TMP:925 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      40805321,
+      40932565
+    ],
+    "sha256": "b72ac48ba425ca577937a184031f306c3dc4e89f22cf7336c7b3a236eb90b8c0",
+    "indexRecord": "291:40805321:d=2026110712:TMP:900 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      39412210,
+      39537500
+    ],
+    "sha256": "37a2b536b80e964ce80f5e7d6eb2617c89914a24efaeddf786d18dfe5051f003",
+    "indexRecord": "283:39412210:d=2026110712:TMP:875 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      37829043,
+      37954833
+    ],
+    "sha256": "3d5966f80b9ba063e2db9841213025f381f2752a51c8d677c9d1a44eea56d733",
+    "indexRecord": "274:37829043:d=2026110712:TMP:850 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      36486914,
+      36609400
+    ],
+    "sha256": "c13346b7a75106ec581f8fcdf4d31612bf700226b77e51d1c9ecc729bc3f1fa4",
+    "indexRecord": "266:36486914:d=2026110712:TMP:825 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      35167844,
+      35287144
+    ],
+    "sha256": "290c4631e1404fe68a0308055208be26801a924b1bb7c2753cdc815d6318e39a",
+    "indexRecord": "258:35167844:d=2026110712:TMP:800 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      33865910,
+      33982726
+    ],
+    "sha256": "1ebd995a9fcc2d47cabb554837a1bbd04c7261b6de2c13be4e2eba39d9cd8fa8",
+    "indexRecord": "250:33865910:d=2026110712:TMP:775 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      32613147,
+      32727865
+    ],
+    "sha256": "451e1b8c0114d9315fc442f464de8a7045c469304fd49e5bfdef17f49720edc7",
+    "indexRecord": "242:32613147:d=2026110712:TMP:750 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      31372303,
+      31485437
+    ],
+    "sha256": "4295370890557de34e1c740d3004c18f0defeed2054975efb192066f600fd7cd",
+    "indexRecord": "234:31372303:d=2026110712:TMP:725 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      46948431,
+      47163489
+    ],
+    "sha256": "0827b2328f411f2622ce4096cc940cc98e3f19df367559abf31860983d8a0ad5",
+    "indexRecord": "327:46948431:d=2026110712:UGRD:1000 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      47163490,
+      47388877
+    ],
+    "sha256": "b4a0219ecdab96e21424e3d74708a2d2bc6a8bb50e31d4e6e3fc950fc78ce29f",
+    "indexRecord": "328:47163490:d=2026110712:VGRD:1000 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      45830717,
+      46050253
+    ],
+    "sha256": "c3fa2681a58b8b085b86da083f632bd2771d7d2c03dea1704e4007e877ccbdd9",
+    "indexRecord": "320:45830717:d=2026110712:UGRD:975 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      46050254,
+      46281059
+    ],
+    "sha256": "2a2d6f0c8253352e9d9444a721d883b1994d00d97e87fa3f84f74acbf9816e95",
+    "indexRecord": "321:46050254:d=2026110712:VGRD:975 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      44275318,
+      44493375
+    ],
+    "sha256": "7a4823f3871f4dd6e6b87248f2b7d015e97bc3236da09606694e801db0677c19",
+    "indexRecord": "311:44275318:d=2026110712:UGRD:950 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      44493376,
+      44725743
+    ],
+    "sha256": "50b7fc0ca0957a9101b49fc3b528bad9f52324f4574caa24814fcc68bd7174d3",
+    "indexRecord": "312:44493376:d=2026110712:VGRD:950 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      42845523,
+      43066904
+    ],
+    "sha256": "3079e37206c1794988e6e4eb487adb9a93d505548bf7774cd4c32782624140e6",
+    "indexRecord": "303:42845523:d=2026110712:UGRD:925 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      43066905,
+      43303587
+    ],
+    "sha256": "01682013b663f24df04fee3a6cd3444b78006e3c97f58115413b9f0daad795aa",
+    "indexRecord": "304:43066905:d=2026110712:VGRD:925 mb:36 hour fcst:"
+  },
+  {
+    "forecastHour": 36,
+    "file": "woof-nam.t12z.awphys36.tm00.grib2",
+    "byteRange": [
+      54666540,
+      54797345
+    ],
+    "sha256": "79ae2970330afb4e3eebe2b8cc807a618b52893e4f08fda2a3da2131f1ee63fd",
+    "indexRecord": "371:54666540:d=2026110712:APCP:surface:24-36 hour acc fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      48593556,
+      48866904
+    ],
+    "sha256": "a2388f4e4776c2e972535d218003755547501792ff72a3772f309c8d0c7144d8",
+    "indexRecord": "335:48593556:d=2026110712:PRES:surface:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      47815634,
+      48052672
+    ],
+    "sha256": "2bae03c6b65b1bf1a250cb48fed592925488272badc59e09d3f3490bcdf3d6ce",
+    "indexRecord": "331:47815634:d=2026110712:MSLET:mean sea level:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      52236590,
+      52481591
+    ],
+    "sha256": "f99c2c15f6ec5a8b2e34daf4d5735459b0933e8c9adfee6d61fb461b118dbeb2",
+    "indexRecord": "359:52236590:d=2026110712:TMP:2 m above ground:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      52944306,
+      53171115
+    ],
+    "sha256": "691db74cbb6c68f80d1f330b5c9d151ea61a2e4118191fbbc2b348bf9f4b9937",
+    "indexRecord": "362:52944306:d=2026110712:RH:2 m above ground:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      54024781,
+      54253955
+    ],
+    "sha256": "0062af02a433718157abce064511fd75bfddb91677ee836ef1c3e222ebd27ac7",
+    "indexRecord": "367:54024781:d=2026110712:UGRD:10 m above ground:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      54253956,
+      54479206
+    ],
+    "sha256": "fc8415317e6dde73de34a3361763b68953c772c6bc8ccd1f27add1bb3375c371",
+    "indexRecord": "368:54253956:d=2026110712:VGRD:10 m above ground:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      65024362,
+      65180278
+    ],
+    "sha256": "ece45ead3520a63068f45b39e0803225aa411624da953808bef6919dc66f3084",
+    "indexRecord": "430:65024362:d=2026110712:4LFTX:180-0 mb above ground:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      30058458,
+      30190815
+    ],
+    "sha256": "f05d7d432d605670eef19ad5e1e12fdccf63af531ff7f613e576565e018a2da8",
+    "indexRecord": "226:30058458:d=2026110712:RH:700 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      20280884,
+      20408291
+    ],
+    "sha256": "abfc9b7b45ba00bd0dac5582091b04c6ced5c06c53fe3c8d596256bff952e8e2",
+    "indexRecord": "161:20280884:d=2026110712:RH:500 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      19973580,
+      20181548
+    ],
+    "sha256": "161f44440c218500eca8140cba3006408595635a19d95a99bf5918a2d799d825",
+    "indexRecord": "159:19973580:d=2026110712:HGT:500 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      48052673,
+      48316734
+    ],
+    "sha256": "df05cfe771fe828248c3a2453535daeb864aff79b446f14ad40ed36a6a9b8ac7",
+    "indexRecord": "332:48052673:d=2026110712:HGT:1000 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      30462931,
+      30525800
+    ],
+    "sha256": "451c4c2eaf5ad93d9fde2ec6389608862a7c26da145252dd4a737aae000be133",
+    "indexRecord": "228:30462931:d=2026110712:DZDT:700 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      29945583,
+      30058457
+    ],
+    "sha256": "8d9c06c73baf3e4dfca372a39818dd4a5096d22e98cfee0e5e97d674d34723a2",
+    "indexRecord": "225:29945583:d=2026110712:TMP:700 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      46478910,
+      46616091
+    ],
+    "sha256": "3dff41e80b3b215123480f45de11f7ac5f4bedbf086cda74afa10d53a815b4f6",
+    "indexRecord": "323:46478910:d=2026110712:TMP:1000 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      45314226,
+      45450982
+    ],
+    "sha256": "2411c24e0213557c5859133e6b2bceff8278abb498bf026338ccc12130f0525e",
+    "indexRecord": "316:45314226:d=2026110712:TMP:975 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      43720157,
+      43854606
+    ],
+    "sha256": "939e7d6f19cb8d3ec5a35b42ffbb463c9d2c2c3bed875c0c11eb8122a657e8b7",
+    "indexRecord": "307:43720157:d=2026110712:TMP:950 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      42267658,
+      42399600
+    ],
+    "sha256": "bb0118eafb77e379b83ac692cc6e21e07e978d6e10770f6d3038b613ea271e81",
+    "indexRecord": "299:42267658:d=2026110712:TMP:925 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      40836647,
+      40966549
+    ],
+    "sha256": "b3bc7dfaaa6f43b1d91c3bae1824a8e6b1d073ed18f7ff64eb1eda4dfe2771b5",
+    "indexRecord": "291:40836647:d=2026110712:TMP:900 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      39433776,
+      39561636
+    ],
+    "sha256": "354ba42f27a4847b8238fd831ef6eb4578dfc3ab003b180a6ac3b05b435fb003",
+    "indexRecord": "283:39433776:d=2026110712:TMP:875 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      37836644,
+      37967047
+    ],
+    "sha256": "a1d2896bfced810786f624c8e30b9dcca4edadf24d8f45422e0ec57858da115a",
+    "indexRecord": "274:37836644:d=2026110712:TMP:850 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      36487800,
+      36612704
+    ],
+    "sha256": "81c76343a6ad6630da61fd6446c2a78461a641eb213f45d7121ba8f24403808e",
+    "indexRecord": "266:36487800:d=2026110712:TMP:825 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      35160728,
+      35284535
+    ],
+    "sha256": "2d833ea0d8eb88176175d030d993a88ae47cfa94e5c070327c7d3e55d218f442",
+    "indexRecord": "258:35160728:d=2026110712:TMP:800 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      33859478,
+      33977302
+    ],
+    "sha256": "2b077ace8c329fa8ee9b43444b6413d1ac807e98e87ff550f344ae9ba3f435ef",
+    "indexRecord": "250:33859478:d=2026110712:TMP:775 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      32610489,
+      32725685
+    ],
+    "sha256": "899554d32b5d1acb25d17758eb77055722156b569a83befbbe7232046f449d86",
+    "indexRecord": "242:32610489:d=2026110712:TMP:750 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      31372814,
+      31486404
+    ],
+    "sha256": "f72d7dab3abeee4b66ce95d0eb94657931357845c65735d8eaee26ad6d894152",
+    "indexRecord": "234:31372814:d=2026110712:TMP:725 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      47040412,
+      47259461
+    ],
+    "sha256": "ce29c4658b8262500dfbec23baf2ea4ae06b5cfa0f0ab9826253d67b696a85d2",
+    "indexRecord": "327:47040412:d=2026110712:UGRD:1000 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      47259462,
+      47488720
+    ],
+    "sha256": "fa3d0789414b0ac9ae59f589cab79156ffb9117636ea85188c541bfdb4613d3c",
+    "indexRecord": "328:47259462:d=2026110712:VGRD:1000 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      45906321,
+      46128813
+    ],
+    "sha256": "bf9a0ec07bdc777bbeada0c851a3c13e323ed3984f5b560da394626412c122ac",
+    "indexRecord": "320:45906321:d=2026110712:UGRD:975 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      46128814,
+      46362709
+    ],
+    "sha256": "7d3e9825c45269914912684d70efe38ebf6e943eb9e0a363946a98359a8f0596",
+    "indexRecord": "321:46128814:d=2026110712:VGRD:975 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      44331333,
+      44554217
+    ],
+    "sha256": "50ac7d3aad41b29d9a04a4fe60dfe97173e6d061b6933396e89e56069b1cc341",
+    "indexRecord": "311:44331333:d=2026110712:UGRD:950 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      44554218,
+      44791365
+    ],
+    "sha256": "07640094489bb0786cb2fb329b617746af8832f9261433e74128c3e517d6a1c9",
+    "indexRecord": "312:44554218:d=2026110712:VGRD:950 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      42887657,
+      43112748
+    ],
+    "sha256": "bc0a45ecb2e4befa018c2400c1ff8eb22c6cc513cf54d8d369baa0d1bb33d92b",
+    "indexRecord": "303:42887657:d=2026110712:UGRD:925 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      43112749,
+      43352288
+    ],
+    "sha256": "d1d2af1fe4cef23126227f4de31edef3623ad2e348f813f8f97ffb272cfe48d9",
+    "indexRecord": "304:43112749:d=2026110712:VGRD:925 mb:42 hour fcst:"
+  },
+  {
+    "forecastHour": 42,
+    "file": "woof-nam.t12z.awphys42.tm00.grib2",
+    "byteRange": [
+      54785679,
+      54890564
+    ],
+    "sha256": "af87dd0ba2600f41b79e1570fd38273f0bb7ef43339ce7ca1e6a8b39ef639d9c",
+    "indexRecord": "371:54785679:d=2026110712:APCP:surface:36-42 hour acc fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      48853841,
+      49128822
+    ],
+    "sha256": "e06447e3d3ec427c103a5a8cb61c149b0d89d1b35cbfdf90f709ffa46016fffd",
+    "indexRecord": "335:48853841:d=2026110712:PRES:surface:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      48067507,
+      48307594
+    ],
+    "sha256": "ab7e4e81e9ca423f1911e7a2283c17a8d042e6d8091c8b605af86301774d0573",
+    "indexRecord": "331:48067507:d=2026110712:MSLET:mean sea level:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      52505196,
+      52752343
+    ],
+    "sha256": "e0df4b8ee51011dfbb58548ff00158d55ce3763ad50f0b91bfa113db86183436",
+    "indexRecord": "359:52505196:d=2026110712:TMP:2 m above ground:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      53220190,
+      53448909
+    ],
+    "sha256": "81fda1a8a4a0dc3e5eaaf5b5b839c3fe042e2b521b2ce5f166793ba89126ea0b",
+    "indexRecord": "362:53220190:d=2026110712:RH:2 m above ground:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      54310232,
+      54541280
+    ],
+    "sha256": "55826370bfe4636458eec38210257117633739402cfc6f40afd041d983c4a234",
+    "indexRecord": "367:54310232:d=2026110712:UGRD:10 m above ground:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      54541281,
+      54768027
+    ],
+    "sha256": "989bd8911094445c0caeaec17475dda9f45b48152e427f5cd6e214a460677d42",
+    "indexRecord": "368:54541281:d=2026110712:VGRD:10 m above ground:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      65393256,
+      65547488
+    ],
+    "sha256": "697ea1240321daaa7ee700b7a4c1df11dabb624f10af9cd89da5255739b57315",
+    "indexRecord": "430:65393256:d=2026110712:4LFTX:180-0 mb above ground:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      30159297,
+      30292208
+    ],
+    "sha256": "466c78e8a6fd99adfdc2ccea2938d0878a4133b4c4f0fc90030096f02c4d02e4",
+    "indexRecord": "226:30159297:d=2026110712:RH:700 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      20312571,
+      20440474
+    ],
+    "sha256": "401efa5de8e63db0efa816aaa74fb243a44e458be52e6e3c08f79015b19816a1",
+    "indexRecord": "161:20312571:d=2026110712:RH:500 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      20001398,
+      20211458
+    ],
+    "sha256": "703624af5cdbcb44cee53647653d33f43cb02c8bbf94bfef44dbe218b8577e80",
+    "indexRecord": "159:20001398:d=2026110712:HGT:500 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      48307595,
+      48574217
+    ],
+    "sha256": "cc576de292a6582da5114b1797521806a064324005a4d66f55a7f7b7f2e36ed4",
+    "indexRecord": "332:48307595:d=2026110712:HGT:1000 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      30566053,
+      30628312
+    ],
+    "sha256": "4fb2754374942447f19ed8a2326a6cb5f0f144136222e4a13880a1128a3b3230",
+    "indexRecord": "228:30566053:d=2026110712:DZDT:700 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      30046106,
+      30159296
+    ],
+    "sha256": "a3ce5960d214a44cc198a85078b54f2fe8428e43bb3bb4bfcfec74f9da93fdf7",
+    "indexRecord": "225:30046106:d=2026110712:TMP:700 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      46714828,
+      46856207
+    ],
+    "sha256": "705d9af1fef567ca3a654b4ae1a6e315bfca640710503a34b7fe8ac75cb19878",
+    "indexRecord": "323:46714828:d=2026110712:TMP:1000 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      45532791,
+      45673713
+    ],
+    "sha256": "6f22adccf811701893c4401fe380adbc49352f278e7254828c4f87f408a85997",
+    "indexRecord": "316:45532791:d=2026110712:TMP:975 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      43917881,
+      44056734
+    ],
+    "sha256": "d7ba68ebd6494f35f692974cd2336e95087326a913e987114d23619944f9fa0c",
+    "indexRecord": "307:43917881:d=2026110712:TMP:950 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      42451437,
+      42588756
+    ],
+    "sha256": "355673a78a3ee47f1acc12f5cef45a40142e0868e075278b339008367999ebfb",
+    "indexRecord": "299:42451437:d=2026110712:TMP:925 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      41002930,
+      41138873
+    ],
+    "sha256": "bcd088a6039d99839f1c9e928923d600be6d5c32db0139fb07d919d97a19ddff",
+    "indexRecord": "291:41002930:d=2026110712:TMP:900 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      39583816,
+      39716549
+    ],
+    "sha256": "9014c63c5285d1c0fbd0ddb9994b200a6d9661ed8b62cab57ca445c768cb4683",
+    "indexRecord": "283:39583816:d=2026110712:TMP:875 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      37972782,
+      38105625
+    ],
+    "sha256": "18be2e6058d6d9c509676e6bb3478ee919a51ce2da026745dcccff5a61e743d1",
+    "indexRecord": "274:37972782:d=2026110712:TMP:850 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      36610673,
+      36740214
+    ],
+    "sha256": "a8b56b0bf8b6f2c8f8485318daaa6e0525583ee28d71fab3f11759342762b265",
+    "indexRecord": "266:36610673:d=2026110712:TMP:825 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      35276245,
+      35402096
+    ],
+    "sha256": "3edee9ea73cc7f6e7277acaa47dbe28fcf3493e5eff2dc685dcf5d59719d978b",
+    "indexRecord": "258:35276245:d=2026110712:TMP:800 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      33966104,
+      34088089
+    ],
+    "sha256": "641b19116a5cd53e339391164945e123b9ddd84f1398d746ccd018157b888974",
+    "indexRecord": "250:33966104:d=2026110712:TMP:775 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      32712612,
+      32831123
+    ],
+    "sha256": "9db7bf5183e771cd68f3ec31ff701649f53f4d29828dd57a2c7d5e1415e7a4ed",
+    "indexRecord": "242:32712612:d=2026110712:TMP:750 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      31473094,
+      31587952
+    ],
+    "sha256": "834bfa2effc352844f7d52b05d3dcfdacaaa3d6520c6df586e9e8969a0b8617e",
+    "indexRecord": "234:31473094:d=2026110712:TMP:725 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      47288549,
+      47509376
+    ],
+    "sha256": "bcdc03fc496ef02bbfb81ea634ba5d6d8a02f16da06d10bc7f4355b662e30d25",
+    "indexRecord": "327:47288549:d=2026110712:UGRD:1000 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      47509377,
+      47737893
+    ],
+    "sha256": "c39cd5c70cb240f361ab6ceaa8e1e28221add82f099f5cad54f3d807a06bc23a",
+    "indexRecord": "328:47509377:d=2026110712:VGRD:1000 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      46134336,
+      46360004
+    ],
+    "sha256": "0c14ce045a1514a9d4876c004f1288752219da05e388dc053ada35ec748ac55b",
+    "indexRecord": "320:46134336:d=2026110712:UGRD:975 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      46360005,
+      46596218
+    ],
+    "sha256": "14ae3712df3bdc63f72da716f64207c3db2dc90f68a58bedf9799a4a63725a57",
+    "indexRecord": "321:46360005:d=2026110712:VGRD:975 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      44538992,
+      44765868
+    ],
+    "sha256": "cbc4526d7f2cb2eaffadefa7352f56d02bdd4a5c70812dce2ce0d96e9c8b692d",
+    "indexRecord": "311:44538992:d=2026110712:UGRD:950 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      44765869,
+      45005294
+    ],
+    "sha256": "05d33ef2da6b7411533bb9c2e44111788693b2f0ffa9539a979d6fe1920130b4",
+    "indexRecord": "312:44765869:d=2026110712:VGRD:950 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      43078684,
+      43306586
+    ],
+    "sha256": "d3a2e752179d4e6078ac1822316fd2266e41bde0846534afe642b3e3370100d4",
+    "indexRecord": "303:43078684:d=2026110712:UGRD:925 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      43306587,
+      43546712
+    ],
+    "sha256": "beea7183a43995d6c0239c2e88c4c10fccc9b40ee182f087fd294b6332692c3a",
+    "indexRecord": "304:43306587:d=2026110712:VGRD:925 mb:48 hour fcst:"
+  },
+  {
+    "forecastHour": 48,
+    "file": "woof-nam.t12z.awphys48.tm00.grib2",
+    "byteRange": [
+      55073407,
+      55198022
+    ],
+    "sha256": "8b69e6c9835d0a1b8e4e56a0525878ababeb75fb107f96fc570f35ff0ebe6511",
+    "indexRecord": "371:55073407:d=2026110712:APCP:surface:36-48 hour acc fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      48395773,
+      48671040
+    ],
+    "sha256": "8c9494958bebeb7e1a53d4e3c4855752d19785914c04fdf76c1937143b08916a",
+    "indexRecord": "335:48395773:d=2026110712:PRES:surface:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      47605168,
+      47847719
+    ],
+    "sha256": "e112071b0b887c4e8af5c001b06d7b7a1f2400f8eb1d6164606bf7e115c7808f",
+    "indexRecord": "331:47605168:d=2026110712:MSLET:mean sea level:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      52061436,
+      52301923
+    ],
+    "sha256": "feee4eceea5dc9da68e21befaa9648786a820537ef30f836cfd9cbe330def5cd",
+    "indexRecord": "359:52061436:d=2026110712:TMP:2 m above ground:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      52768594,
+      52997710
+    ],
+    "sha256": "d73d7195eda034adce109e9984a9447871a8c499b977feaaa0457727989b7e35",
+    "indexRecord": "362:52768594:d=2026110712:RH:2 m above ground:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      53845464,
+      54071035
+    ],
+    "sha256": "86ffd1eabfb32ab7dc318c12d3ea39d5255d42a152365edc330c0161a88ead65",
+    "indexRecord": "367:53845464:d=2026110712:UGRD:10 m above ground:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      54071036,
+      54292922
+    ],
+    "sha256": "52384cd6c73d189e16645975ab0692cea8842c41db2d0f4e56f015f9bc4497ba",
+    "indexRecord": "368:54071036:d=2026110712:VGRD:10 m above ground:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      64803046,
+      64960453
+    ],
+    "sha256": "93caa33b76831ec93a05c44892346425a40432193d963f1404bf3f0f0a43126a",
+    "indexRecord": "430:64803046:d=2026110712:4LFTX:180-0 mb above ground:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      29807351,
+      29940214
+    ],
+    "sha256": "ebd0546da91c517eac20c31ea91489eb5de959c0c6da2693cb79d3f994ed30e0",
+    "indexRecord": "226:29807351:d=2026110712:RH:700 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      20051596,
+      20180799
+    ],
+    "sha256": "0c284c1c9950130ec8f7448fe5cac17920e3e2320d5303bf3d2f90f914bc770b",
+    "indexRecord": "161:20051596:d=2026110712:RH:500 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      19742731,
+      19951345
+    ],
+    "sha256": "6774848de1c1f27877aa2fccdbf0cc3fec751b9ab7e9a201fcdbc250b4d97c29",
+    "indexRecord": "159:19742731:d=2026110712:HGT:500 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      47847720,
+      48115966
+    ],
+    "sha256": "eba981de762c49460f285977843a8fc83a7979758aa80adabc9ad507ba057eba",
+    "indexRecord": "332:47847720:d=2026110712:HGT:1000 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      30209486,
+      30270097
+    ],
+    "sha256": "03d8a918118f8fc39210c726b98e0029dcc409257b56c30117c519e8ded62f47",
+    "indexRecord": "228:30209486:d=2026110712:DZDT:700 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      29696244,
+      29807350
+    ],
+    "sha256": "9511f7f604d9976aaa60184797535db028eb0a8e3c8daee915c988bf49fcad56",
+    "indexRecord": "225:29696244:d=2026110712:TMP:700 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      46286404,
+      46420838
+    ],
+    "sha256": "ba6cc93931a453acfc4264b5819776dfa7c16aef9c23131b5e4095a5adc7f365",
+    "indexRecord": "323:46286404:d=2026110712:TMP:1000 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      45123738,
+      45258828
+    ],
+    "sha256": "30df4db8e4afbe2fe9e39493d61a3031869a1654225edee334381fa764b40079",
+    "indexRecord": "316:45123738:d=2026110712:TMP:975 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      43511625,
+      43647883
+    ],
+    "sha256": "5e7d0ee9365a84b3763bc3ea8a7bd0c1db946278c4305ca471c939e532d88b81",
+    "indexRecord": "307:43511625:d=2026110712:TMP:950 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      42053016,
+      42184924
+    ],
+    "sha256": "a563c2aafe92f27c85538d3865f8c25c35c4fa6af53749f4217a6b401e16f328",
+    "indexRecord": "299:42053016:d=2026110712:TMP:925 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      40610940,
+      40741284
+    ],
+    "sha256": "610a6af72eeb4cdb74c5f2a8c3c8baf47f982c1adab8fb4f2a3119b948102d25",
+    "indexRecord": "291:40610940:d=2026110712:TMP:900 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      39198016,
+      39326130
+    ],
+    "sha256": "e3d86bd276c311776f0cb2255f898721e40fdc5633c91353cce9ae68ce9e8105",
+    "indexRecord": "283:39198016:d=2026110712:TMP:875 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      37594432,
+      37723094
+    ],
+    "sha256": "c95d47b2041948d9121e2355095b8b1a1b0a0bcc55287c582e6a07aa4845abd7",
+    "indexRecord": "274:37594432:d=2026110712:TMP:850 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      36239130,
+      36364656
+    ],
+    "sha256": "0e1dad069fcf3c32654ff08d45f9248ce87a05dad8494d7271a4909d4555e367",
+    "indexRecord": "266:36239130:d=2026110712:TMP:825 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      34908522,
+      35030965
+    ],
+    "sha256": "675b5a7eff135fc1ea1fe59da7c7d13e5c3ca1d3dbf6989ab9154186d2f774f7",
+    "indexRecord": "258:34908522:d=2026110712:TMP:800 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      33604361,
+      33723009
+    ],
+    "sha256": "e8ea0f603d6a0c595ccaa288d8568ab6cdcf25ff15581ae70ae3eef7c174d2d4",
+    "indexRecord": "250:33604361:d=2026110712:TMP:775 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      32352576,
+      32468138
+    ],
+    "sha256": "ed136b7b027ba6ff9292585453d6d3c408d1771213a8f1354a3b46583d52d683",
+    "indexRecord": "242:32352576:d=2026110712:TMP:750 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      31115679,
+      31229057
+    ],
+    "sha256": "2bdc69f5fa906d6fe97eb8ab05f51fad400c92519217ccc9af8027c6352cd156",
+    "indexRecord": "234:31115679:d=2026110712:TMP:725 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      46841011,
+      47053714
+    ],
+    "sha256": "0f38a86451f60ead344acffb2f79d57f90d96c883d095479283c073c47717c8a",
+    "indexRecord": "327:46841011:d=2026110712:UGRD:1000 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      47053715,
+      47273936
+    ],
+    "sha256": "39652f1de949cf688d82e5d53b5b1e8604b6fb87900d8bbafcf8e88672bf2136",
+    "indexRecord": "328:47053715:d=2026110712:VGRD:1000 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      45711155,
+      45928150
+    ],
+    "sha256": "a6ae2b0a87a29e535e1b0de37b6f5081f526ebe7c59bddbb43ea7754addc4ed8",
+    "indexRecord": "320:45711155:d=2026110712:UGRD:975 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      45928151,
+      46154497
+    ],
+    "sha256": "0726bcd1a9c8946d0a5b8b7519da14e65ed5ae587f2f4d0211a8abbb361c35b3",
+    "indexRecord": "321:45928151:d=2026110712:VGRD:975 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      44125177,
+      44347021
+    ],
+    "sha256": "8feca28acf146c1e20d36dc2527b50597573cbcc9bbaefb6e55f4d3b35d267bb",
+    "indexRecord": "311:44125177:d=2026110712:UGRD:950 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      44347022,
+      44580980
+    ],
+    "sha256": "96e2508e0c861340e7fe83b7df4ec17bb83bb50fcf7b2ef5bdef94b61361362c",
+    "indexRecord": "312:44347022:d=2026110712:VGRD:950 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      42668810,
+      42891465
+    ],
+    "sha256": "887277a5f153c536580adbcd06c216574c68138ecacdb00ee683b5bccfd11b92",
+    "indexRecord": "303:42668810:d=2026110712:UGRD:925 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      42891466,
+      43128523
+    ],
+    "sha256": "b1048cfe35c47b00ba9b458edde74069e5f699084e52813ac0be0de436976401",
+    "indexRecord": "304:42891466:d=2026110712:VGRD:925 mb:54 hour fcst:"
+  },
+  {
+    "forecastHour": 54,
+    "file": "woof-nam.t12z.awphys54.tm00.grib2",
+    "byteRange": [
+      54595878,
+      54704811
+    ],
+    "sha256": "2713ef72ecf762407c46a00ec00b4b9034e64ca3f14adcc7ec9a4df67e4a8aa7",
+    "indexRecord": "371:54595878:d=2026110712:APCP:surface:48-54 hour acc fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      48200346,
+      48473742
+    ],
+    "sha256": "f00268dab8e69e201cf2d949b2c4906af561479611d71e314f55c9cd17f2a386",
+    "indexRecord": "335:48200346:d=2026110712:PRES:surface:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      47415190,
+      47650525
+    ],
+    "sha256": "c079e99c24a4a67c82cb0849f65edaeed440ba193046a168fbddc55f4a52045d",
+    "indexRecord": "331:47415190:d=2026110712:MSLET:mean sea level:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      51849236,
+      52090906
+    ],
+    "sha256": "a371c73ffe31d7a140aaac77eed6a0bf7915e0d478c756c8f08d3ef9cdbb8662",
+    "indexRecord": "359:51849236:d=2026110712:TMP:2 m above ground:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      52551948,
+      52779460
+    ],
+    "sha256": "682b5f10455fae4a7cc6f1cd5a6cf034280311615c69c4bbc19302338db2a89a",
+    "indexRecord": "362:52551948:d=2026110712:RH:2 m above ground:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      53619984,
+      53844529
+    ],
+    "sha256": "f3621554effd2f421242088ff473d4fdc26ee4614e6205bb2f7ad8551f3ac7a8",
+    "indexRecord": "367:53619984:d=2026110712:UGRD:10 m above ground:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      53844530,
+      54065114
+    ],
+    "sha256": "380f4b34be92f3529cfe00a525af37e0eb94daf525f4f78238f35b5853506436",
+    "indexRecord": "368:53844530:d=2026110712:VGRD:10 m above ground:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      64571207,
+      64727140
+    ],
+    "sha256": "fdcf38f17c869159f43cbe3d716307600b0d31426f7db25553c58dd443571da4",
+    "indexRecord": "430:64571207:d=2026110712:4LFTX:180-0 mb above ground:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      29839089,
+      29974520
+    ],
+    "sha256": "c53fbbbf28d2329625afdce3ad3c110f749949fd56dc2b9681ec812e87a41ff6",
+    "indexRecord": "226:29839089:d=2026110712:RH:700 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      20037511,
+      20168247
+    ],
+    "sha256": "b0ed386e78c503413466ed6efefc6003a9e034b3660d00ff323380aa8eb2a6ac",
+    "indexRecord": "161:20037511:d=2026110712:RH:500 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      19728553,
+      19936795
+    ],
+    "sha256": "ae6590e0942ab7a32e1b956b10203f51a3a1b43707217d1f26c5e2b774cfd8f7",
+    "indexRecord": "159:19728553:d=2026110712:HGT:500 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      47650526,
+      47912575
+    ],
+    "sha256": "3d7b826dea23681a1b12542de5941823d03f53a239ab0b6c39bdb3cc23e41ef6",
+    "indexRecord": "332:47650526:d=2026110712:HGT:1000 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      30245559,
+      30305824
+    ],
+    "sha256": "8a883d77157b613a561cbb812cf1d906f03c6cbf2e9529b829dbaf9117898ca0",
+    "indexRecord": "228:30245559:d=2026110712:DZDT:700 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      29726122,
+      29839088
+    ],
+    "sha256": "6134ec44e21fd06bb488434fa171bded240452a9db6e84fd217ba2897b4bfbb4",
+    "indexRecord": "225:29726122:d=2026110712:TMP:700 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      46124616,
+      46253568
+    ],
+    "sha256": "411d643a83d3d15cc97a9cd06e6e6685469e2250c28447bbeb5cc01f0a05f7a5",
+    "indexRecord": "323:46124616:d=2026110712:TMP:1000 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      44989962,
+      45120190
+    ],
+    "sha256": "d5985173dd51b639e19a8a605bbdeaeb19842890f0f599ff15724e5cb18098f1",
+    "indexRecord": "316:44989962:d=2026110712:TMP:975 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      43411198,
+      43540834
+    ],
+    "sha256": "f0674cf2e0f73873066e88ebf30c3f130b88075c8e7ff7b8f9f02b23e8aa245e",
+    "indexRecord": "307:43411198:d=2026110712:TMP:950 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      41985947,
+      42114143
+    ],
+    "sha256": "9d6362d66a0c59b663eb6889521c4c221634cef93ad5da71dd28a44b56d9c8ab",
+    "indexRecord": "299:41985947:d=2026110712:TMP:925 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      40572034,
+      40699652
+    ],
+    "sha256": "2393a2f5f9c402dd5da692e3562f9a687894dd8b5b3e97569de4ce71ba177c52",
+    "indexRecord": "291:40572034:d=2026110712:TMP:900 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      39182444,
+      39308628
+    ],
+    "sha256": "280c0bba7e0c85dc9cbf45a77f636fa2bfe2e5322210c522fbadef3b2b87ea77",
+    "indexRecord": "283:39182444:d=2026110712:TMP:875 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      37600989,
+      37727872
+    ],
+    "sha256": "f028429c0016a171661689747ab5ceba174abd2f1b98a81e76fb5f84314ccd02",
+    "indexRecord": "274:37600989:d=2026110712:TMP:850 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      36265608,
+      36389332
+    ],
+    "sha256": "37e213b1359fd509c90e9c1f188d77aafeff4e98296ca3fdd51d7fa83bf61deb",
+    "indexRecord": "266:36265608:d=2026110712:TMP:825 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      34947085,
+      35067867
+    ],
+    "sha256": "1c58a880d7d4cd962af492da112a4260b760432fca3b735f9f1056735e694d01",
+    "indexRecord": "258:34947085:d=2026110712:TMP:800 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      33646393,
+      33764703
+    ],
+    "sha256": "fa9a7db49e61c1b049054bda55d137d762d477af82ce492094977385018c4eeb",
+    "indexRecord": "250:33646393:d=2026110712:TMP:775 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      32393944,
+      32510246
+    ],
+    "sha256": "70c70f28135c056c65c608b103fa73d2a5a1304265fe5f1e81055d9b78b31cad",
+    "indexRecord": "242:32393944:d=2026110712:TMP:750 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      31152397,
+      31266975
+    ],
+    "sha256": "23c4b0b542c65f5614af2dd880c94d44b5f19443967b28397e6d1bd22e712e3f",
+    "indexRecord": "234:31152397:d=2026110712:TMP:725 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      46662449,
+      46876333
+    ],
+    "sha256": "f7dfc0e9616815bf1aa0cb370b2455bd6dfe3046846f47eee5fcdc447c5d3ba1",
+    "indexRecord": "327:46662449:d=2026110712:UGRD:1000 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      46876334,
+      47096564
+    ],
+    "sha256": "ce60eb0c3db9a7728ba79117af93ea229b2d038dbdb927411c7c2c9b503e9486",
+    "indexRecord": "328:46876334:d=2026110712:VGRD:1000 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      45561038,
+      45781162
+    ],
+    "sha256": "4932ec82547222ae0133bd6cbce1ae013438e0c47dd37501884ad4546bd0aa0c",
+    "indexRecord": "320:45561038:d=2026110712:UGRD:975 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      45781163,
+      46007425
+    ],
+    "sha256": "62ef4dc95b7c592d1a9572cdc99318ee4ffb7f3e177efe08368daa168c2a4469",
+    "indexRecord": "321:45781163:d=2026110712:VGRD:975 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      44010828,
+      44232181
+    ],
+    "sha256": "a31f082e825734ab3b9ee58b2c18c2e3708cde79b026754f8717bfd9ad26fff4",
+    "indexRecord": "311:44010828:d=2026110712:UGRD:950 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      44232182,
+      44464478
+    ],
+    "sha256": "2cd19938106575c01862f83c0367aa2a58090a2871f1f0774f8f0ecbd4f9d0a7",
+    "indexRecord": "312:44232182:d=2026110712:VGRD:950 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      42594673,
+      42815558
+    ],
+    "sha256": "d218e1c5b31e6c94b31181f64717336c6255a3c2e11680f6f475eb99c67e7a18",
+    "indexRecord": "303:42594673:d=2026110712:UGRD:925 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      42815559,
+      43051788
+    ],
+    "sha256": "5302023de34a0fb0ca1a7bced41ead062b629f53bb8d5a354ddb9635048df49c",
+    "indexRecord": "304:42815559:d=2026110712:VGRD:925 mb:60 hour fcst:"
+  },
+  {
+    "forecastHour": 60,
+    "file": "woof-nam.t12z.awphys60.tm00.grib2",
+    "byteRange": [
+      54365916,
+      54493132
+    ],
+    "sha256": "e74b8646748ba206d62ffe6a2f3d4fed54b816e3f3503fcddae2ae8ccf08b0c8",
+    "indexRecord": "371:54365916:d=2026110712:APCP:surface:48-60 hour acc fcst:"
+  },
+  {
+    "forecastHour": 5,
+    "file": "woof-nam.t12z.awphys05.tm00.grib2",
+    "byteRange": [
+      28416330,
+      28476975
+    ],
+    "sha256": "378be3c6904708b4bafb2b2421622d1ea1c68c6175191c3a69635d52631cc215",
+    "indexRecord": "228:28416330:d=2026110712:DZDT:700 mb:5 hour fcst:"
+  },
+  {
+    "forecastHour": 5,
+    "file": "woof-nam.t12z.awphys05.tm00.grib2",
+    "byteRange": [
+      27946247,
+      28049728
+    ],
+    "sha256": "6eea8ba1881e4a9f35019b471f2f739158299d49067eeb80121a0b6d5001134e",
+    "indexRecord": "225:27946247:d=2026110712:TMP:700 mb:5 hour fcst:"
+  },
+  {
+    "forecastHour": 7,
+    "file": "woof-nam.t12z.awphys07.tm00.grib2",
+    "byteRange": [
+      28630244,
+      28692075
+    ],
+    "sha256": "ba8e8351d1011586497365f35e848f4bb8eab89d974fc2fbedf35438f7b9c5fe",
+    "indexRecord": "228:28630244:d=2026110712:DZDT:700 mb:7 hour fcst:"
+  },
+  {
+    "forecastHour": 7,
+    "file": "woof-nam.t12z.awphys07.tm00.grib2",
+    "byteRange": [
+      28148677,
+      28255545
+    ],
+    "sha256": "288ed5864a46d699d1fd422e67d5a8e93001b0bb759f6d6fdbfeb729c3573f06",
+    "indexRecord": "225:28148677:d=2026110712:TMP:700 mb:7 hour fcst:"
+  },
+  {
+    "forecastHour": 11,
+    "file": "woof-nam.t12z.awphys11.tm00.grib2",
+    "byteRange": [
+      29118446,
+      29182870
+    ],
+    "sha256": "8c740d3b0a60821a403f38b7061742abc943b34cb13993815c5454e8a8133bcd",
+    "indexRecord": "228:29118446:d=2026110712:DZDT:700 mb:11 hour fcst:"
+  },
+  {
+    "forecastHour": 11,
+    "file": "woof-nam.t12z.awphys11.tm00.grib2",
+    "byteRange": [
+      28624765,
+      28734688
+    ],
+    "sha256": "12c3f65834d48a3d28cd10d155c1f1c2cd6498ed70eb6401a73579c5f97b4d8a",
+    "indexRecord": "225:28624765:d=2026110712:TMP:700 mb:11 hour fcst:"
+  },
+  {
+    "forecastHour": 13,
+    "file": "woof-nam.t12z.awphys13.tm00.grib2",
+    "byteRange": [
+      29203900,
+      29266345
+    ],
+    "sha256": "03edd34263b4a16130a6f5fdb904f6480168f21dbae9089b6a41fd7c3772df3a",
+    "indexRecord": "228:29203900:d=2026110712:DZDT:700 mb:13 hour fcst:"
+  },
+  {
+    "forecastHour": 13,
+    "file": "woof-nam.t12z.awphys13.tm00.grib2",
+    "byteRange": [
+      28709049,
+      28818211
+    ],
+    "sha256": "cbe41c47d72c3fea914cc2588bb09a5b8f60db23d6745752a65c58d1a747daed",
+    "indexRecord": "225:28709049:d=2026110712:TMP:700 mb:13 hour fcst:"
+  },
+  {
+    "forecastHour": 17,
+    "file": "woof-nam.t12z.awphys17.tm00.grib2",
+    "byteRange": [
+      29482662,
+      29549967
+    ],
+    "sha256": "37013ed051d071c86f1c8a8987a6c3eec419639f5d8a43979549d601b35d5a23",
+    "indexRecord": "228:29482662:d=2026110712:DZDT:700 mb:17 hour fcst:"
+  },
+  {
+    "forecastHour": 17,
+    "file": "woof-nam.t12z.awphys17.tm00.grib2",
+    "byteRange": [
+      28984495,
+      29093608
+    ],
+    "sha256": "78b13744479b09780cebec5d13e852255fc07704e39406b48d850ebcd3336635",
+    "indexRecord": "225:28984495:d=2026110712:TMP:700 mb:17 hour fcst:"
+  },
+  {
+    "forecastHour": 19,
+    "file": "woof-nam.t12z.awphys19.tm00.grib2",
+    "byteRange": [
+      29562417,
+      29626853
+    ],
+    "sha256": "2055078cff08a097d6ddfbf78c6eeb729e2ead36bb240adaba0cde0951f4e95c",
+    "indexRecord": "228:29562417:d=2026110712:DZDT:700 mb:19 hour fcst:"
+  },
+  {
+    "forecastHour": 19,
+    "file": "woof-nam.t12z.awphys19.tm00.grib2",
+    "byteRange": [
+      29061677,
+      29171329
+    ],
+    "sha256": "10872ea0c4c4a25020e31875ce0b4691ce87a6b709ca4236f5a9a20a5e7c18c2",
+    "indexRecord": "225:29061677:d=2026110712:TMP:700 mb:19 hour fcst:"
+  },
+  {
+    "forecastHour": 23,
+    "file": "woof-nam.t12z.awphys23.tm00.grib2",
+    "byteRange": [
+      29986009,
+      30053386
+    ],
+    "sha256": "1ed10b124417ee26bdd3673f6115a300affa26500967c234f514006b6ca6a141",
+    "indexRecord": "228:29986009:d=2026110712:DZDT:700 mb:23 hour fcst:"
+  },
+  {
+    "forecastHour": 23,
+    "file": "woof-nam.t12z.awphys23.tm00.grib2",
+    "byteRange": [
+      29478413,
+      29589240
+    ],
+    "sha256": "c7f377916ace753af43b287a26be24d51ef2403a2838ee2a843620ff3b335969",
+    "indexRecord": "225:29478413:d=2026110712:TMP:700 mb:23 hour fcst:"
+  },
+  {
+    "forecastHour": 25,
+    "file": "woof-nam.t12z.awphys25.tm00.grib2",
+    "byteRange": [
+      30050512,
+      30114850
+    ],
+    "sha256": "d47902f4f5b85ecfecdfbf4d1866d54119f3faf8bb0b2bbacce40d540aae02ae",
+    "indexRecord": "228:30050512:d=2026110712:DZDT:700 mb:25 hour fcst:"
+  },
+  {
+    "forecastHour": 25,
+    "file": "woof-nam.t12z.awphys25.tm00.grib2",
+    "byteRange": [
+      29541278,
+      29652463
+    ],
+    "sha256": "a765f1b3831845638bcd8ba0d567ffcb42884dd9271a4315d761f64fef7b817e",
+    "indexRecord": "225:29541278:d=2026110712:TMP:700 mb:25 hour fcst:"
+  },
+  {
+    "forecastHour": 29,
+    "file": "woof-nam.t12z.awphys29.tm00.grib2",
+    "byteRange": [
+      29952275,
+      30014244
+    ],
+    "sha256": "6b6413b7a02e24c57c576ff9e7e3a70f2b2193a9a6a39f949b15df989bdd9fab",
+    "indexRecord": "228:29952275:d=2026110712:DZDT:700 mb:29 hour fcst:"
+  },
+  {
+    "forecastHour": 29,
+    "file": "woof-nam.t12z.awphys29.tm00.grib2",
+    "byteRange": [
+      29441893,
+      29553572
+    ],
+    "sha256": "c94e73d631d0378aeabd8e4840c5b23be8af4d88e6ad893ff9e39c367afffc1b",
+    "indexRecord": "225:29441893:d=2026110712:TMP:700 mb:29 hour fcst:"
+  },
+  {
+    "forecastHour": 31,
+    "file": "woof-nam.t12z.awphys31.tm00.grib2",
+    "byteRange": [
+      30043192,
+      30110725
+    ],
+    "sha256": "3f5c608c19607a50e734472900832088494bbdc25c500fd87e2fe5e42305b261",
+    "indexRecord": "228:30043192:d=2026110712:DZDT:700 mb:31 hour fcst:"
+  },
+  {
+    "forecastHour": 31,
+    "file": "woof-nam.t12z.awphys31.tm00.grib2",
+    "byteRange": [
+      29530937,
+      29642988
+    ],
+    "sha256": "42b72e97b0a5ea8884a74f1b83823fc62b8ab70f5345e66b1549e9ecbea5a5c6",
+    "indexRecord": "225:29530937:d=2026110712:TMP:700 mb:31 hour fcst:"
+  },
+  {
+    "forecastHour": 35,
+    "file": "woof-nam.t12z.awphys35.tm00.grib2",
+    "byteRange": [
+      30461185,
+      30525570
+    ],
+    "sha256": "e1cb5e36ff25f5148c9249b09ab93e129e755fedbd6787fb69e2f7ce1e2276bf",
+    "indexRecord": "228:30461185:d=2026110712:DZDT:700 mb:35 hour fcst:"
+  },
+  {
+    "forecastHour": 35,
+    "file": "woof-nam.t12z.awphys35.tm00.grib2",
+    "byteRange": [
+      29942159,
+      30055339
+    ],
+    "sha256": "8f3c0e66ae4d622110e23270eb2ee66dbd7157de1b2567b7aa4964de2f098fad",
+    "indexRecord": "225:29942159:d=2026110712:TMP:700 mb:35 hour fcst:"
+  },
+  {
+    "forecastHour": 37,
+    "file": "woof-nam.t12z.awphys37.tm00.grib2",
+    "byteRange": [
+      30457831,
+      30521850
+    ],
+    "sha256": "546c06d9195700d1f10c613b24317ecaa2c903c0da48ecfccb32c1e371aa0fa6",
+    "indexRecord": "228:30457831:d=2026110712:DZDT:700 mb:37 hour fcst:"
+  },
+  {
+    "forecastHour": 37,
+    "file": "woof-nam.t12z.awphys37.tm00.grib2",
+    "byteRange": [
+      29941143,
+      30054053
+    ],
+    "sha256": "ee119792fba90d78a068dc7ab889eea7fa9f3cf6f509474045496d95e0a9a22a",
+    "indexRecord": "225:29941143:d=2026110712:TMP:700 mb:37 hour fcst:"
+  },
+  {
+    "forecastHour": 41,
+    "file": "woof-nam.t12z.awphys41.tm00.grib2",
+    "byteRange": [
+      30431878,
+      30495131
+    ],
+    "sha256": "cd9bb7a9815f84e83ef4d7bd76e6db67853817d7f2eeb17371fceb86f71270ce",
+    "indexRecord": "228:30431878:d=2026110712:DZDT:700 mb:41 hour fcst:"
+  },
+  {
+    "forecastHour": 41,
+    "file": "woof-nam.t12z.awphys41.tm00.grib2",
+    "byteRange": [
+      29915432,
+      30027950
+    ],
+    "sha256": "7ea45e367058a2b231a547ba2cfdea8be6984462189f52fa365bb073f0efa304",
+    "indexRecord": "225:29915432:d=2026110712:TMP:700 mb:41 hour fcst:"
+  },
+  {
+    "forecastHour": 43,
+    "file": "woof-nam.t12z.awphys43.tm00.grib2",
+    "byteRange": [
+      30449584,
+      30511987
+    ],
+    "sha256": "9f0b9c9fa08d92f1745157e868631704ad54771c961bcc715dc3522d65102cd3",
+    "indexRecord": "228:30449584:d=2026110712:DZDT:700 mb:43 hour fcst:"
+  },
+  {
+    "forecastHour": 43,
+    "file": "woof-nam.t12z.awphys43.tm00.grib2",
+    "byteRange": [
+      29932433,
+      30045015
+    ],
+    "sha256": "0daec670fb686d304626eba314da8909aaa1ecdfd59c2cd14511bd8a2a5fced0",
+    "indexRecord": "225:29932433:d=2026110712:TMP:700 mb:43 hour fcst:"
+  },
+  {
+    "forecastHour": 47,
+    "file": "woof-nam.t12z.awphys47.tm00.grib2",
+    "byteRange": [
+      30496510,
+      30558325
+    ],
+    "sha256": "2f82840b5401d08ebab96d72ef6b28c8806538b86769a6143d826489debb5f2a",
+    "indexRecord": "228:30496510:d=2026110712:DZDT:700 mb:47 hour fcst:"
+  },
+  {
+    "forecastHour": 47,
+    "file": "woof-nam.t12z.awphys47.tm00.grib2",
+    "byteRange": [
+      29978734,
+      30092091
+    ],
+    "sha256": "42e55a99216d8ed472b2ccd0af11549e97826dc75e63601023b2b23ce97ee3e4",
+    "indexRecord": "225:29978734:d=2026110712:TMP:700 mb:47 hour fcst:"
+  },
+  {
+    "forecastHour": 49,
+    "file": "woof-nam.t12z.awphys49.tm00.grib2",
+    "byteRange": [
+      30672515,
+      30736923
+    ],
+    "sha256": "8ac5ba9e6f46f6d3559e2ddc32c367671c936dcc62e57e8fd1958d95c55b5cf8",
+    "indexRecord": "228:30672515:d=2026110712:DZDT:700 mb:49 hour fcst:"
+  },
+  {
+    "forecastHour": 49,
+    "file": "woof-nam.t12z.awphys49.tm00.grib2",
+    "byteRange": [
+      30153699,
+      30266713
+    ],
+    "sha256": "dc825fd1f80bcc8f3809367765979e37454b53e343fe36b67f4ae673a098f2a8",
+    "indexRecord": "225:30153699:d=2026110712:TMP:700 mb:49 hour fcst:"
+  },
+  {
+    "forecastHour": 53,
+    "file": "woof-nam.t12z.awphys53.tm00.grib2",
+    "byteRange": [
+      30219028,
+      30279611
+    ],
+    "sha256": "401ac1356b217c75879e2db9b14b2714a2438f40120555a98206779826c72989",
+    "indexRecord": "228:30219028:d=2026110712:DZDT:700 mb:53 hour fcst:"
+  },
+  {
+    "forecastHour": 53,
+    "file": "woof-nam.t12z.awphys53.tm00.grib2",
+    "byteRange": [
+      29705983,
+      29817281
+    ],
+    "sha256": "56bf08121a71aea9a1124ce715be99c70905876419894aeebeedb82c5777cf65",
+    "indexRecord": "225:29705983:d=2026110712:TMP:700 mb:53 hour fcst:"
+  },
+  {
+    "forecastHour": 55,
+    "file": "woof-nam.t12z.awphys55.tm00.grib2",
+    "byteRange": [
+      30238868,
+      30303555
+    ],
+    "sha256": "5e14b12999a5eef2ddac0312488cdfdbd80b306cedec4f63ae72049d11e35c30",
+    "indexRecord": "228:30238868:d=2026110712:DZDT:700 mb:55 hour fcst:"
+  },
+  {
+    "forecastHour": 55,
+    "file": "woof-nam.t12z.awphys55.tm00.grib2",
+    "byteRange": [
+      29721212,
+      29833380
+    ],
+    "sha256": "dadab03d4c53fa9243b3ad31415fef9d2349757a04cd04d3f56647ea1bf2b0b2",
+    "indexRecord": "225:29721212:d=2026110712:TMP:700 mb:55 hour fcst:"
+  },
+  {
+    "forecastHour": 59,
+    "file": "woof-nam.t12z.awphys59.tm00.grib2",
+    "byteRange": [
+      30351195,
+      30412348
+    ],
+    "sha256": "5440271ff1b4431f40dda6ed8d9b0584d9ef920937edaf0ee60cd487bc1e3f09",
+    "indexRecord": "228:30351195:d=2026110712:DZDT:700 mb:59 hour fcst:"
+  },
+  {
+    "forecastHour": 59,
+    "file": "woof-nam.t12z.awphys59.tm00.grib2",
+    "byteRange": [
+      29828151,
+      29941681
+    ],
+    "sha256": "cc7c305735c212a94c14a1b456b1e46358437c667e5e78f648789e35ad4cb70f",
+    "indexRecord": "225:29828151:d=2026110712:TMP:700 mb:59 hour fcst:"
+  },
+  {
+    "forecastHour": 61,
+    "file": "woof-nam.t12z.awphys61.tm00.grib2",
+    "byteRange": [
+      30206358,
+      30265329
+    ],
+    "sha256": "c633028fb38cc1ca335134c04cad27635ff75706bf84e69a30098827a3b33304",
+    "indexRecord": "228:30206358:d=2026110712:DZDT:700 mb:61 hour fcst:"
+  },
+  {
+    "forecastHour": 61,
+    "file": "woof-nam.t12z.awphys61.tm00.grib2",
+    "byteRange": [
+      29687973,
+      29801229
+    ],
+    "sha256": "7b94478ec8ff31e6079a122d5500e9d89b29fbdeecca5a34ff935ff56e7709f7",
+    "indexRecord": "225:29687973:d=2026110712:TMP:700 mb:61 hour fcst:"
+  }
+]

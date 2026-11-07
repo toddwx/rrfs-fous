@@ -5,6 +5,9 @@ const fieldNote = document.querySelector("#field-note");
 const copyButton = document.querySelector("#copy-button");
 const namSummary = document.querySelector("#nam-summary");
 const namHistorySummary = document.querySelector("#nam-history-summary");
+const woofnamSummary = document.querySelector("#woofnam-summary");
+const woofnamBulletin = document.querySelector("#woofnam-bulletin");
+const woofnamCopyButton = document.querySelector("#woofnam-copy-button");
 
 async function loadNAMComparison() {
   try {
@@ -121,6 +124,30 @@ async function loadForecast() {
   }
 }
 
+async function loadWOOFNAM() {
+  try {
+    const [woofStatusResponse, woofTextResponse, rrfsStatusResponse] = await Promise.all([
+      fetch("data/woofnam/status.json", { cache: "no-store" }),
+      fetch("data/woofnam/latest.txt", { cache: "no-store" }),
+      fetch("data/status.json", { cache: "no-store" }),
+    ]);
+    if (!woofStatusResponse.ok || !woofTextResponse.ok || !rrfsStatusResponse.ok) {
+      throw new Error("The WOOF-NAM pilot is not available yet.");
+    }
+    const [woof, text, rrfs] = await Promise.all([
+      woofStatusResponse.json(), woofTextResponse.text(), rrfsStatusResponse.json(),
+    ]);
+    woofnamBulletin.textContent = text.trimEnd();
+    const cycleMatch = woof.cycleUtc === rrfs.cycleUtc
+      ? "same forecast cycle as RRFS"
+      : `different cycle from the RRFS page (${rrfs.cycle})`;
+    woofnamSummary.textContent = `${woof.cycle} · ${cycleMatch} · ALB, BTV, BOS and LGA`;
+  } catch (error) {
+    woofnamBulletin.textContent = "The WOOF-NAM pilot could not be loaded. The RRFS forecast above is separate.";
+    woofnamSummary.textContent = error.message;
+  }
+}
+
 copyButton.addEventListener("click", async () => {
   try {
     await navigator.clipboard.writeText(bulletin.textContent);
@@ -131,6 +158,17 @@ copyButton.addEventListener("click", async () => {
   }
 });
 
+woofnamCopyButton.addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(woofnamBulletin.textContent);
+    woofnamCopyButton.textContent = "Copied";
+    window.setTimeout(() => { woofnamCopyButton.textContent = "Copy WOOF-NAM"; }, 1800);
+  } catch {
+    woofnamCopyButton.textContent = "Select text to copy";
+  }
+});
+
 loadForecast();
 loadNAMComparison();
 loadNAMHistory();
+loadWOOFNAM();
