@@ -140,7 +140,9 @@ async function loadWOOFNAM() {
     woofnamBulletin.textContent = text.trimEnd();
     const cycleMatch = woof.cycleUtc === rrfs.cycleUtc
       ? "same forecast cycle as RRFS"
-      : `different cycle from the RRFS page (${rrfs.cycle})`;
+      : woof.cycleUtc < rrfs.cycleUtc
+        ? `older than RRFS (${rrfs.cycle}); waiting for the next WOOF-NAM run`
+        : `newer cycle than RRFS (${rrfs.cycle})`;
     woofnamSummary.textContent = `${woof.cycle} · ${cycleMatch} · ALB, BTV, BOS and LGA`;
   } catch (error) {
     woofnamBulletin.textContent = "The WOOF-NAM pilot could not be loaded. The RRFS forecast above is separate.";
