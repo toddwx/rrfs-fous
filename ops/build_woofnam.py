@@ -28,8 +28,7 @@ LEADS = tuple(range(0, 61, 6))
 PROFILE_LEVELS = (1000, 975, 950, 925, 900, 875, 850, 825, 800, 775, 750, 725, 700)
 WIND_LEVELS = (1000, 975, 950, 925)
 HOURS = sorted(set(LEADS) | {h for lead in LEADS if lead for h in (lead - 1, lead + 1)})
-DATE = os.environ.get("FOUS_DATE", datetime.now(timezone.utc).strftime("%Y%m%d"))
-CYCLE = os.environ.get("FOUS_CYCLE", "12").zfill(2)
+from runtime import DATE, CYCLE
 BASE = "https://woof-nam.recastsystems.com/woof-nam/12km/{}/{:02d}z/".format(DATE, int(CYCLE))
 OUT = ROOT / "site" / "data" / "woofnam"
 WORK = ROOT / "work" / "data" / "woofnam" / (DATE + "_" + CYCLE + "Z")
