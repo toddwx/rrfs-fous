@@ -1,7 +1,7 @@
 {
   "provider": "NOAA/NCEP RRFS operational data",
-  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/prod/rrfs.20261111/18/",
-  "cycleUtc": "20261111T18:00:00Z",
+  "baseUrl": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/rrfs/prod/rrfs.20261112/06/",
+  "cycleUtc": "20261112T06:00:00Z",
   "forecastLeadsHours": [
     0,
     6,
@@ -20,7 +20,7 @@
     84
   ],
   "selectedMessageCount": 419,
-  "selectedManifestSha256": "21efb29d1b0b7b3b4336a50ac1857a6dee6e19ee1159629a1b2f6896e19bfc7f",
+  "selectedManifestSha256": "b353df162e19ef99e6a3379a224032a90643fe8ae74935c1ad21b63739fc1931",
   "stationCount": 8,
   "stationValueCount": 3352,
   "temperatureLayerLevelsMb": [
@@ -32,9 +32,9 @@
     875
   ],
   "temperatureLayerMessageCount": 90,
-  "candidateCsv": "work/data/comparisons/FOUS61_20261111_18Z_RRFS_operational_candidate.csv",
-  "comparisonCsv": "work/data/comparisons/FOUS61_20261111_18Z_RRFS_operational_comparison.csv",
-  "provenanceCsv": "work/data/comparisons/FOUS61_20261111_18Z_RRFS_operational_provenance.csv",
+  "candidateCsv": "work/data/comparisons/FOUS61_20261112_06Z_RRFS_operational_candidate.csv",
+  "comparisonCsv": "work/data/comparisons/FOUS61_20261112_06Z_RRFS_operational_comparison.csv",
+  "provenanceCsv": "work/data/comparisons/FOUS61_20261112_06Z_RRFS_operational_provenance.csv",
   "vvvMessageCount": 53,
-  "vvvManifestSha256": "d5d6001db51e8d54cc4a71e33efbf22c2d544e387525f6564e24ebfafe1c2903"
+  "vvvManifestSha256": "8ad406bfc35035cc2dacb64b7964e8848ae5f493b36d58c2de769db9f110a700"
 }
