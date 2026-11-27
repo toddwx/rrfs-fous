@@ -1,11 +1,11 @@
 {
   "model": "WOOF-NAM estimate",
-  "cycle": "06Z Nov 27, 2026",
-  "cycleUtc": "20261127T06:00:00Z",
-  "updatedAt": "2026-11-27T11:12:53.084621+00:00",
+  "cycle": "12Z Nov 27, 2026",
+  "cycleUtc": "20261127T12:00:00Z",
+  "updatedAt": "2026-11-27T19:09:01.848861+00:00",
   "forecastThroughHour": 60,
   "provider": "Recast WOOF-NAM 12 km GRIB2",
-  "baseUrl": "https://woof-nam.recastsystems.com/woof-nam/12km/20261127/06z/",
+  "baseUrl": "https://woof-nam.recastsystems.com/woof-nam/12km/20261127/12z/",
   "stationCodes": [
     "ALB",
     "BTV",
@@ -15,5 +15,5 @@
   "sourceNote": "Independent NAM-style model run. Uses NAM grid and physics but starts from GFS analysis; it is not the retired operational NAM forecast and is not an official NWS product.",
   "sameMethodNote": "Temperature-layer averages, 35 mb wind estimates, and single-level humidity choices use the same reconstruction choices as the RRFS pilot. VVV is less exact here because 700-mb specific humidity is estimated from the available RH and temperature rather than read directly.",
   "selectedMessageCount": 413,
-  "selectedMessagesSha256": "0f8a379b31ef4e3988e27417989cdf350219861f3bd231b31e64003be812b790"
+  "selectedMessagesSha256": "7b378e955fdf377f848daf48e7c2ce33ad61ec551c8a13d203fd3ebf1e776f76"
 }
